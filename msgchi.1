@@ -1,0 +1,100 @@
+.TH "MSGCHI" "1" "June 2017" "Wei-Lun Chao" ""
+.SH "NAME"
+msgchi \- create a translation catalog for chinese locales
+.SH "SYNOPSIS"
+.B msgchi
+[\fIOPTION\fR] [\fIINPUTFILE\fR]
+.SH "DESCRIPTION"
+.PP 
+Creates an Chinese translation catalog.  The input file is a PO
+file, a PO Template file or a messages file in other format.  An entry will
+be translated from the english msgid or another chinese msgstr.
+.PP 
+Mandatory arguments to long options are mandatory for short options too.
+.SS "Input file location:"
+.TP 
+INPUTFILE
+input PO, POT or other message file
+.PP 
+If no input file or input file is \-, standard input is read.
+.SS "Output file location:"
+.TP 
+\fB\-o\fR, \fB\-\-output\fR=FILE
+Write output to specified file.
+.PP 
+The results are written to standard output if no output file is specified
+or if it is \-.
+.SS "Input details:"
+.TP 
+\fB\-l\fR, \fB\-\-language\fR=XXX2YYY
+Translated from and to which language for using the dictionary.
+XXX could be eng(default), zhc, zht or cmn; YYY could be zht, cmn or yue...
+(default depends on LOCALE).
+.TP 
+\fB\-t\fR, \fB\-\-type\fR=po|php|ini|txt
+Message type of input file, which can be php, ini, txt or po(default).
+.TP 
+\fB\-e\fR, \fB\-\-expression\fR=(^.*)(.*)(.*$)
+Message regular expression of input file, which must include three () pairs.
+.TP 
+\fB\-x\fR, \fB\-\-exclude\fR=RE
+Excluded regular expression to be not translated.
+.TP 
+\fB\-a\fR, \fB\-\-accelerator\fR=""|_|&
+Define keyboard accelerator used in input file, default '_&' for po.
+.SS "Output details: (only with --type=po and without --expression)"
+.TP 
+\fB\-k\fR, \fB\-\-keep\fR
+keep translated msgstr as remark in output file.
+.TP 
+\fB\-s\fR, \fB\-\-skip\fR
+Skip completed msgid unchanged in output file.
+.TP 
+\fB\-w\fR, \fB\-\-wrap\fR
+Wrap long messages in output file.
+.TP 
+\fB\-n\fR, \fB\-\-msgno\fR
+Number regular messages in output file.
+.TP 
+\fB\-p\fR, \fB\-\-package\fR
+Override default package name and version in output file.
+.SS "Informative details:"
+.TP 
+\fB\-h\fR, \fB\-\-help\fR
+Display this help and exit.
+.TP 
+\fB\-c\fR, \fB\-\-credit\fR="NAME <EMAIL>"
+Set the credit of translator.
+.TP 
+\fB\-d\fR, \fB\-\-dictionary\fR=FILE
+Add an extra dictionary file.
+.SH "FILES"
+.TP 
+$HOME/.config/msgchi/*
+Local configuration and dictionary files.
+.TP 
+/usr/share/msgchi/*.dic
+Dictionaries are UTF\-8 coded text files with the format in each line:
+.br 
+Source Words|Translated Words
+.br
+(Source Words are lower case; Source words with pre/suffix [-] or ["] for internal use.)
+.br
+(Excluded single word: be,being,been,am,are,is,was,were;have,having,has,had)
+.SH "AUTHOR"
+Written by Wei\-Lun Chao <bluebat@member.fsf.org>.
+.SH "REPORTING BUGS"
+Report bugs at <https://github.com/bluebat/msgchi>.
+.SH "COPYRIGHT"
+Copyright \(co 2017 Wei\-Lun Chao
+.br 
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+.SH "SEE ALSO"
+\fImsgen\fR(1), \fIgettext\fR(1).
+.SH "REFERENCE"
+msghack\-0.2 by Trond Eivind Glomsrød <teg@redhat.com>
+.br 
+stcc\-0.2 by Ling Li <lilingv@gmail.com>
+.br 
+webpot\-0.2.2 by Ping Yeh <ping@pingyeh.net>

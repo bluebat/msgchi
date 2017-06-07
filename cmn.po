@@ -1,0 +1,138 @@
+# Mandarin Chinese translations for msgchi.
+# This file is distributed under the same license as the msgchi package.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msgchi 1.0\n"
+"POT-Creation-Date: 2017-06-09 14:56+0800\n"
+"PO-Revision-Date: 2017-06-09 15:00+0800\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"Language-Team: Mandarin Chinese <hant-l10n@freelists.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%prog [options] [input files]"
+msgstr "%prog [選項] [輸入檔]"
+
+msgid "define keyboard accelerator"
+msgstr "指定快捷鍵符號"
+
+msgid "credit of the translator"
+msgstr "翻譯者大名"
+
+msgid "name of the dictionary file"
+msgstr "字典檔的名稱"
+
+msgid "message regular expression"
+msgstr "訊息正規表示式"
+
+msgid "keep translated msgstr"
+msgstr "備註翻譯過的 msgstr"
+
+msgid "source and target languages"
+msgstr "來源與目標語言"
+
+msgid "full-mapped messages only"
+msgstr "只翻譯全部匹配的訊息"
+
+msgid "number all messages"
+msgstr "將所有訊息編號"
+
+msgid "name of the output file"
+msgstr "輸出檔的名稱"
+
+msgid "package name and version"
+msgstr "軟體名稱與版本"
+
+msgid "skip completed msgid"
+msgstr "跳過已完成的 msgid"
+
+msgid "message file type"
+msgstr "訊息檔案型態"
+
+msgid "run under test mode"
+msgstr "以測試模式執行"
+
+msgid "wrap long messages"
+msgstr "允許長訊息換列"
+
+msgid "excluded regular expression"
+msgstr "排除字串的正規表示式"
+
+msgid "can not use both --expression and --type"
+msgstr "無法同時使用 --expression 和 --type"
+
+msgid "invalid message regular expression %s"
+msgstr "無效的訊息正規表示式 %s"
+
+msgid "invalid message file type %s"
+msgstr "無效的訊息檔案型態 %s"
+
+msgid "invalid option format %s for languages"
+msgstr "無效的語言選項格式 %s"
+
+msgid "desired %s or the specified dictionary not found"
+msgstr "找不到預設的 %s 或指定的字典"
+
+msgid "input file %s not found"
+msgstr "找不到輸入檔 %s"
+
+msgid "Unformated entry: %s (use | as separator)"
+msgstr "未格式化的條目：%s (使用 | 做為分隔符號)"
+
+msgid "Error reading input files. Not UTF-8 encoded?"
+msgstr "讀取輸入檔時發生錯誤。並非 UTF-8 編碼？"
+
+msgid "no such option: %s"
+msgstr "無此選項：%s"
+
+msgid "ambiguous option: %s (%s?)"
+msgstr "模稜兩可的選項：%s (%s?)"
+
+msgid "Usage: %s\n"
+msgstr "用法：%s\n"
+
+msgid "Usage"
+msgstr "用法"
+
+msgid "integer"
+msgstr "整數"
+
+msgid "long integer"
+msgstr "長整數"
+
+msgid "floating-point"
+msgstr "浮點數"
+
+msgid "complex"
+msgstr "複數"
+
+msgid "option %s: invalid %s value: %r"
+msgstr "選項 %s：無效的 %s 值：%r"
+
+msgid "option %s: invalid choice: %r (choose from %s)"
+msgstr "選項 %s：無效的選擇：%r (選擇自 %s)"
+
+msgid "show this help message and exit"
+msgstr "顯示此說明訊息並離開"
+
+msgid "show program's version number and exit"
+msgstr "顯示程式版本編號然後離開"
+
+msgid "%prog [options]"
+msgstr "%prog [選項]"
+
+msgid "%s option requires an argument"
+msgstr "%s 選項需要一個引數"
+
+msgid "%s option requires %d arguments"
+msgstr "%s 選項需要 %d 個引數"
+
+msgid "%s option does not take a value"
+msgstr "%s 選項不需要值"
+
+msgid "Options"
+msgstr "選項"
