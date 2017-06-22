@@ -75,11 +75,11 @@ class Arguments:
         if not os.path.isdir(knowns.confpath):
             os.mkdir(knowns.confpath)
         if self.opts.credit != knowns.credit:
-            handle = open(knowns.confpath+'credit', 'w')
+            handle = open(knowns.confpath+'credit', 'w', encoding='utf-8')
             handle.write(self.opts.credit)
             handle.close()
         elif os.path.isfile(knowns.confpath+'credit'):
-            handle = open(knowns.confpath+'credit', 'r')
+            handle = open(knowns.confpath+'credit', 'r', encoding='utf-8')
             self.opts.credit = handle.read()
             handle.close()
         if self.opts.lang:
@@ -552,11 +552,11 @@ class PO:
                 message.msgstr = '%s"%s"\n' % (strHead, resultStr)
     def writeOut(self):
         if not self.outputName:
-            handle = sys.stdout
+            handle = open(sys.stdout.fileno(), 'w', encoding='utf-8')
         elif len(arguments.pars) == 1:
-            handle = open(self.outputName, 'w')
+            handle = open(self.outputName, 'w', encoding='utf-8')
         else:
-            handle = open(self.outputName, 'a')
+            handle = open(self.outputName, 'a', encoding='utf-8')
         for message in self.messages[:-1]:
             handle.write(message.output() + '\n')
         if self.messages:
@@ -581,7 +581,6 @@ class MSG:
     def readIn(self, filename):
         if filename:
             handle = open(filename, 'r', encoding='utf-8')
-            handle = open(filename, 'r')
             self.inputName = filename
         else:
             handle = sys.stdin
@@ -636,11 +635,11 @@ class MSG:
                     message.tail += '# ' + message.msgid + '\n'
     def writeOut(self):
         if not self.outputName:
-            handle = sys.stdout
+            handle = open(sys.stdout.fileno(), 'w', encoding='utf-8')
         elif len(arguments.pars) == 1:
-            handle = open(self.outputName, 'w')
+            handle = open(self.outputName, 'w', encoding='utf-8')
         else:
-            handle = open(self.outputName, 'a')
+            handle = open(self.outputName, 'a', encoding='utf-8')
         for message in self.messages:
             handle.write(message.output())
         if not handle.isatty():
