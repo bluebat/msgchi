@@ -367,6 +367,7 @@ alerter|警示器
 alert|警示
 aleut|阿留申語
 algebra|代數
+algegraic|代數型
 algerian dinar|阿爾及利亞戴納
 algerian|阿爾及利亞語
 algeria|阿爾及利亞
@@ -528,6 +529,7 @@ another|另一個
 ansi|ANSI
 answer|應答
 antarctica|南極洲
+anti alias|美化字型
 anti-alias|消除鋸齒
 antialiasing|美化字型
 antibiotics|抗生素
@@ -578,6 +580,7 @@ apply for|申請
 apply|套用
 appointment|約會
 appreciate it|對此感謝
+appreciated|感謝
 approaching|逼近
 approach|作法
 appropriate|適宜
@@ -786,9 +789,9 @@ attribute group|屬性群
 attribute type|屬性型式
 attribute|屬性
 attribution-noderivs|姓名標示-禁止改作
-attribution-noncommercial-noderivs|姓名標示-非商業性-禁止改作
-attribution-noncommercial-sharealike|姓名標示-非商業性-相同方式分享
-attribution-noncommercial|姓名標示-非商業性
+attribution-noncommercial-noderivs|姓名標示-非商業性質-禁止改作
+attribution-noncommercial-sharealike|姓名標示-非商業性質-相同方式分享
+attribution-noncommercial|姓名標示-非商業性質
 attribution-sharealike|姓名標示-相同方式分享
 attribution|歸屬
 at|於
@@ -834,6 +837,7 @@ auto exposure|自動曝光
 auto gain control|自動增益控制
 auto increment|自動增量
 auto-acknowledge|自動告知
+auto-connect|自動連線
 auto-detect|自動偵測
 auto-hide|自動隱藏
 auto-logout|自動登出
@@ -1285,6 +1289,7 @@ board|板
 boast|自豪
 boat|船
 body|內文
+bof|同類聚
 bogus|假造的
 boids|群聚
 boilerplate|未定案
@@ -1430,6 +1435,7 @@ brunei|汶萊
 brush|筆刷
 bubble|泡泡
 bucket|儲存區
+buddy|人偶
 buffer space|緩衝區空間
 buffer|緩衝區
 buffet|百匯
@@ -1468,6 +1474,7 @@ burkina faso|布吉納法索
 burlywood|原木色
 burma|緬甸
 burmese|緬甸語
+burner|燒錄器
 burn|燒錄
 burster|分離器
 burst|猝發
@@ -1668,9 +1675,9 @@ cause|造成
 caution|留意
 cayman|開曼
 cc attribution-noderivs|創用 CC 姓名標示-禁止改作
-cc attribution-noncommercial-noderivs|創用 CC 姓名標示-非商業性-禁止改作
-cc attribution-noncommercial-sharealike|創用 CC 姓名標示-非商業性-相同方式分享
-cc attribution-noncommercial|創用 CC 姓名標示-非商業性
+cc attribution-noncommercial-noderivs|創用 CC 姓名標示-非商業性質-禁止改作
+cc attribution-noncommercial-sharealike|創用 CC 姓名標示-非商業性質-相同方式分享
+cc attribution-noncommercial|創用 CC 姓名標示-非商業性質
 cc attribution-sharealike|創用 CC 姓名標示-相同方式分享
 cc attribution|創用 CC 姓名標示
 ccw|逆時針
@@ -1935,8 +1942,11 @@ close and return|關閉並返回
 close path|封閉路徑
 close session|關閉區段
 close tab|關閉分頁
+close windows|關閉視窗
+close-up|特寫
 closed loop|封閉迴路
 closely|接近
+closeup|特寫
 close|關閉
 closing tag|結尾標籤
 closure|閉合
@@ -1950,6 +1960,7 @@ cluster-ready|具備叢集能力的
 clusters|磁簇
 cluster|叢集
 clutterbar|酷特列
+cmd-line|命令列
 cm|公分
 co-branded|聯名
 coarse|粗略
@@ -2067,11 +2078,10 @@ commerce|貿易
 commercial usage|商業用途
 commercial|商業
 commission|委任
-commit changes|確定變更
 commitment|承諾
-committed|已確定
+committed|已定案
 committee|委員會
-commit|認可
+commit|定案
 common name|一般名稱
 commonality|共同性
 commonly|通常
@@ -2147,7 +2157,7 @@ compressor|壓縮器
 compress|壓縮
 comprise|包括
 compromise|折衷
-compulsory|強制性的
+compulsory|強制性質的
 computable|可計算的
 computation|計算
 computer science|電腦科學
@@ -2299,6 +2309,7 @@ context-sensitive help|語境相關的說明
 contextual sequence|語境序列
 contextual|語境的
 context|語境
+contingency|偶然度
 continuation|延續
 continue anyway|無論如何都繼續
 continued|一直以來的
@@ -2428,6 +2439,7 @@ coupon|折價券
 courier|轉送者
 course|過程
 covalent|共價
+covariance|協方差
 covenant|契約
 coventry|考文垂
 coverage|覆蓋的
@@ -2591,6 +2603,7 @@ dark yellow|深黃
 darkblue|深藍
 darkcyan|深青綠
 darken|變暗
+darker|較暗
 darkgoldenrod|深金黃
 darkgray|深灰
 darkgreen|深綠
@@ -2791,12 +2804,12 @@ density|密度
 deny|拒絕
 department|部門
 depend on|取決於
-dependability|可依存性
+dependability|可依存性質
 depended on|所依存的
-dependency checking|檢查軟體依存性
+dependency checking|檢查軟體依存性質
 dependency file|依存檔案
-dependency resolution|依存性解析
-dependency|依存性
+dependency resolution|依存性質解析
+dependency|依存性質
 dependent|附屬
 depending on|依據不同的
 depends on|依存於
@@ -3868,10 +3881,12 @@ filing|歸檔
 filipino|菲律賓語
 fill character|充填字元
 fill color|充填顏色
+fill downwards|向下充填
 fill in|填入
 fill out|填寫
 fill pattern|充填胚騰
 fill style|填入樣式
+fill to right|向右充填
 fill type|填色類型
 filled in|填寫
 filler|填充位元
@@ -3906,6 +3921,7 @@ fingerprint|指紋
 finger|手指
 finished successfully|成功結束
 finish|完成
+finite|有限
 finland|芬蘭
 finnish markka|芬蘭馬克
 finnish|芬蘭語
@@ -4001,6 +4017,7 @@ flyer|傳單
 flying height|飛行高度
 focal length|焦距
 focus length|焦距
+focused|聚焦
 focusrect|定焦矩形
 focus|焦點
 fog|霧化
@@ -4113,6 +4130,7 @@ founding|創始
 foundry|鑄造廠
 found|找到
 fourcc|四字元碼
+fourier|傅立葉
 fourth|第四
 four|四
 fps|影格/秒
@@ -4143,6 +4161,7 @@ free memory|剩餘記憶體
 free page|可用頁面
 free service|免費服務
 free software foundation, inc., 51 franklin st, fifth floor, boston, ma|Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+free software foundation, inc., 51 franklin street, fifth floor, boston, ma|Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 free space|剩餘空間
 free trial|免費試用
 free up|釋放掉
@@ -4316,7 +4335,6 @@ generated-object|產生的物件
 generate|產生
 generation|產生
 generator|產生器
-generic block|通用性區塊
 generic|通用
 generosity|慷慨
 genlock|同步耦合
@@ -4473,6 +4491,7 @@ grey|灰色
 grid cell|分格儲存格
 grid lines|網格線
 grid point|網格點
+gridlines|網格線
 grid|格線
 gripper|咬紙機
 grip|握把
@@ -4548,6 +4567,7 @@ halt-line-state|暫停線路狀態
 halted|已終止
 halt|停機
 hamiltonian|漢米爾敦函數
+hand in hand|攜手
 hand set|手持裝置
 handbook|手冊
 handedness|手工
@@ -4758,6 +4778,7 @@ home screen|主畫面
 homebanking|居家理財
 homepage|首頁
 home|個人資料夾
+homogeneity|同質度
 homogeneous|同質的
 homophonic|諧音
 homothetic|相似
@@ -4801,7 +4822,7 @@ hotspot|熱點
 hot|熱門
 hours|小時
 hour|時
-housekeeping|事務性工作
+housekeeping|事務類工作
 house|屋室
 housing|外罩
 houston|休士頓
@@ -4900,6 +4921,7 @@ illumination|照明
 illustrate|展示
 illustration|圖例
 iloko|伊洛卡諾語
+im account|即時傳訊帳號
 image base|映像基底
 image enhancement|影像增強
 image files|影像檔
@@ -5048,6 +5070,7 @@ indemnification|保障
 indemnify|賠償
 indentation|縮排
 indent|縮排
+independence|獨立度
 independent state|獨立國
 independent|獨立
 index finger|食指
@@ -5737,7 +5760,7 @@ leftwards arrow|向左箭號
 lefty-mode|左手模式
 left|向左
 legacy|舊的
-legal issues|適法性問題
+legal issues|適法問題
 legal notice|法律注意事項
 legal|合法的
 legend|圖例
@@ -5761,7 +5784,7 @@ less-than sign|小於符號
 lesser general public license|較寬鬆通用公共授權
 lessons|課程
 lesson|課
-less|較少的
+less|更少
 let's go|讓我們去
 letter spacing|字距
 letter-case|字母大小寫
@@ -5799,6 +5822,7 @@ licensee|授權者
 license|授權
 licensor|授權者
 liechtenstein|列支敦斯登
+liege|列日
 life-time|生命周期
 lifecycle|生命周期
 lifetime|生命期
@@ -5825,6 +5849,7 @@ lightblue|淺藍
 lightcoral|淺珊瑚紅
 lightcyan|淺青綠
 lighten|照亮
+lighter|較明
 lightgoldenrodyellow|淺金黃
 lightgreen|淺綠
 lightgrey|淺灰
@@ -6239,7 +6264,6 @@ manual feed|手動送紙
 manual help|線上手冊的說明
 manual layout|線上手冊的版面配置
 manual page|線上手冊
-manual"|手冊
 manuals|手冊
 manual|手動
 manufacturer|製造商
@@ -6425,7 +6449,7 @@ menu number|選單號碼
 menu option|功能表選項
 menubar|選單列
 menu|選單
-merchantability or fitness for a particular purpose|對於某一特定目的之適售性與適用性
+merchantability or fitness for a particular purpose|對於某一特定目的之適售與適用性質
 merchantability|適銷性
 mercury|水銀
 mercy|慈悲
@@ -6710,6 +6734,7 @@ move up|向上移動
 movement|移動
 move|移動
 movie control|影片調控
+movies|影片
 movie|影片
 moving around|四處移動
 mozambique|莫三比克
@@ -6723,6 +6748,7 @@ multi-code|多重程式碼
 multi-column|多重欄位
 multi-dimensional|多維式
 multi-extent|多重延伸區
+multi-extract|多重抽出
 multi-language|多語言
 multi-layer|多層
 multi-line|多列
@@ -6946,6 +6972,7 @@ nicaraguan cordoba|尼加拉瓜科多巴
 nicaragua|尼加拉瓜
 nice value|優先值
 nice|好
+nick name|暱稱
 nickname|暱稱
 nick|凹部
 nifty|俏皮
@@ -6998,7 +7025,7 @@ non-interlace|非交錯
 non-intrinsic|非內建
 non-leaf|非尾節點
 non-option argument|非任選式引數
-non-permanent|非永久性
+non-permanent|非永久性質
 non-profit|非營利的
 non-reconstructible|非可重建
 non-recursive|非遞迴
@@ -7007,7 +7034,7 @@ non-straight arms|非直臂
 non-string|非字串
 non-transferable|不可轉讓
 non-visual|隱藏式
-non-volatile|非揮發性
+non-volatile|非揮發性質
 non-zero|非零
 nonbreaking|不分列
 nonce|當前
@@ -7031,6 +7058,7 @@ normal distribution|常態分佈
 normal mode|正常模式
 normal size|正常大小
 normal window|標準視窗
+normality|常態度
 normalization form|常態化形式
 normalization|常態化
 normalize|常態化
@@ -7357,9 +7385,9 @@ optimizer hint|最佳化提示
 optimize|最佳化
 option bar|選項列
 option menu|選項功能表
-optional argument|選擇性引數
+optional argument|可選引數
 optionality|選項性
-optionally|選擇性地
+optionally|可選擇地
 optional|可選的
 optionbutton|選項按鈕
 options below|以下選項
@@ -7673,7 +7701,7 @@ password required|必須輸入密碼
 password|密碼
 pass|回合
 paste as|貼上為
-paste special|選擇性貼上
+paste special|專選貼上
 paste|貼上
 past|過去
 patches|補丁
@@ -7746,7 +7774,7 @@ perpendicular to|垂直於
 perpendicular|垂直
 persian|波斯語
 persistence|持續性
-persistent database|永久性的資料庫
+persistent database|永久性質的資料庫
 persistent overlay|留存外覆空間
 persistent storage|留存貯藏空間
 persistent|持續的
@@ -7865,6 +7893,7 @@ play again|執行巨集
 play back|播放
 play game|玩遊戲
 play-by-play|詳實的
+playable|可播放
 playback control|播放控制
 playback|播放控制
 player one|玩家一
@@ -8378,11 +8407,11 @@ radicand|被開方
 radii|半徑
 radio button|單選按鈕
 radio station|無線電臺
-radioactive|放射性
+radioactive|放射性質
 radiobutton|單選按鈕
 radiology|放射線科
-radionuclide|放射性核種
-radiopharmaceutical|放射性藥物
+radionuclide|放射性質核種
+radiopharmaceutical|放射性質藥物
 radiosity|輻射度
 radio|無線電
 radius|半徑
@@ -8505,7 +8534,7 @@ reclaim|收回
 recognise|辨識
 recognized|辨識的
 recognizer|辨識器
-recognize|識別
+recognize|辨識
 recombining|重新合併
 recommendation|建議事項
 recommended|建議
@@ -8868,6 +8897,7 @@ reward|報酬
 rewind|倒轉
 rework|重工
 rewrap|自動換列
+rewriteable|可改寫
 rewrite|改寫
 rgb color|紅綠藍三原色
 rgb|紅綠藍
@@ -9209,6 +9239,7 @@ secondary prompt|輔助提示
 secondary server|輔助伺服器
 secondary|次類
 secondly|其次
+seconds|秒
 second|秒
 secrecy|祕密性
 secret key|密鑰
@@ -9258,7 +9289,7 @@ selection box|選取方塊
 selection dialog box|選取對話框
 selection-tracking|選取追蹤
 selection|選擇
-selective|選擇性
+selective|選擇性質
 selector|選擇器
 select|選取
 selenium|硒
@@ -9818,7 +9849,7 @@ speaker|揚聲器
 speak|說出
 specfile|規格檔
 special administrative region|特別行政區
-special paste|選擇性貼上
+special paste|專選貼上
 special thanks for|特別感謝
 special thanks go to|特別要感謝
 special thanks to|特別感謝
@@ -10097,6 +10128,7 @@ student|學生
 studio|工作室
 study|檢查
 stud|螺栓
+stupid|愚蠢
 style sheet|樣式表
 style-specification|樣式規格
 styler|造型師
@@ -10121,6 +10153,7 @@ subcode|子碼
 subdatasheet|子資料工作表
 subdevice|子裝置
 subdirectory|子目錄
+subdir|子目錄
 subdivide|細分
 subdivision|線點間隔
 subdomain|子網域
@@ -10371,6 +10404,7 @@ table|表格
 tabloid|小報紙
 tabs to spaces|跳格轉為空格
 tabs|頁籤
+tabulate|定位
 tabulation|定位
 tabulator|排表機
 tab|頁標
@@ -10930,6 +10964,7 @@ treble-click|連按三下
 treble|三倍
 tree search|樹狀搜尋法
 tree view|樹狀結構檢視
+treemap|樹狀
 treeview|樹狀檢視
 tree|樹
 trembling|抖動
@@ -11021,7 +11056,7 @@ twist|整改
 twi|奇族語(迦那)
 two or more|兩個以上
 two-digit|兩位數
-two-phase commit|二階段承諾
+two-phase commit|二階段定案
 two-way-alternate|雙向替換
 two-way-recovery|雙向復原
 two-way|雙向
@@ -11136,6 +11171,7 @@ unexpected|未預期的
 unexport|取消匯出
 unfamiliar|不熟悉的
 unfloat|固定
+unfocused|未聚焦
 unfold|展開
 unformated|未格式化的
 unformatted text|未格式化的文字
@@ -11235,7 +11271,7 @@ unsharp mask|去銳利化遮罩
 unshow|取消顯示
 unsigned integers|不帶正負號整數
 unsigned|無正負號
-unsolicited|非請求性的
+unsolicited|不請自來的
 unspecified behavior|未指定行為
 unspecified|未指定的
 unsplit|復原分割
@@ -11500,17 +11536,19 @@ voice|語音
 voided|作廢
 void|虛值
 volapuk|沃拉普克語
-volatile memory|揮發性記憶體
+volatile memory|揮發性質記憶體
 volatile-qualified|易失的限定
 volatile|易變的
 volga river|窩瓦河
 volume creation|卷冊建立日期
+volume down|降低音量
 volume group|卷冊群
 volume label|卷冊標貼
 volume manager|卷冊管理器
 volume name|卷冊名稱
 volume set|卷冊集
 volume structure|卷冊結構
+volume up|提高音量
 volume|音量
 volunteer|志願者
 vortex|漩渦
@@ -11534,6 +11572,7 @@ waiver|免除
 wakashan languages|瓦卡時諸語言
 wake island|威克島
 wake up|喚醒
+wakeup|喚醒
 wake|喚醒
 walamo|瓦賴語
 walk through|遍閱
@@ -11681,6 +11720,7 @@ window gravity|視窗重要性
 window header|視窗標頭
 window-based|以視窗為基礎的
 windowlevel|窗階
+windows (_w)|視窗(_W)
 windows|Windows
 window|視窗
 wind|旋緊
@@ -11711,7 +11751,7 @@ withdrew|已撤回
 withhold|保留
 within|在之內
 without error|無誤
-without even the implied warranty|亦無暗示性的擔保
+without even the implied warranty|亦無暗示的擔保
 without the|而無需
 without|而無須
 with|與
@@ -11746,6 +11786,7 @@ work relatively well|相對表現不錯
 work together|合作
 work with|適用於
 workaround|變通方法
+workbook|工作簿
 workday|工作日
 worker thread|背景工作執行緒
 workflow|工作流程
@@ -11884,6 +11925,8 @@ zoom in|放大
 zoom out|縮小
 zoom percentage|縮放顯示比例
 zoom to fit|最適縮放
+zoomed-in|放大
+zoomed-out|縮小
 zoom|縮放
 zulu|祖魯
 zuni|祖尼語
