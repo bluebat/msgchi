@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 name = 'msgchi'
-version = '1.0'
+version = '1.1'
 copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2017'
 
 ## This program is free software; you can redistribute it and/or modify

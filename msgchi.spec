@@ -1,5 +1,5 @@
 Name:		msgchi
-Version:	1.0
+Version:	1.1
 Release:	1
 Summary:	Translating messages from template files to chinese
 Summary(zh_TW):	將模板檔案中的軟體訊息翻譯為漢語
@@ -38,5 +38,8 @@ make DESTDIR=%{buildroot} install
 %{_mandir}/man1/*
 
 %changelog
+* Fri Jul 07 2017 Wei-Lun Chao <bluebat@member.fsf.org> - 1.1
+- Update to 1.1
+
 * Wed Jun 07 2017 Wei-Lun Chao <bluebat@member.fsf.org> - 1.0
 - First release

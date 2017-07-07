@@ -32,6 +32,7 @@ Dictionary Reference
 --------------------
 * CPATCH <http://glossary.pank.org/>
 * CMEX 「兩岸資訊及通信術語對照表」
+* 英中繁簡編程術語對照 <http://jjhou.boolan.com/terms.htm>
 * Translation Project <http://translationproject.org/>
 
 Author

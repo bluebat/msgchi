@@ -218,7 +218,6 @@ activation|活化
 activator|活化子
 active content|主動式內容
 active document|主動式文件
-active link|現用捷徑
 active state|作用狀態
 active title bar|現用視窗標題列
 active-line-state|現用線路狀態
@@ -274,6 +273,7 @@ address resolution|位址解析
 address space|位址空間
 address translation|位址轉換
 address-mapping|位址映射
+address-of|取址
 addressability|可定址能力
 addressbook|通訊錄
 addressing|定址
@@ -335,8 +335,8 @@ agenda|議程
 agent|代理程式
 age|老化
 aggregate type|聚合型式
-aggregate|彙總
-aggregation|彙總
+aggregate|聚合
+aggregation|聚合
 aggressive|強烈
 agile|敏捷
 agility|敏捷性
@@ -415,7 +415,7 @@ all|所有
 almost|幾乎
 alone|單獨
 along with|隨附於
-along|沿着
+along|沿著
 alpha blending|透明漸變
 alpha channel|透明色版
 alpha-numeric|文數字
@@ -430,7 +430,7 @@ altaic languages|阿爾泰諸語言
 altai|阿爾泰語
 alternate|交替
 alternating|交互的
-alternative representation|替代表示法
+alternative representation|替代表述法
 alternative text|替代文字
 alternative|替代方案
 alter|改變
@@ -484,7 +484,7 @@ ancillary|輔助
 and also|並且
 and configure|並且組配
 and did not|而未
-and exit|然後離開
+and exit|然後退離
 and gate|及閘
 and go to|並前往
 and much more|以及更多
@@ -696,7 +696,7 @@ ascension|阿森松島
 ascent|上升
 ascertain|確認
 asian font|亞洲語言字型
-aside|放着
+aside|放著
 ask for confirmation|徵詢確認
 ask me to|要求我
 ask|向詢問
@@ -709,7 +709,6 @@ assembler|組譯器
 assemble|組合
 assembly|組譯的
 asserted|主張的
-assertion|假設
 assert|主張
 assignment|指派
 assign|指派
@@ -765,7 +764,7 @@ atomic transaction|不可分割的作業事件
 atomic volume|原子容量
 atomic weight|原子量
 atomicity|不可分割性
-atomic|基元的
+atomic|不可分割的
 atom|原子
 atop|置頂
 atsina|阿齊納語
@@ -1174,7 +1173,7 @@ between|介於
 bevel|斜角
 beware|注意
 beyond|位於之後
-bezier curve|貝茲曲線
+bezier curve|貝兹曲線
 bezier|曲線
 bhojpuri|博杰普里語
 bhutani|不丹語
@@ -1266,6 +1265,7 @@ block special file|區段特殊檔案
 block-line|塊狀線
 block-local|本機區段
 block-oriented|區段導向的
+blockchain|區塊鏈
 blocked|阻斷
 blocking factor|區段化倍數
 blocking|阻斷
@@ -1364,6 +1364,7 @@ bowl|弧筆
 box drawing|框線繪製
 box in|盒狀收縮
 boxed|加框
+boxing|封箱
 box|框
 braces|大括號
 brace|括號
@@ -1546,6 +1547,7 @@ call by value|傳值呼叫
 call duration|通話時間
 call it like this|以此稱呼它
 call waiting|話中插接
+call-by-name|傳名呼叫
 call-control|呼叫控制
 callback|回呼
 callee|被呼叫端
@@ -1871,6 +1873,7 @@ circuit|電路
 circular dependencies|循環依存
 circular reference|循環參考
 circular|環狀
+circulate|流通
 circumflex|抑揚符號
 circumstance|情況
 circumvent|規避
@@ -2006,6 +2009,7 @@ collating sequence|比較序列
 collation|定序
 collator|對併器
 collection of|收藏
+collection|群集
 collector|收集器
 collect|收集
 collimator|瞄準儀
@@ -2147,12 +2151,11 @@ compositing|複合
 composition window|組字視窗
 composition|佈局
 compound expression|複合式表示式
-compound statement|複合陳述
 compound|複合
 comprehension|理解力
 comprehensive|詳盡的
 compressed|壓縮過的
-compression scheme|壓縮方法
+compression scheme|壓縮方案
 compressor|壓縮器
 compress|壓縮
 comprise|包括
@@ -2176,9 +2179,9 @@ concert|音樂會
 conclusion|結論
 concrete syntax|具體語法
 concrete|具象的
-concurrency|共時
-concurrent connections|共時連線
-concurrent|共時
+concurrency|並行
+concurrent connections|並行連線
+concurrent|並行
 condensed|壓縮
 condense|緊縮
 condensing|濃縮
@@ -2286,6 +2289,7 @@ contact your|聯絡您的
 contact|聯絡人
 container-managed|容器管理式
 container|容器
+containment|內含
 contains invalid characters|內含無效的字元
 contains no|不含任何
 contains|含有
@@ -2390,6 +2394,7 @@ cornish|康沃爾語
 cornsilk|玉米穗黃
 coronal|冠切面
 corotron|電暈架
+coroutine|協常式
 corporate|組織
 correct answer|正確答案
 correct data|正確資料
@@ -2636,7 +2641,6 @@ data element|資料元素
 data integrity|資料完整性
 data packet|數據封包
 data rate|資料傳輸率
-data representation|資料表現
 data segment|資料區段
 data set|資料集
 data sink|資料接收點
@@ -2739,8 +2743,8 @@ defective|有缺陷的
 defect|缺陷
 defend against|對抗
 defend|辯護
-deferred|已推遲
-defer|推遲
+deferred|已延緩
+defer|延緩
 deficiency|缺失
 defined as|定義為
 define|定義
@@ -2785,6 +2789,7 @@ delivery|遞送
 deliver|投遞
 demand|請求
 demangle|解讀
+demarshal|除封送
 democratic|民主
 demodulator|解調器
 demographic|人口統計
@@ -2817,14 +2822,13 @@ deployed|已部署
 deployment|部署
 deploy|部署
 deposit|保證金
-deprecated|過時
-deprecate|汰換
-deprecation|拒絕
+deprecate|揚棄
+deprecation|揚棄
 depth cueing|景深暗示
 depth|深度
 dequantization|解量化
 dequeue|移出佇列
-dereference|解參考
+dereference|提領
 dereferencing|取值
 derivative|衍生的
 derived from|衍生自
@@ -2867,7 +2871,7 @@ destination|目的
 destroy|銷毀
 destruction|解構
 destructive|破壞性
-destructor|解構式
+destructor|解構子
 desynchronizer|解同步器
 detach|卸離
 detail information|詳細資訊
@@ -3056,12 +3060,12 @@ distinguished-name|區別名
 distinguish|區別
 distort|扭曲
 distraction-free|無干擾
-distributed computing|分散式運算
-distributed environment|分散式環境
-distributed|已經發行的
-distribute|發行
-distribution|發布
-distributor|發行商
+distributed computing|散佈式運算
+distributed environment|散佈式環境
+distributed|已經散佈的
+distribute|散佈
+distribution|散佈
+distributor|散佈者
 dither|遞色
 divehi|迪維西語
 divergence|發散
@@ -3090,7 +3094,6 @@ dockable|可停駐
 docket|摘錄
 dock|停駐
 document background|文件的背景
-document link|文件捷徑
 document menu|文件功能表
 document number|文件號碼
 document preferences|文件喜好設定
@@ -3265,6 +3268,7 @@ e.g.|例如：
 each hour|每小時
 each time|每次
 each|每個
+eager|急式
 ear-mic|耳嘜
 earbud|耳筒
 earlier than|早於
@@ -3383,9 +3387,9 @@ empty map|空映射
 empty set|空集合
 empty value|空白值
 empty|清空
-emulate|模擬
-emulation|模擬
-emulator|模擬器
+emulate|擬真
+emulation|擬真
+emulator|擬真器
 emulsion|乳劑
 en-route|在路線中
 enable all|全部啟用
@@ -3411,7 +3415,7 @@ encounter|遇到
 encourage|鼓勵
 encrypted connection|加密連線
 encryption key|加密金鑰
-encryption scheme|加密方法
+encryption scheme|加密方案
 encrypt|加密
 encyclopedia|百科全書
 end angle|最終角度
@@ -3545,7 +3549,7 @@ error recovery|錯誤復原
 error response|錯誤回應
 error-corruption|資料損壞
 error|錯誤
-erzya|厄爾茲亞語
+erzya|厄爾兹亞語
 escape character|逸出字元
 escape sequence|逸出序列
 escaped|退出的
@@ -3655,14 +3659,15 @@ exhausted|已耗盡
 exhibit|展出
 existed|已存在
 existence|存在
+existential|既存
 existent|存在的
 existing|現有
 exist|存在
-exit and return|離開後回到
-exit code|離開代碼
-exit immediately|立即離開
-exit normally|正常離開
-exit|離開
+exit and return|退離後回到
+exit code|退離代碼
+exit immediately|立即退離
+exit normally|正常退離
+exit|退離
 expand all|全部展開
 expandable|可擴展的
 expand|展開
@@ -3705,7 +3710,7 @@ exposure time|曝光時間
 exposure|曝露
 expression evaluation|運算式評估
 expression evaluator|運算式評估工具
-expression statement|運算陳述式
+expression statement|運算敘述式
 expression|運算式
 expressly|明白地
 express|遞送
@@ -3837,7 +3842,7 @@ few more|多一點
 few seconds|數秒
 fewer|更少的
 few|幾個
-fiber distributed data interface|光纖分散式資料介面
+fiber distributed data interface|光纖散佈式資料介面
 fibre channel|光纖通道
 fiducial|基準
 field of study|科系
@@ -4092,8 +4097,8 @@ forget to|忘記
 forget|忘記
 forgot|忘記
 forint|福林
-fork process|派生行程
-fork|派生
+fork process|複刻行程
+fork|複刻
 form factor|主機板尺寸
 form feed|表格饋送
 form layout|表單佈局
@@ -4283,7 +4288,7 @@ fval|未來值
 gabon|加彭
 gadget|應用區塊
 gaelic|蓋爾語
-gagauz|加告茲
+gagauz|加告兹
 gain-scaled|增益定標
 gainsboro|亮灰
 gain|取得
@@ -4321,7 +4326,7 @@ ga|格語
 gbaya|巴亞語
 geared toward|目標朝向
 geek|怪傑
-geez|吉茲語
+geez|吉兹語
 gender|性別
 general delimiter|通用分隔符號
 general entity|通用個體
@@ -4334,7 +4339,9 @@ general|一般
 generated-object|產生的物件
 generate|產生
 generation|產生
+generative|生成式
 generator|產生器
+genericity|泛型
 generic|通用
 generosity|慷慨
 genlock|同步耦合
@@ -4356,6 +4363,7 @@ get started with|開始使用
 get started|起步
 get you started|帶您入門
 get-replace|獲得置換
+getter|取值子
 getting started with|入門
 get|獲得
 ghana|迦納
@@ -4447,7 +4455,7 @@ granule|精度
 grape|葡萄色
 grapheme|音素
 graphic library|繪圖函式庫
-graphical representation|圖形化說明
+graphical representation|圖形化表述
 graphical user interface|圖形化使用者介面
 graphical|圖形
 graphics card|顯示卡
@@ -4519,6 +4527,7 @@ guadeloupe|瓜地洛普
 guam|關島
 guarani|瓜拉尼語
 guarantee|保證
+guard clause|衛述句
 guatemala|瓜地馬拉
 guernsey|根息島
 guesstimate|預估
@@ -4600,6 +4609,7 @@ hard limit|強制限制
 hard rock|硬式搖滾
 hard to|難以
 hard work|努力成果
+hard-coded|固編的
 hard-code|硬式編碼
 hardcode|寫死
 hardcore|強硬風格
@@ -4730,6 +4740,7 @@ high-end|高階
 highend|高階
 higher level|較高階
 higher than|高於
+higher-order|高次
 highest voted|獲得最高票的
 highest|最高
 highlighter|突顯區
@@ -4900,6 +4911,7 @@ idle-line-state|閒置線路狀態
 idle|閒置
 ido|伊多語
 id|識別號
+if and only if|若且唯若
 if any|即使有
 if available|如果有的話
 if desired|需要時
@@ -5321,6 +5333,7 @@ invalid frame|無效框
 invalidate|設為無效
 invalidation|無效化
 invalid|無效的
+invariant|不變量
 inventory|庫存
 inverse video|反白顯示
 inverse|反
@@ -5388,7 +5401,7 @@ it is not possible to|無法
 it is possible|是有可能
 it is recommended to|建議
 it is thus|因此會
-it leaves|它離開
+it leaves|它離去
 it makes no sense|這無意義
 it reads|內容為
 it seems that|似乎
@@ -5713,6 +5726,7 @@ layout object|編排物件
 layout style|編排樣式
 layout|版面配置
 lay|紙規
+lazy|緩式
 lead magic|導語魔術字元
 lead size|導語大小
 lead to|導致
@@ -5737,7 +5751,7 @@ leave empty for|留空表示
 leave unchanged|保持不變
 leaves|樹葉
 leave|留下
-leaving|離開
+leaving|離去
 lebanese|黎巴嫩
 lebanon|黎巴嫩
 ledger|總帳
@@ -5806,7 +5820,7 @@ lexical analysis|詞彙分析
 lexical analyzer|詞彙分析器
 lexical scope|詞彙範圍
 lexical|詞彙的
-lezghian|列茲金語
+lezghian|列兹金語
 liability|責任
 liable for|負責
 libelus|誹謗
@@ -5920,7 +5934,7 @@ linked object|鏈結化物件
 linked-operation|鏈接操作
 linker|鏈結器
 link|鏈結
-linux distribution|林納克斯發行版
+linux distribution|林納克斯散佈版
 linux only|衹限於林納克斯
 linux|林納克斯
 lips|嘴脣
@@ -6191,7 +6205,7 @@ main|主要
 maithili|米德勒語
 maize|玉米色
 major device|主裝置
-major release|重大發行版本
+major release|重大釋出版本
 major version number|主要版本號碼
 major|主要的
 makasar|望加錫語
@@ -6204,6 +6218,7 @@ make it better|讓它更好
 make link|建立鏈結
 make no sense|不具任何意義
 make no|無法做出任何
+make public|公布
 make sense|具任何意義
 make sure that|確定
 make sure|確定
@@ -6255,6 +6270,7 @@ manifest|清單
 manifold|複本
 manipulate|操控
 manipulation|處理
+manipulator|操控器
 manipuri|曼尼普爾語
 mankind|人類
 manner|方式
@@ -6305,7 +6321,7 @@ marquee|圈選
 marshaling|封送處理
 marshall islands|馬紹爾群島
 marshallese|馬紹爾語
-marshalling|編組
+marshalling|封送
 martinique|馬丁尼克
 marwari|馬爾瓦利語
 maryland|馬里蘭
@@ -6584,7 +6600,7 @@ misleading|誤導
 mismatch|不匹配
 misordering|誤序
 misorder|序誤的
-misrepresentation|不實陳述
+misrepresentation|不實表述
 missed|錯過的
 missile|火箭
 missing person|失蹤者
@@ -6657,6 +6673,7 @@ molecule|分子
 momentum|衝力
 mon-khmer languages|孟-高棉諸語言
 monaco|摩納哥
+monad|單子
 monday|週一
 money|金錢
 mongolian|蒙古語
@@ -7054,7 +7071,7 @@ nonzero|非零值
 non|非
 nordic|北歐語
 norfolk|諾福克
-normal distribution|常態分佈
+normal distribution|常態散佈
 normal mode|正常模式
 normal size|正常大小
 normal window|標準視窗
@@ -7195,12 +7212,12 @@ nyankole|尼揚科萊語
 nyasa|尼亞沙
 nynorsk|耐諾斯克
 nyoro|尼奧羅語
-nzima|尼茲馬語
+nzima|尼兹馬語
 nüshu|女書文字
 obfuscate|模糊化
-object code|目的碼
+object code|物件碼
 object detail|物件詳細資訊
-object file|目的檔案
+object file|物件檔
 object identifier|物件識別符號
 object inspector|物件檢視器
 object module|目標模組
@@ -7683,6 +7700,8 @@ parts|零件
 party|同樂會
 part|部分
 pashto|普什圖語
+pass by reference|傳址
+pass by value|傳值
 pass count|循環計數
 pass number|傳送號碼
 pass on|傳送
@@ -7898,7 +7917,7 @@ playback control|播放控制
 playback|播放控制
 player one|玩家一
 player two|玩家二
-players leave|玩家離開
+players leave|玩家離去
 player|播放器
 playing sound|聲音播放
 playlist|播放列表
@@ -8072,6 +8091,7 @@ precision|精確度
 preclude|排除
 precompiled header|先行編譯標頭
 precompiled|先行編譯
+precondition|前提
 predefine|預先定義
 predicate|述詞
 predictable|可預測
@@ -8248,6 +8268,7 @@ promote|升級
 prompt for action|動作提示
 promptly|迅速
 prompt|提示
+promulgate|頒布
 proofreading|審閱
 proofstrain|耐應變
 proof|證明
@@ -8288,20 +8309,21 @@ proxy server|代理伺服器
 proxy settings|代理伺服器的設定
 proxy|代理伺服器
 psalter|聖詩體
-pseudo file system|虛擬檔案系統
-pseudo-classes|虛擬類別
-pseudo-code|虛擬碼
-pseudo-color|虛擬顏色
-pseudo-column|虛擬資料欄
-pseudo-device|虛擬裝置
-pseudo-marshalling|虛擬封送處理
-pseudo-random|虛擬隨機
-pseudocode|虛擬程式碼
-pseudorandom|虛擬隨機
-pseudotarget|虛擬目標
+pseudo file system|假擬檔案系統
+pseudo-classes|假擬類別
+pseudo-code|假擬碼
+pseudo-color|假擬顏色
+pseudo-column|假擬資料欄
+pseudo-device|假擬裝置
+pseudo-marshalling|假擬封送處理
+pseudo-random|假擬隨機
+pseudocode|假擬程式碼
+pseudorandom|假擬隨機
+pseudotarget|假擬目標
 psychedelic rock|迷幻搖滾
 psychedelic|迷幻音樂
 pu-xian chinese|漢語莆仙話
+public announce|公布
 public directory|公共目錄
 public domain|公共財
 public folder|公共資料夾
@@ -8312,8 +8334,8 @@ public object|公共物件
 public transportation|大眾運輸
 publication|出版品
 public|公開
-publisher|出版商
-publish|發布
+publisher|發行人
+publish|發行
 puck|圓盤
 puerto rico|波多黎各
 pula|普拉
@@ -8580,7 +8602,7 @@ redial|重新撥號
 redirected|已重新導向
 redirection number|轉接號碼
 redirect|重新導向
-redistributable|可再分發
+redistributable|可再散佈
 redistribute|再次散佈
 redo|重做
 redraw|重繪
@@ -8602,6 +8624,7 @@ reference data|參照資料
 reference-object|參考物件
 referenced|引用
 reference|參考
+referential|參照
 referent|參考
 referer|參照頁
 referral|參照
@@ -8669,11 +8692,11 @@ relative to|相對於
 relative|相對的
 relaxation|鬆弛
 relay|中繼
-release build|發行的組建
+release build|釋出的組建
 release button|放開按鈕
-release notes|版本說明
+release notes|釋出說明
 release number|釋出編號
-release version|發行版本
+release version|釋出版本
 release|釋出
 relevant|相關的
 reliability|可靠度
@@ -8757,7 +8780,7 @@ reporter|通報者
 report|通報
 repository|儲存庫
 repost|重新張貼
-representation|表示
+representation|表述
 represent|表述
 reprint|再版
 reproducer|再製器
@@ -8815,7 +8838,7 @@ reslice|重新切片
 resnap|重新建立快照
 resolution|解析度
 resolve name|解析名字
-resolver|分解器
+resolver|解析器
 resolve|解析
 resource allocation|資源配置
 resource|資源
@@ -8870,7 +8893,6 @@ return code|回傳碼
 return key|換列鍵
 return option|回覆選項
 return receipt|回覆回條
-return result|結果回送
 return to normal|回復正常
 return|回傳
 reunion|留尼旺島
@@ -9306,7 +9328,6 @@ self-relative|自行相對
 self-test|自我測試
 selkup|瑟爾卡普語
 seller|銷售者
-semantic error|語義錯誤
 semantic|語意
 semaphore|號誌
 semi-automatic|半自動
@@ -9320,6 +9341,7 @@ semiconductor|半導體
 semiexpanded|半寬型字
 semilight|半細體字
 semimetal|半金屬
+seminar|研討會
 semitic languages|閃語諸語言
 send all|全部發送
 send back|寄回
@@ -9410,6 +9432,7 @@ set-off|反印
 set-of|集合組
 setswana|茨瓦納語
 sets|集合
+setter|賦值子
 setting up|設定
 settings file|設定檔
 settings|設定值
@@ -9696,8 +9719,8 @@ smaller than|小於
 smaller|較小
 smallest|最小
 small|小
-smartphone|伶俐型手機
-smart|伶俐
+smartphone|靈巧型手機
+smart|靈巧
 smiley|表情符號
 smile|微笑
 smoothness|平滑度
@@ -9728,7 +9751,7 @@ softlink|軟式鏈結
 softness|柔軟度
 software bundle|軟體套組
 software development kit|軟體開發套件
-software distribution|軟體發行
+software distribution|軟體散佈
 software package|套裝軟體
 software selection|軟體選取
 software|軟體
@@ -10353,6 +10376,7 @@ symmetrical|對稱的
 symmetric|對稱
 symphonic rock|交響搖滾
 symphony|交響曲
+synchronic|共時
 synchronization|同步化
 synchronized|同步的
 synchronizeminor|次同步
@@ -10469,7 +10493,6 @@ tape|磁帶
 tapping|觸點
 tap|分接頭
 tarball|打包檔
-target folder|目的資料夾
 target machine|目標電腦
 target|目標
 tarnsparent|透通的
@@ -10651,7 +10674,7 @@ this may|這也許會
 this means|這表示
 this month|本月
 this one|這一個
-this program is distributed|發行本程式
+this program is distributed|散佈本程式
 this release|這次釋出
 this scheme|這種方案
 this screen|這個畫面
@@ -11006,7 +11029,7 @@ trusted site|信任的網站
 trust|信賴
 try again later|稍後再試一次
 try again|再試一次
-try to|試着
+try to|試著
 trying hard to|一直致力於
 trying to|嘗試
 try|嘗試
@@ -11124,6 +11147,7 @@ unbind|解除繫結
 unblocked|非阻斷
 unblocking|解除阻斷
 unbound|未繫結
+unboxing|開箱
 unbundled|非附帶的
 uncategorized|未分類的
 unchanged|未變更
@@ -11241,7 +11265,7 @@ unpause|不暫停
 unpin|鬆開
 unplug|拔出
 unpredictability|不可預測性
-unpublished|尚未發布
+unpublished|尚未發行
 unpunched|無孔的
 unqualified type|非限定型式
 unqualified|資格不符的
@@ -11255,7 +11279,7 @@ unrecognised|無法辨識的
 unrecognized|無法辨識的
 unrecoverable error|無法復原的錯誤
 unregister|移除註冊
-unresolved reference|未找到的參照
+unresolved reference|未能解析的參照
 unresolved|無法解析的
 unrestricted|無限制的
 unsatify|無法滿足
@@ -11296,7 +11320,7 @@ unused|未使用的
 unusual|不尋常的
 unvalidated|未驗證
 unwanted|討厭的
-unwind|展開
+unwind|旋開
 unwise|不明智
 unzip|解壓縮
 up and running|啟動並執行
@@ -11381,8 +11405,8 @@ utilization|效用
 utilize|利用
 utterance|言論
 uyghur|維吾爾語
-uzbekistan|烏茲別克
-uzbek|烏茲別克語
+uzbekistan|烏兹別克
+uzbek|烏兹別克語
 v-nonce|非重複數字
 vacation|假期
 vacuum|真空
@@ -11750,10 +11774,11 @@ withdraw|撤回
 withdrew|已撤回
 withhold|保留
 within|在之內
+without -ing|而毋須
 without error|無誤
 without even the implied warranty|亦無暗示的擔保
 without the|而無需
-without|而無須
+without|而不需
 with|與
 wizard|精靈
 wobbly|擺動
