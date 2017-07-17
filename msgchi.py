@@ -39,7 +39,7 @@ class Knowns:
         self.credit = os.environ['USER']+' <'+os.environ['LOGNAME']+'@'+re.sub(r'^[^\.]*\.','',os.environ['HOSTNAME'])+'>'
         self.confpath = os.environ['HOME']+'/.config/msgchi/'
         self.wrapcolumn = 76
-        self.rawtag = r'(^[^<]*)(<[^>]*>)(.*$)'
+        self.xmltag = r'(^[^<]*)(<[^>]*>)(.*$)'
         self.locale = re.sub(r'([a-z_A-Z]*).*', r'\1', os.environ['LANG'])
         self.localedic = {}
         self.localedic['zh_TW'] = ['zht','Chinese (traditional)','zh-l10n@linux.org.tw']
@@ -68,6 +68,7 @@ class Arguments:
         parser.add_option('-t','--type',dest='type',metavar='po|php|ini|txt',default='',help=_('message file type'))
         parser.add_option('-w','--wrap',dest='wrap',action='store_true',default=False,help=_('wrap long messages'))
         parser.add_option('-x','--exclude',dest='exclude',metavar='RE',default='',help=_('excluded regular expression'))
+        parser.add_option('-X','--xmltag',dest='xmltag',action='store_false',default=True,help=_('text in XML tags not excluded'))
         (self.opts, self.pars) = parser.parse_args()
 
         if not os.path.isdir(os.environ['HOME']+'/.config'):
@@ -190,7 +191,7 @@ class Translator:
                     result += ' '+keyHead if lastSign>0 else keyHead
                     lastSign = 0
                     mapped = False
-                elif ord(keyHead) > 128 or keyHead in '()[]{}<>\/=.:|@+ ' or content[i-1] == '\\':
+                elif ord(keyHead) > 128 or keyHead in '()[]{}<>\/=.:|@+ "' or content[i-1] == '\\':
                     result += keyHead
                     lastSign = -1
                 else:
@@ -535,16 +536,16 @@ class PO:
                     resultStr = sourceStr+'\\n'+arguments.opts.credit if sourceStr else arguments.opts.credit
                 elif arguments.opts.lang[:3] == 'eng':
                     resultStr = ''
-                    while re.search(r'</?[a-zA-Z].*>', sourceId):
-                        resultStr += translator.eng2chi(re.sub(knowns.rawtag, r'\1', sourceId))+re.sub(knowns.rawtag, r'\2', sourceId)
-                        sourceId = re.sub(knowns.rawtag, r'\3', sourceId)
+                    while arguments.opts.xmltag and re.search(r'</?[a-zA-Z].*>', sourceId):
+                        resultStr += translator.eng2chi(re.sub(knowns.xmltag, r'\1', sourceId))+re.sub(knowns.xmltag, r'\2', sourceId)
+                        sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                     resultStr += translator.eng2chi(sourceId)
                 else:
                     sourceId = sourceStr
                     resultStr = ''
-                    while re.search(r'</?[a-zA-Z].*>', sourceId):
-                        resultStr += translator.chi2chi(re.sub(knowns.rawtag, r'\1', sourceId))+re.sub(knowns.rawtag, r'\2', sourceId)
-                        sourceId = re.sub(knowns.rawtag, r'\3', sourceId)
+                    while arguments.opts.xmltag and re.search(r'</?[a-zA-Z].*>', sourceId):
+                        resultStr += translator.chi2chi(re.sub(knowns.xmltag, r'\1', sourceId))+re.sub(knowns.xmltag, r'\2', sourceId)
+                        sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                     resultStr += translator.chi2chi(sourceId)
                 if arguments.opts.doKeep and sourceStr and resultStr != sourceStr:
                     message.comments.append('# "%s"\n' % re.sub(r'\\n([^"\\])', r'\\n"\n# "\1', sourceStr))
@@ -619,14 +620,14 @@ class MSG:
             sourceId = message.msgid
             message.msgstr = ''
             if arguments.opts.lang[:3] == 'eng':
-                while re.search(r'</?[a-zA-Z].*>', sourceId):
-                    message.msgstr += translator.eng2chi(re.sub(knowns.rawtag, r'\1', sourceId))+re.sub(knowns.rawtag, r'\2', sourceId)
-                    sourceId = re.sub(knowns.rawtag, r'\3', sourceId)
+                while arguments.opts.xmltag and re.search(r'</?[a-zA-Z].*>', sourceId):
+                    message.msgstr += translator.eng2chi(re.sub(knowns.xmltag, r'\1', sourceId))+re.sub(knowns.xmltag, r'\2', sourceId)
+                    sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                 message.msgstr += translator.eng2chi(sourceId)
             else:
-                while re.search(r'</?[a-zA-Z].*>', sourceId):
-                    message.msgstr += translator.chi2chi(re.sub(knowns.rawtag, r'\1', sourceId))+re.sub(knowns.rawtag, r'\2', sourceId)
-                    sourceId = re.sub(knowns.rawtag, r'\3', sourceId)
+                while arguments.opts.xmltag and re.search(r'</?[a-zA-Z].*>', sourceId):
+                    message.msgstr += translator.chi2chi(re.sub(knowns.xmltag, r'\1', sourceId))+re.sub(knowns.xmltag, r'\2', sourceId)
+                    sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                 message.msgstr += translator.chi2chi(sourceId)
             if arguments.opts.doKeep and message.msgid and message.msgstr != message.msgid:
                 if arguments.opts.type == 'php':
