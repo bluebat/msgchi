@@ -154,7 +154,8 @@ class Translator:
             replacement = r'(&'+content[content.find('(&')+2].upper()+')'
             content = re.sub(r'\(&[a-z]\)', replacement, content) #upper shortcut key
         if arguments.opts.lang[:3] == 'zht':
-            content = re.sub(r'([^\.])\.$', r'\1. ', content) #add space after end point
+            content = re.sub(r'([^\.\w])\.$', r'\1. ', content) #add space after end point
+            content = re.sub(r'(\w)\.', r'\1.-', content) #protect point after alpha-numeric
             content = re.sub(r' ?(`|\')([^\']*?)\' ?', r'`-\2-`', content) #replace single quote
             content = re.sub(r' ?\\"([^"]*?)\\" ?', r'`-\1-`', content) #replace double quote
             content = re.sub(r'(\w),', r'\1,-', content) #protect comma after alpha-numeric

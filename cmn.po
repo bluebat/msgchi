@@ -62,6 +62,9 @@ msgstr "允許長訊息換列"
 msgid "excluded regular expression"
 msgstr "排除字串的正規表示式"
 
+msgid "text in XML tags not excluded"
+msgstr "不排除 XML 標籤內文字"
+
 msgid "can not use both --expression and --type"
 msgstr "無法同時使用 --expression 和 --type"
 

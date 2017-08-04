@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-07-17 14:04+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ANSI_X3.4-1968\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: /usr/lib64/python3.5/optparse.py:145
+msgid "no such option: %s"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:156
+msgid "ambiguous option: %s (%s?)"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:380
+msgid ""
+"Usage: %s\n"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:399
+msgid "Usage"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:421 /usr/lib64/python3.5/optparse.py:422
+msgid "integer"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:423
+msgid "floating-point"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:424
+msgid "complex"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:432
+msgid "option %s: invalid %s value: %r"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:440
+msgid "option %s: invalid choice: %r (choose from %s)"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:1237
+msgid "show this help message and exit"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:1242
+msgid "show program's version number and exit"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:1265
+msgid "%prog [options]"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:1495
+msgid "%s option does not take a value"
+msgstr ""
+
+#: /usr/lib64/python3.5/optparse.py:1611
+msgid "Options"
+msgstr ""
+
+#: msgchi.py:56
+msgid "%prog [options] [input files]"
+msgstr ""
+
+#: msgchi.py:57
+msgid "define keyboard accelerator"
+msgstr ""
+
+#: msgchi.py:58
+msgid "credit of the translator"
+msgstr ""
+
+#: msgchi.py:59
+msgid "name of the dictionary file"
+msgstr ""
+
+#: msgchi.py:60
+msgid "message regular expression"
+msgstr ""
+
+#: msgchi.py:61
+msgid "keep translated msgstr"
+msgstr ""
+
+#: msgchi.py:62
+msgid "source and target languages"
+msgstr ""
+
+#: msgchi.py:63
+msgid "full-mapped messages only"
+msgstr ""
+
+#: msgchi.py:64
+msgid "number all messages"
+msgstr ""
+
+#: msgchi.py:65
+msgid "name of the output file"
+msgstr ""
+
+#: msgchi.py:66
+msgid "package name and version"
+msgstr ""
+
+#: msgchi.py:67
+msgid "skip completed msgid"
+msgstr ""
+
+#: msgchi.py:68
+msgid "message file type"
+msgstr ""
+
+#: msgchi.py:69
+msgid "wrap long messages"
+msgstr ""
+
+#: msgchi.py:70
+msgid "excluded regular expression"
+msgstr ""
+
+#: msgchi.py:71
+msgid "text in XML tags not excluded"
+msgstr ""
+
+#: msgchi.py:91
+msgid "invalid option format %s for languages"
+msgstr ""
+
+#: msgchi.py:101
+msgid "desired %s or the specified dictionary not found"
+msgstr ""
+
+#: msgchi.py:104
+msgid "can not use both --expression and --type"
+msgstr ""
+
+#: msgchi.py:106
+msgid "invalid message regular expression %s"
+msgstr ""
+
+#: msgchi.py:118
+msgid "invalid message file type %s"
+msgstr ""
+
+#: msgchi.py:122
+msgid "input file %s not found"
+msgstr ""
+
+#: msgchi.py:145
+msgid "Unformated entry: %s (use | as separator)"
+msgstr ""
+
+#: msgchi.py:660
+msgid "Error reading input files. Not UTF-8 encoded?"
+msgstr ""
+

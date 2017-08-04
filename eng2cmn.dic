@@ -1,6 +1,7 @@
 !|！
 "acknowledgements|致謝
 "acknowledgments|致謝
+"added|已加入
 "alternatively,|或者是，
 "alternative|另類
 "beat|打擊樂
@@ -132,6 +133,7 @@ ability|性能
 abkhazian|亞布卡薩語
 abnormal termination|異常終止
 abnormal|不正常
+aboriginal|原始
 abort|放棄
 about to|即將
 about yourself|關於自己
@@ -257,7 +259,7 @@ add-in|增益功能
 add-on|附加元件
 add-remove|增加移除
 added to|已加入至
-added|已加入
+added|加入
 addend|加數
 adder-subtracter|加減器
 adder|加法器
@@ -316,6 +318,7 @@ affect|影響
 affiliate|附屬
 affiliation|會籍
 affinity|近似者
+affordance|示能性
 afghanistan|阿富汗
 afghani|阿富汗尼
 african|非
@@ -588,6 +591,7 @@ approval|認可
 approver|批准者
 approve|認可
 approximate|近似
+app|應用軟體
 april|四月
 apr|四月
 aquamarine|青綠
@@ -669,6 +673,7 @@ aruba|阿魯巴
 as a result|結果造成
 as a|做為
 as before|一如以往
+as below|如下
 as early as|早在
 as found in|如所示
 as if|如同
@@ -1095,6 +1100,7 @@ be present|都到位
 be probably a bad idea|可能不是個好主意
 be probably|或許
 be rare|很罕見
+be ready to use|備妥待用
 be remedied by restarting|藉由重新啟動來補救
 be requested to|請
 be required|為必要項目
@@ -1113,6 +1119,7 @@ be to|是要
 be turned into|被轉換為
 be unknown|不明
 be unsure about|不確定
+be up-to-date|已更新
 be used together|一齊使用
 be working on it|正在努力中
 beak|喙
@@ -1257,6 +1264,7 @@ blin|比林語
 blip|光點
 blobby|珠斑
 block boundary|區段界限
+block chain|區塊鏈
 block length|塊長度
 block of text|文字區段
 block quotation|區塊引用
@@ -1361,6 +1369,7 @@ bound|約束
 bouvet|布威
 bow tie|蝴蝶領結
 bowl|弧筆
+bows out|鞠躬下臺
 box drawing|框線繪製
 box in|盒狀收縮
 boxed|加框
@@ -1483,6 +1492,7 @@ burundi franc|蒲隆地法郎
 burundi|蒲隆地
 bury|埋藏
 business|商務
+busted|檢測到
 busy|忙碌
 bus|匯流排
 but not|並不是
@@ -1514,6 +1524,7 @@ by service|依服務
 by size|依大小
 by status|依狀態
 by subject|依主題
+by the way,|順道一提，
 by type|依類型
 by us|由我們
 byelorussian|白俄羅斯
@@ -1655,6 +1666,7 @@ casters|腳輪
 castilian|卡斯提爾
 casting|轉型
 cast|演員陣容
+casual|隨便的
 catalan|加泰羅尼亞語
 catalog file|目錄檔
 catalogue|型錄
@@ -1778,6 +1790,7 @@ chartreuse|淡黃綠
 chart|圖表
 char|字元
 chassis|機架
+chatham house rule|漆咸樓原則
 chat|聊天
 cheat sheet|速查表
 cheatcode|密技碼
@@ -2568,6 +2581,7 @@ cutting|切割
 cut|剪下
 cw|順時針
 cyan|青色
+cybernetics|模控學
 cyberspace|數碼空間
 cyber|數碼
 cycle through|重複循環
@@ -2900,6 +2914,7 @@ device|裝置
 devoice|取消語音
 devoted to|致力於
 dhivehi|迪培希語
+dht|分散式雜湊表
 diacritical mark|讀音符號
 diacritic|變音符
 diaeresis|分音符號
@@ -2951,6 +2966,7 @@ dimensioning|定尺寸
 dimensionless|無尺寸的
 dimension|尺寸
 dimgray|暗灰
+diminish|減損
 dimmed|暗灰色的
 dim|調暗
 dinar|戴納
@@ -3031,7 +3047,7 @@ disparate|相異的
 dispatch table|派送表
 dispatcher|派送程式
 dispatch|派送
-dispersed|分散式
+dispersed|分佈式
 dispinterface|分配介面
 displacement|移位
 displace|置換
@@ -3060,8 +3076,8 @@ distinguished-name|區別名
 distinguish|區別
 distort|扭曲
 distraction-free|無干擾
-distributed computing|散佈式運算
-distributed environment|散佈式環境
+distributed computing|分散式運算
+distributed environment|分散式環境
 distributed|已經散佈的
 distribute|散佈
 distribution|散佈
@@ -3178,6 +3194,7 @@ drama|戲劇
 dravidian|達羅毗荼語
 draw game|平手
 draw text|繪圖文字
+drawer|抽屜
 drawing area|繪圖區
 drawings|描繪
 drawing|繪圖
@@ -3817,6 +3834,7 @@ fault|失誤
 favicon|站臺圖示
 favorite|我的最愛
 favor|偏好
+favourite|收藏
 fax message|傳真消息
 fax number|傳真號碼
 fax|傳真
@@ -3842,7 +3860,7 @@ few more|多一點
 few seconds|數秒
 fewer|更少的
 few|幾個
-fiber distributed data interface|光纖散佈式資料介面
+fiber distributed data interface|光纖分散式資料介面
 fibre channel|光纖通道
 fiducial|基準
 field of study|科系
@@ -3894,6 +3912,8 @@ fill style|填入樣式
 fill to right|向右充填
 fill type|填色類型
 filled in|填寫
+filled out|已填寫
+filled|已填
 filler|填充位元
 filling-direction|填入方向
 filling|充填
@@ -4035,10 +4055,13 @@ folk|民歌
 follow a link|跟隨鏈結
 follow the|依循
 followed by|在之後
-following|下列
+followed by|跟隨自
+follower|跟隨者
+following be|下列是
+following|跟隨中
 followup-to|跟貼
 followup|跟隨
-follow|追隨
+follow|跟隨
 font family|字族
 font hint|字型修飾
 font metrics|字型度量
@@ -4338,7 +4361,7 @@ generalized|一般化
 general|一般
 generated-object|產生的物件
 generate|產生
-generation|產生
+generation|生成
 generative|生成式
 generator|產生器
 genericity|泛型
@@ -4898,6 +4921,7 @@ ide disk|IDE 磁碟
 ideal|理想的
 idea|主意
 identical|相等的
+identifiable|可識別
 identification|識別
 identifier prefix|識別碼前置詞
 identifier|識別碼
@@ -4911,7 +4935,7 @@ idle-line-state|閒置線路狀態
 idle|閒置
 ido|伊多語
 id|識別號
-if and only if|若且唯若
+if and only if|若且惟若
 if any|即使有
 if available|如果有的話
 if desired|需要時
@@ -5162,6 +5186,7 @@ initial|初始
 initiate|啟動
 initiator|初始器
 injected dose|注射劑量
+inject|注入
 inker|油墨物質
 inking|加油墨
 inktake|導入
@@ -5175,6 +5200,7 @@ innershadow|內部陰影
 innerstyle|內部樣式
 inner|內
 innovation|創新
+inordinary|不尋常
 inpatient|住院病患
 inplementation|實作
 input area|輸入區
@@ -5314,6 +5340,7 @@ intestine|腸
 into two|為雙
 into|進入
 intra-office|局內
+intractability|不可駕馭度
 intraframe|幅內
 intranet|企業內部網路
 intrinsic function|內建函式
@@ -5458,6 +5485,7 @@ jog|慢放
 johab|雙位元組合型符號
 johndoe|無名氏
 johnston|約翰斯頓
+join group|參與群組
 join line|聯結線
 joint-stereo|聯結立體
 join|聯結
@@ -5748,6 +5776,7 @@ least significant bit|最低有效位元
 least square|最小平方
 leave behind|留下
 leave empty for|留空表示
+leave group|離開群組
 leave unchanged|保持不變
 leaves|樹葉
 leave|留下
@@ -6191,7 +6220,7 @@ main menu|主選單
 main table|主表格
 main toolbar|主工具列
 main window|主視窗
-mainframe|主電腦
+mainframe|大型主機
 mainline|主線
 mains|主電源
 maintainability|維護性
@@ -6452,6 +6481,7 @@ memory|記憶體
 memo|備忘錄
 mende kikakui|門德文
 mende|門德語
+mentions|提及次數
 mention|提及
 menu bar|功能表列
 menu command|功能表指令
@@ -6942,6 +6972,7 @@ network address translation|網路位址轉譯
 network computing|網路運算
 network connection|網路連線
 network connectivity|網路可連接性
+network down|網路斷線
 network neighborhood|網路芳鄰
 network port|網路埠
 network-addresses|網路位址
@@ -7122,6 +7153,7 @@ not installed|尚未安裝
 not known|不明
 not like|不同於
 not long enough|長度不夠
+not only|不衹
 not possible|不可能
 not present|不存在
 not so|不要那麼
@@ -7235,7 +7267,7 @@ obscene|猥褻
 observation|觀察
 observers|觀察員
 obsidian|黑曜石
-obsolete|淘汰的
+obsolete|過時的
 obtain|得到
 obtuse|鈍角
 occasionally|偶爾
@@ -7305,6 +7337,7 @@ on by default|預設開啟
 on completion of|於完成時
 on demand|隨選
 on hand|在庫
+on job|現場
 on left|左側
 on line %d|於第 %d 列
 on line|線上
@@ -7725,6 +7758,7 @@ paste|貼上
 past|過去
 patches|補丁
 patch|修補程式
+patent troll|專利流氓
 patent|專利
 path settings|路徑設定
 pathdepth|路徑深度
@@ -7746,8 +7780,8 @@ peach|桃色
 peak-to-peak|峰至峰
 peak|尖峰
 pedi|北方索托語
-peer-to-peer network|對等網路
-peer|對等
+peer-to-peer network|對等式網路
+peer|對等點
 pelement|虛擬元件
 pel|像素
 penalty|懲罰
@@ -8033,6 +8067,7 @@ post-production|後製
 postal code|郵遞區號
 postal|郵局
 postamble|後文
+postboard|張貼欄
 posterize|色調分離
 postfilter|後濾波器
 postfix|後綴
@@ -8264,7 +8299,7 @@ project|專案
 prolog|前言
 prominent|顯眼的
 promise|約定
-promote|升級
+promote|推廣
 prompt for action|動作提示
 promptly|迅速
 prompt|提示
@@ -8341,6 +8376,7 @@ puerto rico|波多黎各
 pula|普拉
 pull from|取自
 pull onto|拉到
+pull to|拉下以
 pull-down menu|下拉式功能表
 pulsate|脈衝
 pulse|撥盤式電話
@@ -8409,6 +8445,7 @@ quiet mode|無訊息模式
 quiet-line-state|靜止線路狀態
 quiet|安靜的
 quillotine|裁紙機
+quilting bee|拼布會
 quit the|退出
 quit without|離開但不
 quite|相當
@@ -8696,7 +8733,6 @@ release build|釋出的組建
 release button|放開按鈕
 release notes|釋出說明
 release number|釋出編號
-release version|釋出版本
 release|釋出
 relevant|相關的
 reliability|可靠度
@@ -8880,6 +8916,8 @@ retired|退隱的
 retouch|修補
 retrace|重新追蹤
 retract|取消
+retransmissions|轉發次數
+retransmission|轉發
 retrieval|檢索
 retrieve|取回
 retrive|檢索
@@ -8960,6 +8998,7 @@ rights|權
 rightwards arrow|向右箭號
 right|權限
 ring finger|無名指
+ringtone|鈴聲
 ring|環
 ripping|轉刻
 risk to|冒險
@@ -9457,6 +9496,7 @@ shading|遮蔽
 shadow file|隱式檔案
 shadowed|帶陰影
 shadow|陰影
+shake|搖動
 shall i|我應該
 shall not|不應該
 shallow|淺薄的
@@ -9513,6 +9553,7 @@ shortcodes|短碼
 shortcut key|快捷鍵
 shortcut reference|快捷參照
 shortcut|快捷鍵
+shortened|縮短
 shorten|縮短
 shorter than|短於
 shorthand|簡短寫法
@@ -9751,7 +9792,6 @@ softlink|軟式鏈結
 softness|柔軟度
 software bundle|軟體套組
 software development kit|軟體開發套件
-software distribution|軟體散佈
 software package|套裝軟體
 software selection|軟體選取
 software|軟體
@@ -9899,6 +9939,7 @@ speech|語音
 speed up|加速
 speed|速度
 spellcheck|拼寫檢查
+spelling bee|拼字會
 spelling checker|拼寫檢查
 spelling|拼寫
 spell|拼寫
@@ -9936,7 +9977,7 @@ spot|斑點
 spouse|配偶
 spray|噴灑
 spreadsheet|試算表
-spread|分散
+spread|分佈
 spring-loaded|自動開合式的
 spring-sensitive|自動開合式
 springgreen|嫩綠
@@ -10139,6 +10180,7 @@ stripper|拆除器
 strip|截除
 stroke penalty|罰桿
 stroke|筆畫
+stronger|更強的
 strong|強固
 structured block|結構化訊息塊
 structured-name|結構化名稱
@@ -10324,6 +10366,7 @@ susceptibility|磁化率
 suspectable|疑慮
 suspected|疑似
 suspend|懸置
+suspicious stuff|惡意材料
 susu|蘇蘇語
 sutu|蘇土語
 svalbard and jan mayen|冷岸群島及央棉
@@ -10342,6 +10385,8 @@ swedish|瑞典語
 sweepstakes|賭局
 swinging|擺動
 swing|Swing 類別
+swipe from the side|從側邊刷 
+swipe left|向左刷
 swiss franc|瑞士法郎
 swiss|瑞士
 switch off|關掉
@@ -10612,6 +10657,7 @@ the availability of|能提供多少
 the cause|原因
 the colon|冒號
 the correct|正確
+the following|下列
 the last record|最後一筆
 the medium|媒體
 the new|新的
@@ -10867,6 +10913,7 @@ top margin|上方邊界
 top right|右上
 top ten|前十名
 top to bottom|從上到下
+top trends|熱門趨勢
 top-down|由上而下
 top-float|頂流體
 top-level|頂層
@@ -10877,7 +10924,7 @@ topmost window|最上層顯示視窗
 topology|拓樸
 top|頂
 torpedo|魚雷
-torrent|激流
+torrent|流
 torus|圓環面
 total capacity|總容量
 total score|總分
@@ -10886,6 +10933,7 @@ totally|完全
 total|總計
 touchpad|觸控板
 touch|着力
+tour|遊覽
 toward|接近
 tower|塔
 to|到
@@ -10991,6 +11039,7 @@ treemap|樹狀
 treeview|樹狀檢視
 tree|樹
 trembling|抖動
+trend|趨勢
 trespasser|侵入者
 trial|試驗
 triangle|三角
@@ -11032,6 +11081,7 @@ try again|再試一次
 try to|試著
 trying hard to|一直致力於
 trying to|嘗試
+tryout|試作
 try|嘗試
 tsimshian|欽西安語
 tsonga|宋加語
@@ -11194,9 +11244,11 @@ unexpected error|非預期錯誤
 unexpected|未預期的
 unexport|取消匯出
 unfamiliar|不熟悉的
+unfavourite|取消收藏
 unfloat|固定
 unfocused|未聚焦
 unfold|展開
+unfollow|取消跟隨
 unformated|未格式化的
 unformatted text|未格式化的文字
 unfortunately,|很不幸，
@@ -11221,9 +11273,9 @@ unintentionally|無意地
 uninterpretable|不可解譯
 union type|聯集型態
 union|聯合
-unique identifier|唯一識別符號
-uniqueness|唯一性
-unique|唯一
+unique identifier|惟一識別符號
+uniqueness|惟一性
+unique|惟一
 unit number|單元號碼
 unit string|單元字串
 unit test|單元測試
@@ -11366,6 +11418,7 @@ usable|可用
 usage:|用法：
 usage|使用率
 usa|美國
+usb disk|閃碟
 use as|做為
 use both|同時使用
 use for|用於
@@ -11710,6 +11763,7 @@ whitesmoke|白霧色
 whitespace characters|空格字元
 whitespace|空白
 white|白色
+whoever|某人
 whois|名錄
 whole spread|整版
 whole text|整篇文字
