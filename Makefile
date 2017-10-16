@@ -3,11 +3,11 @@ DESTDIR =
 PREFIX = /usr
 PACKAGE = msgchi
 
-MACHINE := $(shell uname -m)
-ifeq ($(MACHINE), x86_64)
-LIBDIR = /usr/lib64
+LBITS := $(shell getconf LONG_BIT)
+ifeq ($(LBITS), 64)
+  LIBDIR = $(PREFIX)/lib64
 else
-LIBDIR = /usr/lib
+  LIBDIR = $(PREFIX)/lib
 endif
 
 build:

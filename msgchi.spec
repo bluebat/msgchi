@@ -2,7 +2,6 @@ Name:		msgchi
 Version:	1.1
 Release:	1
 Summary:	Translating messages from template files to chinese
-Summary(zh_TW):	將模板檔案中的軟體訊息翻譯為漢語
 License:	GPL, PD
 Group:		Development/Tools
 URL:		https://github.com/bluebat/msgchi
@@ -13,12 +12,8 @@ Requires:	python3, gettext
 
 %description
 msgchi is a Python3 script to help translators of chinese locales
-by processing messages in .pot or other chinese .po files
-into pre-translated chinese.
-
-%description -l cmn
-msgchi 是一個以 Python3 編寫的命令稿，用來協助漢語語區的翻譯者，
-將位於 .pot、.po 或其他模板檔案中的軟體訊息，預先翻譯為本地的語言。
+by processing messages in .pot or other chinese .po files into
+pre-translated chinese.
 
 %prep
 %setup -q

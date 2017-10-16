@@ -9,7 +9,7 @@ The input file is a template POT file, or a translated PO file for another chine
 Dictionaries are UTF-8 coded text files with the format in each line:
 Source Words|Translated Words
 (Source Words are lower case; Source Words with pre/surfix [-] or ["] for internal use.)
-(Excluded single word: be,being,been,am,are,is,was,were;have,having,has,had)
+(Excluded single word: be, being, been, am, are, is, was, were; have, having, has, had)
 
 Install
 -----------

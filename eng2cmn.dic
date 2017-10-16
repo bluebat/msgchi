@@ -110,6 +110,9 @@ a colon|冒號
 a copy of|的副本
 a couple of minutes|幾分鐘
 a couple of|幾個
+a few hours|幾小時
+a few minutes|幾分鐘
+a few seconds|幾秒鐘
 a file or files|一個或多個檔案
 a group of people|一群人
 a light|輕量
@@ -620,6 +623,7 @@ arcs|圓弧
 arctangent|反正切
 arc|弧
 are going to|將要
+are you ok with that|確定這樣可以嗎
 are you sure that you want to|您確定要
 are you sure you want to|確定要
 are you sure?|您確定嗎？
@@ -775,7 +779,7 @@ atop|置頂
 atsina|阿齊納語
 attachment point|附接點
 attachment|附件
-attach|附加
+attach|附接
 attack time|起音時間
 attack|攻擊
 attain|達到
@@ -1099,6 +1103,7 @@ be patient|耐心等候
 be present|都到位
 be probably a bad idea|可能不是個好主意
 be probably|或許
+be provided as is|係依現狀提供
 be rare|很罕見
 be ready to use|備妥待用
 be remedied by restarting|藉由重新啟動來補救
@@ -1244,6 +1249,7 @@ black level|黑位準
 black metal|黑金屬
 blackletter|花體
 blacklisted|列入黑名單
+blacklist|黑名單
 black|黑色
 blade|刀鋒
 blanchedalmond|杏仁白
@@ -2233,8 +2239,8 @@ confirmed as|確認為
 confirm|確認
 conflict resolution|衝突的解決方式
 conflict|衝突
-conformance|符合性
-conform|符合
+conform to|合乎
+conformance|符合度
 confuse|困惑
 confusion|困惑
 congestion|壅塞
@@ -2264,6 +2270,7 @@ connectivity|連接度
 connector|連接器
 connect|連接
 consecutive|順序的
+consensus|共識
 consent|允諾
 consequential|隨之而來的
 conserve|保存
@@ -2417,7 +2424,7 @@ correctly|正確
 correct|修正
 correlation|相關
 correlator|關連符
-corresponds to|相對於
+corresponds to|相應於
 correspond|相應
 corrigenda|勘誤表
 corrupted|已損壞
@@ -2804,6 +2811,7 @@ deliver|投遞
 demand|請求
 demangle|解讀
 demarshal|除封送
+demo tape|小樣
 democratic|民主
 demodulator|解調器
 demographic|人口統計
@@ -2932,6 +2940,8 @@ dialog|對話框
 dial|撥號
 diameter|直徑
 diamond|鑽石
+diasporas|僑民
+diaspora|散居
 dice|骰子
 dictate|規定
 dictionary|字典
@@ -2976,6 +2986,7 @@ dinosaur|恐龍
 diode|二極體
 direct access|直接存取
 direct connect|直接連接
+direct message|私人訊息
 direct mode|直接存取模式
 direct reference|直接參考
 direct-attached|直接附接式
@@ -3391,6 +3402,7 @@ emergency|緊急
 emission|發射
 emitted|發出
 emoticons|情緒圖案
+emotions|表情符號
 emphasis|強調
 emphasize|強調
 employing|會用到
@@ -3627,6 +3639,7 @@ event-reply|事件回應
 eventually|終於
 event|事件
 even|即使
+ever lost|一旦遺失
 every few minutes|每隔幾分鐘
 every time|每次
 every-other-line|跳線式
@@ -3973,11 +3986,11 @@ first,|首先，
 firstname|名
 first|先
 fish|魚
-fit page to|調整頁面以符合
+fit page to|調整頁面以吻合
 fit the bill|正合所需
-fit to|符合
+fit to|吻合
 fitness|適合
-fit|符合
+fit|吻合
 five|五個
 fixation|定位
 fixed attribute|固定屬性
@@ -4052,9 +4065,7 @@ fold|摺疊
 folk-rock|民歌搖滾
 folklore|民俗音樂
 folk|民歌
-follow a link|跟隨鏈結
 follow the|依循
-followed by|在之後
 followed by|跟隨自
 follower|跟隨者
 following be|下列是
@@ -4067,6 +4078,7 @@ font hint|字型修飾
 font metrics|字型度量
 font size|字型尺寸
 font weight|字型粗細
+fontforge|字型鑄造廠
 fontname|字型名稱
 fontwork|美術字型
 font|字型
@@ -4327,6 +4339,7 @@ gamut|全音階
 gan chinese|漢語贛語
 ganda|干達語
 gangsta|幫派
+gang|幫
 gantry|構臺
 gap|間隙
 garantee|保證
@@ -4440,6 +4453,7 @@ gondi|貢德語
 good luck|祝您好運
 goods|貨物
 good|良好
+gorgeous|華麗的
 gorontalo|哥倫打洛語
 gospel|福音音樂
 gothic rock|哥德搖滾
@@ -4473,7 +4487,7 @@ grantha|加蘭塔文
 grantor|授與者
 grant|授與
 granularities|精細度
-granularity|顆粒性
+granularity|粒度
 granule|精度
 grape|葡萄色
 grapheme|音素
@@ -4655,6 +4669,7 @@ hash function|雜湊函數
 hash mark|井字號
 hash table|雜湊表
 hashemite|哈什米
+hashtag|雜湊標籤
 hash|雜湊
 hassle|困擾
 hatched|包覆
@@ -4787,7 +4802,7 @@ historical|之前
 historic|史蹟的
 history|歷史
 his|他的
-hits|符合項目
+hits|吻合項目
 hittite|西臺語
 hit|點擊
 hmong|苗語
@@ -4977,6 +4992,7 @@ immediate|即時
 immutable|不可變的
 impair|受損
 impedance|阻抗
+impedence|阻抗
 imperial|皇室
 impersonate|假冒
 impersonation|假冒
@@ -5035,6 +5051,7 @@ in last week|上星期
 in line %d|於第 %d 列
 in loop|循環
 in minutes|以分鐘為單位
+in near future|不久
 in new window|在新視窗中
 in next month|下個月
 in next week|下星期
@@ -5061,6 +5078,7 @@ in the first place|起先
 in the future|在未來
 in the hope|是希望
 in the last minute|一分鐘之前
+in the meantime|趁這時
 in the opposite case|反之
 in the past|過去
 in the term|期間內
@@ -5915,7 +5933,7 @@ like|如同
 lilac|淡紫
 limburgan|林堡語
 limbu|林布語
-limegreen|暗綠
+limegreen|檸檬綠
 lime|亮綠
 limitation|限制
 limiter|限制器
@@ -5993,10 +6011,10 @@ lithuania|立陶宛
 little endian|低位在前
 little hole|小洞
 little|小型
-live cd|自生光碟
-live image|自生映像檔
-live media|自生媒體
-live usb|自生閃碟
+live cd|自活光碟
+live image|自活映像檔
+live media|自活媒體
+live usb|自活閃碟
 live|即時
 lo-fi|低傳真
 load balancing|負載平衡
@@ -6342,6 +6360,7 @@ marker|標記
 market place|市場
 marketing|行銷
 markka|芬蘭馬克
+markout|註明
 markup|標記
 mark|標記
 marocco|摩洛哥
@@ -6376,11 +6395,11 @@ mastery|掌控
 master|主
 masthead|報頭
 match brace|使用成對括號
-match prefix|字首須匹配
-match-string|匹配字串
-matches in|項匹配者於
-matches|匹配者
-match|匹配
+match prefix|字首須符合
+match-string|符合字串
+matches in|項目符合者於
+matches|符合者
+match|符合
 material|材料
 math operation|數學運算
 math package|數學套裝模組
@@ -6603,6 +6622,7 @@ minimized|最小化的
 minimize|縮到最小
 minimum version|最低版本
 minimum|最小
+mining|挖礦
 mini|迷你
 minor device|次級裝置
 minor number|次級號碼
@@ -6627,7 +6647,7 @@ miscellaneous|雜項
 miscreant|異端
 misc|雜項
 misleading|誤導
-mismatch|不匹配
+mismatch|不符合
 misordering|誤序
 misorder|序誤的
 misrepresentation|不實表述
@@ -7171,6 +7191,7 @@ notation|記法
 notch|刻度
 note that|要注意的是，
 notebook|筆記型電腦
+noteless|無節點
 notes|記事
 note|註記
 nothing found|找不到任何東西
@@ -8307,6 +8328,7 @@ promulgate|頒布
 proofreading|審閱
 proofstrain|耐應變
 proof|證明
+propagate|傳播
 propagation|傳播
 propeller|螺旋槳
 proper subset|真子集
@@ -8696,7 +8718,7 @@ registry editor|註冊表編輯器
 registry file|註冊表檔案
 registry key|註冊表索引鍵
 registry value|註冊表值
-registry|登錄
+registry|註冊表
 regression|迴歸
 regular expression|正規表示式
 regular|標準
@@ -8779,7 +8801,7 @@ render|潤算
 rendezvous|會合
 rendition|呈現
 renewal|重申
-renew|復始
+renew|續訂
 reopen|重新開啟
 reorder|重新排序
 reorganized|重新安排過的
@@ -8818,7 +8840,7 @@ repository|儲存庫
 repost|重新張貼
 representation|表述
 represent|表述
-reprint|再版
+reprint|復刻
 reproducer|再製器
 reproducible|可再生
 reproduction|再製生產
@@ -9217,6 +9239,7 @@ scanner|掃描器
 scant|缺乏
 scan|掃描
 scenario|情景
+scenenote|場景節點
 scene|場景
 scenic|場景
 scheduled|已排程
@@ -9362,7 +9385,7 @@ self-delimiting|自定界
 self-explanatory|不解自明的
 self-join|自我聯結
 self-reference|自我參考
-self-registration|自我登錄
+self-registration|自行註冊
 self-relative|自行相對
 self-test|自我測試
 selkup|瑟爾卡普語
@@ -9553,7 +9576,8 @@ shortcodes|短碼
 shortcut key|快捷鍵
 shortcut reference|快捷參照
 shortcut|快捷鍵
-shortened|縮短
+shortened|短版
+shortener|縮短器
 shorten|縮短
 shorter than|短於
 shorthand|簡短寫法
@@ -9613,6 +9637,7 @@ sign language|手語
 sign off|簽核
 sign on|簽到
 sign up|報名
+signage|告示
 signal level|信號位準
 signal noise ratio|信噪比
 signal|信號
@@ -9679,6 +9704,7 @@ sinhala|錫蘭僧加羅語
 sinhalese|錫蘭語
 sink|槽
 sino-tibetan|漢藏
+sinophone|漢語封
 sint eustatius|聖尤斯特歇斯
 sint maarten|聖馬丁
 sinusoidal|正弦
@@ -9760,8 +9786,8 @@ smaller than|小於
 smaller|較小
 smallest|最小
 small|小
-smartphone|靈巧型手機
-smart|靈巧
+smartphone|智巧型手機
+smart|智巧
 smiley|表情符號
 smile|微笑
 smoothness|平滑度
@@ -9982,6 +10008,7 @@ spring-loaded|自動開合式的
 spring-sensitive|自動開合式
 springgreen|嫩綠
 springs|彈簧
+sprint|衝刺
 spripper|拼版
 sprocket hole|齒孔
 spurious|偽造的
@@ -10494,7 +10521,7 @@ tail-recursive|尾部遞迴
 tail|尾端
 taiwan, province of china|中華民國
 taiwan|臺灣
-tai|泰語
+tai|台語
 tajikistan|塔吉克
 tajik|塔吉克語
 taka|塔卡
@@ -10514,6 +10541,7 @@ take place|發生
 take screenshot|拍下螢幕快照
 take snapshot|拍下快照
 take some time|花一點時間
+take this time to|利用這段時間去
 take up to|花到
 taken from|取自
 taken|佔用
@@ -10651,6 +10679,7 @@ than|比
 that are|所
 that is,|也就是說，
 that were|受
+that you|您
 that|該
 the answer|答案
 the availability of|能提供多少
@@ -10733,6 +10762,7 @@ this|這個
 thorax|胸腔
 those|那些
 thoughtfully|經過周詳考慮
+thoughtful|考慮周到的
 thought|念頭
 though|雖然
 thousands of|數以千計的
@@ -10856,6 +10886,7 @@ to position|以定位
 to quit|以離開
 to reach|到達
 to select|以選取
+to self|給自己
 to serve as|當做
 to start|啟始
 to stat|顯示狀態
@@ -10924,7 +10955,7 @@ topmost window|最上層顯示視窗
 topology|拓樸
 top|頂
 torpedo|魚雷
-torrent|流
+torrent|訊流
 torus|圓環面
 total capacity|總容量
 total score|總分
@@ -11285,6 +11316,7 @@ united states minor outlying islands|美屬邊疆群島
 united states of america|美利堅合眾國
 united states|美國
 unite|統一
+unity|合意
 unit|單位
 universal|泛用
 university|大學
@@ -11302,7 +11334,7 @@ unlock|解除鎖住
 unmark|取消標記
 unmarshaling|解封送處理
 unmask|取消遮罩
-unmatched|不匹配的
+unmatched|不符合的
 unmet|不相配的
 unmodified|未更動
 unmount|卸載
@@ -11614,8 +11646,8 @@ voided|作廢
 void|虛值
 volapuk|沃拉普克語
 volatile memory|揮發性質記憶體
-volatile-qualified|易失的限定
-volatile|易變的
+volatile-qualified|揮發限定
+volatile|揮發的
 volga river|窩瓦河
 volume creation|卷冊建立日期
 volume down|降低音量
@@ -11671,6 +11703,7 @@ waray|瓦瑞語
 warm|溫暖
 warn|警告
 warp|回轉
+warrant canary|令狀金絲雀
 warranty|擔保
 warrant|保證
 was this intentional|這是有意要如此做的嗎
@@ -11714,6 +11747,7 @@ welcome back|歡迎回來
 welcome to|歡迎使用
 welcome|歡迎
 well done|做得不錯
+well grounded|站得住腳
 well known|廣為人知
 well,|好吧，
 well-formed|形式合宜
@@ -11757,6 +11791,7 @@ white noise|白雜訊
 white paper|白皮書
 white space|空白
 whiteboard|電子白板
+whitelist|白名單
 whiteout|白化
 whitepaper|白皮書
 whitesmoke|白霧色
@@ -11832,6 +11867,7 @@ without -ing|而毋須
 without error|無誤
 without even the implied warranty|亦無暗示的擔保
 without the|而無需
+without warranty of any kind|不附帶任何擔保
 without|而不需
 with|與
 wizard|精靈
