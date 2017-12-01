@@ -1208,6 +1208,7 @@ big|大
 bihari|比哈語
 bikol|比科爾語
 bilateral|雙邊
+bilberry|歐洲藍莓
 bilinear filtering|雙線性過濾
 bilinear|雙線性
 bilingual|雙語言
@@ -2498,6 +2499,7 @@ creek|克里克語
 cree|克里語
 creoles and pidgins|克里奧爾混合語
 creole|克里奧爾語
+crew|人員
 crimean|克里米亞
 criminal|刑事
 crimson|大紅
@@ -3294,6 +3296,7 @@ e-business|電子商務
 e-mail address|電子郵件地址
 e.g.|例如：
 each hour|每小時
+each other|彼此
 each time|每次
 each|每個
 eager|急式
@@ -4132,8 +4135,8 @@ forget to|忘記
 forget|忘記
 forgot|忘記
 forint|福林
-fork process|複刻行程
-fork|複刻
+fork process|叉生行程
+fork|叉生
 form factor|主機板尺寸
 form feed|表格饋送
 form layout|表單佈局
@@ -4730,6 +4733,7 @@ hebrew visual|希伯來語(左至右)
 hebrew|希伯來語
 hebrides|赫布里
 hectare|公頃
+heed|聽從
 height|高度
 held in|存放於
 held|延遲
@@ -4772,7 +4776,7 @@ hieroglyph|象形文字
 high level|高階
 high order bit|高位位元
 high performance cost|耗費大量效能
-high security|高安全性
+high security|高度安全
 high-density|高密度
 high-end|高階
 highend|高階
@@ -6154,8 +6158,8 @@ low german|低地德語
 low level|低階
 low order|低序位
 low pass|低通
-low priority|低的優先權
-low security|低的安全性
+low priority|低度優先
+low security|低度安全
 low-asserted|低插入
 low-level|低階
 low-order|低階
@@ -6991,7 +6995,7 @@ network adapter|網路卡
 network address translation|網路位址轉譯
 network computing|網路運算
 network connection|網路連線
-network connectivity|網路可連接性
+network connectivity|網路可連接度
 network down|網路斷線
 network neighborhood|網路芳鄰
 network port|網路埠
@@ -8258,9 +8262,8 @@ priority over|優先於
 priority|優先權
 prior|事前
 prisoner|囚犯
-privacy policy|隱私權政策
-privacy protection|隱私保護
-privacy|私密性
+privacy policy|隱私政策
+privacy|隱私
 private colormap|個人顏色對照表
 private key|私鑰
 private network|專用網路
@@ -8714,10 +8717,7 @@ registered|已註冊的
 register|註冊
 registration black|混合黑
 registration|註冊
-registry editor|註冊表編輯器
-registry file|註冊表檔案
 registry key|註冊表索引鍵
-registry value|註冊表值
 registry|註冊表
 regression|迴歸
 regular expression|正規表示式
@@ -9010,6 +9010,7 @@ right place|正確地點
 right side|右側
 right single quotation mark|右單引號
 right to left|從右到左
+right to privacy|隱私權
 right-click|右鍵點選
 right-handed|慣用右手
 right-justify|右調
@@ -9284,7 +9285,7 @@ script property|指令稿性質
 scriptable|可編寫指令稿的
 scripting language|指令稿語言
 scripting|指令稿處理
-scriptlet|指令稿片段
+scriptlet|指令單
 script|指令稿
 scroll bar|捲動軸
 scroll by line|逐列捲動
@@ -9338,12 +9339,11 @@ sector-pairwise|區段成對
 sector|磁區
 secure protocol|安全協定
 secure|安全化
-security auditing|安全性稽核
 security concern|安全上的考量
-security enforcement|安全性強制
+security enforcement|強制安全措施
 security level|安全層級
 security risk|安全上的風險
-security token|安全性代表字組
+security token|安全代表字組
 security|安全
 see also|同時參看
 see you later|待會兒見
@@ -10999,6 +10999,7 @@ transaction|異動作業
 transceiver|收發器
 transcoding|轉換碼
 transcribe|抄寫
+transcript|轉錄
 transducer|探頭器
 transfer rate|轉移速率
 transfer-restricted|限制轉移
@@ -11455,7 +11456,7 @@ use as|做為
 use both|同時使用
 use for|用於
 use to|用來
-use-priority|使用者優先權
+use-priority|優先用途
 used file|使用過檔案
 used for|用於
 used in|已用於
