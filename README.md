@@ -13,7 +13,8 @@ Source Words|Translated Words
 
 Install
 -----------
-make; make install
+	make
+	make install
 
 License
 -----------
@@ -34,6 +35,7 @@ Dictionary Reference
 * CMEX 「兩岸資訊及通信術語對照表」
 * 英中繁簡編程術語對照 <http://jjhou.boolan.com/terms.htm>
 * Translation Project <http://translationproject.org/>
+* 曾焯文《粵辭正典》
 
 Author
 ------

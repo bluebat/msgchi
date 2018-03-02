@@ -11,7 +11,7 @@ else
 endif
 
 build:
-	$(LIBDIR)/python3.5/Tools/i18n/pygettext.py -o $(PACKAGE).pot $(PACKAGE).py $(LIBDIR)/python3.5/optparse.py
+	$(LIBDIR)/python3.*/Tools/i18n/pygettext.py -o $(PACKAGE).pot $(PACKAGE).py $(LIBDIR)/python3.5/optparse.py
 	for i in *.po ; do msgfmt $$i -o $${i%.po}.gmo ; done
 
 clean:
