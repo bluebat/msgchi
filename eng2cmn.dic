@@ -65,7 +65,6 @@ access key|快捷鍵
 access log|存取記錄
 access number|存取號碼
 accessory|附屬應用程式
-access permission|存取許可
 access violation|違規存取
 access|存取
 accident|意外
@@ -153,6 +152,7 @@ addend|加數
 adder-subtracter|加減器
 adder|加法器
 add hardware|新增硬體
+addict|上癮者
 adding|加入
 add-ins|增益集
 add-in|增益功能
@@ -309,7 +309,7 @@ allegation|申述
 allegedly|據傳
 allergy|過敏
 alliance|聯盟
-all-in-one|統包
+all-in-one|一體
 all its|它所有的
 allocate memory space for|配置記憶體空間給
 allocate|配置
@@ -491,6 +491,7 @@ appearance|外觀
 appears to|似乎
 appear to|視為
 appear|出現
+appease|安撫
 appendix|附錄
 append|附加
 applet|小程式
@@ -1037,8 +1038,8 @@ be just an|僅僅是一個
 be just a|僅僅是一個
 be just|就
 be kept|被保持
-belarusian|白俄羅斯語
-belarus|白俄羅斯
+belarusian|白羅斯語
+belarus|白羅斯
 belgian franc|比利時法郎
 belgian|比利時語
 belgium|比利時
@@ -1340,6 +1341,7 @@ breach|違背
 breadcrumb|麵包屑
 break apart|打散
 breakdown|分解
+breaker|破壞者
 breakpoint trap|中斷點設陷
 breakpoint|中斷點
 breaks|換列和分頁
@@ -1454,7 +1456,7 @@ by author|依作者設定
 by date|依日期
 by default|按照預設
 by description|依描述
-byelorussian|白俄羅斯
+byelorussian|白羅斯
 by email|依電郵
 bye|再見
 by flag|依旗標
@@ -1954,8 +1956,10 @@ coercion|強制型轉
 coexist|共同存在
 cognitive|認知
 coherence|連貫性
+cohorts|同夥
 coincident|相符的
 coin|錢幣
+co-lay|相容佈局
 colinear|共線
 collaborate|協作
 collaboration|協同作業
@@ -2144,7 +2148,6 @@ concrete|具象的
 concurrency|並行
 concurrent connections|並行連線
 concurrent|並行
-condensed|壓縮
 condense|緊縮
 condensing|濃縮
 conditional compilation|條件式編譯
@@ -2247,6 +2250,7 @@ consumer|消費者
 consume|消耗
 contact info|聯絡資訊
 contact server|連上伺服器
+contact the author|與作者聯絡
 contact us|聯絡我們
 contact your|聯絡您的
 contact|聯絡人
@@ -2658,6 +2662,7 @@ decades|數十年
 decay|衰敗
 decelerate|減速
 december|十二月
+decent|合適的
 deceptive|詐騙的
 decide|決定
 decimal digit|十進數位
@@ -3070,7 +3075,7 @@ dodge|加亮
 dogrib|多格里布語
 dogri|多格拉語
 doing so|如此做
-do it later|稍後再做
+do it later|稍後才做
 dolby|杜比
 dollar sign|錢幣符號
 dollar|幣
@@ -3456,7 +3461,7 @@ entire list|完整的列表
 entire page|整頁
 entire|整個
 entitle|賦名
-entity|個體
+entity|實體
 -en to|到
 entrepreneur|企業家
 entropy|熵
@@ -3595,6 +3600,7 @@ eventually|終於
 event|事件
 even width|對等寬度
 even|即使
+ever-changing|百變
 ever lost|一旦遺失
 everybody|所有人
 everyday|每日
@@ -3654,9 +3660,9 @@ exit code|退離代碼
 exit immediately|立即退離
 exit normally|正常退離
 exit|退離
-expandable|可擴展的
-expand all|全部展開
-expand|展開
+expandable|可伸展的
+expand all|全部伸展
+expand|伸展
 expansion|擴展
 expectation|期望
 expected value|預期值
@@ -3716,9 +3722,9 @@ external label|外標貼
 external page|外部網頁
 external source|外部資料來源
 external|外部
-extracondensed|特壓縮字體
+extracondensed|特緊縮
 extract|抽出
-extraexpanded|特寬型字
+extraexpanded|特伸展
 extra large|特大
 extraneous|外來
 extra-pulse|多出之脈波
@@ -4106,6 +4112,7 @@ for private use only|限私人使用
 for short|簡稱
 for some time now|已有一段時間
 for some time|有一段時間
+for the dust to settle|直到塵埃落定
 for the first time|首次
 for this purpose|為了這個目的
 fortnight|兩週
@@ -4151,7 +4158,7 @@ framework|框架
 frame|影格
 framing error|框架錯誤
 france|法國
-francophone|法語封
+francophone|法語風
 franc|法朗
 frankly|坦白地說
 fraudulent|欺詐
@@ -4326,8 +4333,9 @@ geared toward|目標朝向
 geek|怪傑
 geez|吉兹語
 gender|性別
+general availability|通行
 general delimiter|通用分隔符號
-general entity|通用個體
+general entity|通用實體
 generalized|一般化
 general public license|通用公共授權
 general purpose register|通用暫存器
@@ -4381,6 +4389,7 @@ give up|放棄
 give|賦予
 giving me a hand|助我一臂之力
 glagolitic|格拉哥里字母
+glassy eyes|目光呆滯
 global default|全域預設值
 global name|總體名稱
 global progress|整體進度
@@ -4680,6 +4689,7 @@ header|頁首
 heading|標頭
 headline|頭條
 headphone|耳機
+headquarters|總部
 headset|耳嘜
 heads up|當心
 head|前端
@@ -4862,6 +4872,7 @@ hue|色相
 huge|超大
 huh?|是吧？
 huizhou chinese|漢語徽語
+human-factors|人因
 humanity|人道
 human-readable|容易理解的
 human|人類
@@ -4927,6 +4938,7 @@ if available|如果有的話
 if desired|需要時
 i-field|資訊欄
 if it would work or not|是否它有作用
+if memory serves|如果沒記錯
 if necessary|如果必要的話
 if not, write to|如果沒有則請寫信到
 if not,|如果沒有，
@@ -5025,6 +5037,7 @@ inclined to|傾向於
 include file|包含檔
 include|包含
 inclusion|包含
+incognito|無痕
 income|收入
 incoming call|收信呼叫
 incoming|收到的郵件
@@ -5077,6 +5090,7 @@ indigenous|原住民
 indigo|靛藍
 indirection|間接取值
 indirect|間接
+individuals|個人
 individual|個別
 indivivsibility|不可跨頁
 indo-european languages|印歐諸語言
@@ -5205,7 +5219,7 @@ installed|已安裝的
 installer|安裝程式
 installing|安裝
 install|安裝
-instance number|執行個體數量
+instance number|實例數量
 instance|實例
 instantiated|實例化
 instantiate|舉例說明
@@ -5228,6 +5242,7 @@ instrument the|提供
 instrument|器具
 insufficient memory|記憶體不足
 insufficient|不足的
+insult|嘲弄
 insure|確保
 intact|完整
 integer multiplier|整數倍
@@ -5398,7 +5413,7 @@ isochronous|等時
 isocontour|輪廓面
 isoland|分隔區
 isolate|隔離
-isolation level|隔離等級
+isolation level|隔離層級
 isolation|隔離性
 isometric|等量
 isomorphic|同構
@@ -5774,6 +5789,8 @@ least square|最小平方
 leave behind|留下
 leave empty for|留空表示
 leave group|離開群組
+leave it checked|保持已勾選狀態
+leave it unchecked|保持未勾選狀態
 leaves|樹葉
 leave unchanged|保持不變
 leave|留下
@@ -5840,7 +5857,7 @@ level floor|平面地板
 level number|層次數
 levelsets|關卡組合
 level %s|第 %s 關
-level|等級
+level|層級
 leverage|拼搏
 lever|導桿
 lexer|詞彙分析器
@@ -5880,6 +5897,7 @@ light cyan|淺藍綠色
 lightcyan|淺青綠
 lightened|已減輕
 lighten|照亮
+lighter fluid|打火機油
 lighter|較明
 lightgoldenrodyellow|淺金黃
 light gray|淺灰色
@@ -5964,6 +5982,8 @@ linker|鏈結器
 link set|鏈結集
 link type|鏈結型式
 link|鏈結
+linter|篩檢器
+lint|篩檢
 linux distribution|林納克斯散佈版
 linux only|衹限於林納克斯
 linux|林納克斯
@@ -6007,6 +6027,7 @@ load order|載入順序
 load|載入
 lobe|輪瓣
 local area network|區域網路
+local bus|區間車
 local class|區域類別
 local directory|本機目錄
 locale-dependent|語區依存的
@@ -6031,6 +6052,7 @@ local server|本機伺服器
 local symbol|本機符號
 locals|區域變數
 local-title|區域標題
+local train|區間車
 local variable|區域變數
 local|本地
 located at|位於
@@ -6305,6 +6327,7 @@ manobo languages|馬諾博諸語言
 man page|線上手冊
 man power|人力
 mantissa|尾數
+manual break|手動分隔
 manual feed|手動送紙
 manual help|線上手冊的說明
 manual layout|線上手冊的版面配置
@@ -6364,12 +6387,13 @@ mask layer|圖層遮色片
 mask region|遮罩工作區
 mask|遮罩
 massive|巨大的
+mass production|量産
 mass storage device|大型貯藏裝置
 mass|大量
 master document|主控文件
 master file|主控檔案
 mastering|壓製
-master instance|主控執行個體
+master instance|主控實例
 master key|主控金鑰
 master-line-state|主線路狀態
 master password|主控密碼
@@ -6504,6 +6528,7 @@ mercy|慈悲
 merengue|美倫格風格
 merge|合併
 meridian|子午線
+merkle root|雜湊根值
 meroitic|麥羅埃語
 mesh network|網狀網路
 mesh|網面
@@ -6958,10 +6983,11 @@ neighbour|鄰居
 neither of them|它們都沒有
 nepali|尼泊爾語
 nepal|尼泊爾
+nerd|怪咖
 nested class|巢式類別
 nested structure|巢狀結構
 nested type|巢狀類型
-nesting level|巢式級別
+nesting level|巢式層級
 nest|巢狀
 netbook|小筆電
 netgroup|網路群組
@@ -7063,6 +7089,7 @@ non-blank|非空白
 non-blocking stream|非阻斷式串流
 nonbreaking|不分列
 non-causal|非因果
+nonces|臨時值
 nonce|當前
 non-client|非客戶端
 non-commercial|非商業
@@ -7582,14 +7609,14 @@ overloading|多載
 overload|過載
 overprint|套印
 over-receive|超收
-overrider|強制覆寫項
-override|強制變更
+overrider|凌駕項
+override|凌駕
 overriding|強迫
 overrule|駁回
 overrun|超出
 oversampling|超取樣
 overshoot|越限
-overstrike|覆寫
+overstrike|疊印
 overtime|加班
 overview|概觀
 overwhelm|淹沒
@@ -7621,7 +7648,7 @@ pack|包裝
 padding on|開啟填補
 padding|填補
 pad|填充
-page break|分頁
+page break|分頁符
 page count|頁數
 page down|向下一頁
 paged|置換頁
@@ -7701,7 +7728,6 @@ parallelogram|平行四邊形
 parallel port|並列埠
 parallel|平行
 paramarrays|參數陣列
-parameter entity reference|參數實體參考
 parameter-label|參數標貼
 parameter|參數
 paraplegic|半身麻痺患者
@@ -7821,6 +7847,7 @@ perform|施行
 perhaps|也許
 periodic interest|定期利息
 periodicity|周期性
+periodic table|周期表
 period|周期
 peripheral|周邊
 periwinkle|藍紫
@@ -7829,8 +7856,8 @@ permanent-failure|永久故障
 permanent storage|永久貯藏區
 permanent|永久的
 permissible|可允許的
-permission denied|權限被拒
-permission|權限
+permission denied|未獲許可
+permission|許可
 permit|允許
 permutation|排列
 perpendicular to|垂直於
@@ -7863,6 +7890,7 @@ peso|披索
 pessimistic|封閉式
 petal|花瓣
 petite|小型的
+petition|請願
 phags-pa|八思巴文
 phaistos|費斯托斯文
 phase-locked|鎖相
@@ -7885,11 +7913,11 @@ photometric interpretation|光度計判讀
 photo|相片
 phrase|片語
 phuket|普吉島
-physical block|實體區段
-physical-connection|實體連接
-physical line|實體線路
-physical volume|實體卷冊
-physical|實體
+physical block|物理區段
+physical-connection|物理連接
+physical line|物理線路
+physical volume|物理卷冊
+physical|物理
 physician|醫師
 physics|物理學
 pica|12 點
@@ -8085,6 +8113,7 @@ postfix|後綴
 post-gap|後置間隙
 postgap|後置間隙
 postings|帳目
+postmortem|檢討
 post office protocol|郵局通訊協定
 postpone|擱置
 post processing|後續處理
@@ -8339,7 +8368,7 @@ proprietary|專有權
 protected method|受保護的方法
 protected|保護的
 protect|保護
-protocol class|協定等級
+protocol class|協定級別
 protocol-data-unit|協定資料單元
 protocol-identifier|協定識別符號
 protocoll|協定
@@ -8553,7 +8582,6 @@ read-only file system|唯讀式檔案系統
 read only|唯讀
 readonly|唯讀
 read out|讀出
-read permission|讀取許可權
 read-side|讀取周圍的
 read through|看過
 read-write|可讀可寫
@@ -8655,7 +8683,7 @@ redirection number|轉接號碼
 redirect|重新導向
 redistributable|可再散佈
 redistribute|再次散佈
-redo|重做
+redo|再做
 redraw|重繪
 reduce the window to an icon|將視窗縮成圖示
 reduce|縮小
@@ -9115,7 +9143,7 @@ run in background|在背景執行
 run-length encoding|執行長度編碼
 run-length|運行長度
 run level|執行層次
-runlevel|執行等級
+runlevel|執行層級
 running|執行
 run out of memory|記憶體用完
 runtime checks|執行時檢查
@@ -9335,7 +9363,6 @@ secure protocol|安全協定
 secure|安全化
 security concern|安全上的考量
 security enforcement|強制安全措施
-security level|安全層級
 security risk|安全上的風險
 security token|安全代表字組
 security|安全
@@ -9390,9 +9417,9 @@ semi-automatic|半自動
 semiautomatic|半自動
 semibold|半粗體字
 semicolon|分號
-semicondensed|半壓縮字體
+semicondensed|半緊縮
 semiconductor|半導體
-semiexpanded|半寬型字
+semiexpanded|半伸展
 semilight|半細體字
 semimetal|半金屬
 seminar|研討會
@@ -9436,6 +9463,7 @@ sequential|循序的
 serbian|塞爾維亞語
 serbia|塞爾維亞
 serbo-croatian|塞爾維亞克羅埃西亞語
+serendipity|意外收穫
 serer|塞雷爾語
 serialization|序列化
 serializer|串化器
@@ -9468,6 +9496,7 @@ sesotho|塞索托語
 session id|期間識別碼
 session initiation protocol|通訊啟動協定
 session key|作業階段金鑰
+session layer|會談層
 session name|區段名稱
 session properties|階段作業性質
 session-specific|階段作業特定的
@@ -9488,6 +9517,7 @@ sets|集合
 setter|賦值子
 settings file|設定檔
 settings|設定值
+setting tile|設定圖塊
 setting up|設定
 settled|已結清
 settle|結帳
@@ -9697,7 +9727,7 @@ singular|單
 sinhala|錫蘭僧加羅語
 sinhalese|錫蘭語
 sink|槽
-sinophone|漢語封
+sinophone|漢語風
 sino-tibetan|漢藏
 sint eustatius|聖尤斯特歇斯
 sint maarten|聖馬丁
@@ -9927,6 +9957,7 @@ spanish translation|西班牙語翻譯
 spanish|西屬
 spanish"|西班牙語
 spanned|展開
+spare time|空閒時間
 spare|備用
 sparse|稀疏
 spawn|孵出
@@ -10136,8 +10167,8 @@ still image|靜態影像
 still|仍然
 stimulate|引發
 stitch|縫合
-stock icon|庫存圖示
-stock|存貨
+stock"|存貨
+stock|常備
 stolen|丟失的
 stone|石頭
 stop-go|停止然後繼續執行
@@ -10478,7 +10509,7 @@ system number|系統編號
 system object|系統的物件
 system tray|系統匣
 systemtray|系統匣
-system wide|系統層級
+system wide|系統級別
 system|系統
 systray|系統匣
 tab bar|分頁控制列
@@ -10488,7 +10519,7 @@ table-column|表格欄
 table header|表頭
 table heading|表頭
 table number|表號碼
-table of contents|目錄
+table of contents|目次
 table-row|表格列
 tablet pc|平板電腦
 tablet|標牌
@@ -10611,7 +10642,6 @@ tell|告訴
 telugu|特拉古語
 temperature scale|溫標
 temperature|溫度
-template instantiation|模板具現化
 template|模板
 temporarily|暫時
 temporary directory|暫存目錄
@@ -10656,6 +10686,7 @@ textbox|文字方塊
 text-delimiter|文字分隔符號
 text file|文字檔
 textfile|文字檔案
+text flow|文字排整
 text frame|文字框
 text-only|僅文字
 text selection|文字選取
@@ -10791,7 +10822,7 @@ throw|丟擲
 thumbnail|縮圖
 thumb symbol|縮圖符號
 thumbs|縮圖
-thumb|姆指
+thumb|拇指
 thursday|週四
 thus|因而
 "thu|週四
@@ -11211,8 +11242,8 @@ uigur|回紇語
 ukraine|烏克蘭
 ukrainian|烏克蘭語
 ultrabold|超粗體字
-ultracondensed|超壓縮字體
-ultraexpanded|超寬型字
+ultracondensed|超緊縮
+ultraexpanded|超伸展
 ultralight|超細體
 ultramarine|紺青
 ultrasonic|超音波
@@ -11735,6 +11766,7 @@ we are approaching|即將抵達
 wear out|破損
 weather|天氣
 web address|網址
+webcam|網路攝影機
 webcasting|網路廣播
 web manager|網頁管理者
 web page|網頁
