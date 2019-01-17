@@ -1,15 +1,15 @@
-`-|「
--`|」
-,|，
-,-|、
-;|；
-:|：
 !|！
-?|？
-.|。
-...|…
-...]|…]
 "|
+,-|、
+,|，
+-`|」
+...]|…]
+...|…
+.|。
+:|：
+;|；
+?|？
+`-|「
 18-hole|18 洞
 24 hour|24 小時
 2 nd|第二
@@ -333,7 +333,7 @@ along|沿著
 a lot of|很多的
 alphabetic|字母順序
 alphabet|字母
-alpha blending|透明漸變
+alpha blending|透明混成
 alpha channel|透明色版
 alpha-numeric|文數字
 alphanumeric|文數字
@@ -413,8 +413,8 @@ and set|並且設定
 and soon|不久還有
 and so on|…等等
 and their|與其
-and then|然後
 , and then|，然後
+and then|然後
 and try again|並再次嘗試
 and will|並將
 ,- and|以及
@@ -661,6 +661,7 @@ assumption|假定
 assurance|保證
 assured|確保
 asterisk|星號
+a string of one character|單一字元字串
 astronomical data|天文學資料
 asturian|阿斯圖里亞斯語
 asturleonese|阿斯圖里亞斯語
@@ -876,7 +877,7 @@ backscatter|反向散射
 backslash|反斜線
 backspace|退格
 backstyle|背景樣式
-backtab|向後的定位鍵
+backtab|向後的跳格鍵
 backtick|反引號
 back to|回到
 backtrace|返回
@@ -928,6 +929,7 @@ barbados|巴貝多
 bar chart|長條圖
 barcode|條碼
 bare|裸
+bar graph|長條圖
 bark|樹皮
 barred|遮斷
 barrel|大桶
@@ -1114,7 +1116,8 @@ betters|長輩
 better|更好
 be turned into|被轉換為
 between|介於
-be unknown|不明
+be unable to|無法
+be unknown|未知
 be unsure about|不確定
 be up-to-date|已更新
 be used together|一齊使用
@@ -1186,6 +1189,7 @@ bitrate|碼率
 bitwise|逐位元
 bit|位元
 black and white|黑白
+black font|黑粗字型
 blackletter|花體
 black level|黑位準
 blacklisted|列入黑名單
@@ -1204,7 +1208,7 @@ bleach|漂白
 bleed|榨取
 blended|混色
 blending|混色
-blend|漸變
+blend|混成
 blind copy|密件副本
 blink|閃動
 blin|比林語
@@ -1728,7 +1732,7 @@ character number|字元數
 character offset|字元位移
 character recognition|字元辨識
 character set|字元集
-character string|字元串
+character string|字串
 character type|字元型式
 character|字元
 charactor|字元
@@ -2011,6 +2015,7 @@ columns|欄位
 column width|欄寬
 column-wise|逐欄
 column|欄
+combat|對抗
 combination|組合
 combine|合併
 combining character|組合字元
@@ -2392,6 +2397,8 @@ could|可能
 countdown|倒數
 counter clockwise|逆時針
 counterclockwise|逆時針
+counterfeiting|仿冒
+counterfeit|仿冒品
 counter hint|字腔修飾
 counter mask|字腔遮罩
 countermeasure|對策
@@ -2420,6 +2427,7 @@ cover|封套
 cove|拱形
 cowardly|斗膽
 cow|牛
+cpu affinity|中央處理器親和度
 cracker|駭客
 crackle|爆音
 cram|填塞
@@ -2454,9 +2462,7 @@ criteria|準則
 criterion|條件
 critical error|嚴重錯誤
 critical extension|關鍵副檔名
-critical path|關鍵路徑
-critical section|關鍵區段
-critical|重要
+critical|關鍵
 croatian kuna|克羅埃西亞庫那
 croatian|克羅埃西亞語
 croatia|克羅埃西亞
@@ -2612,6 +2618,7 @@ data cache|資料快取記憶體
 data-circuit|資料線路
 data dictionary|資料辭典
 data element|資料元素
+data frame|資料框
 datagram|資料包
 data integrity|資料完整性
 data packet|數據封包
@@ -2716,6 +2723,7 @@ defend|辯護
 deferred|已延緩
 defer|延緩
 deficiency|缺失
+deficient|匱乏
 defined as|定義為
 define|定義
 definitely|肯定地
@@ -2728,6 +2736,7 @@ deformatter|形變項
 deform|形變
 defragment|磁碟重組
 defrag|清理磁碟
+defunct|失去功能
 degauss|消磁
 degenerate|退化
 degradation|劣化
@@ -2773,6 +2782,7 @@ demo|演示
 demultiplexer|解多工器
 demultiplexing|解多工
 demultiplex|多工解碼
+dendrogram|樹狀圖
 denmark|丹麥
 denominator|分母
 denotation|標誌
@@ -2974,6 +2984,7 @@ discipline|規律
 disclaimer|免責聲明
 disclaim|放棄
 disclose|透露
+disclosure|洩漏
 disconnected|已經結束連線
 disconnect|中斷連線
 discontinous|不連續的
@@ -3354,10 +3365,11 @@ embossed|浮凸
 emboss|浮雕
 embrace|擁抱
 emerald|翡翠
-emergence|出現
+emergence|突現
 emergency|緊急
 emission|發射
 emitted|發出
+emoji|繪文字
 emoticons|情緒圖案
 emotions|表情符號
 emphasis|強調
@@ -3904,6 +3916,7 @@ filter type|濾波器型式
 filter|篩選器
 final angle|最終角度
 finalize|完成
+final line|最終列
 final|最後的
 finances|財務
 financial|金融
@@ -4038,6 +4051,8 @@ follow the|依循
 followup-to|跟貼
 followup|跟隨
 follow|跟隨
+font face|字體
+fontface|字體
 font family|字族
 fontforge|字型鑄造廠
 font hint|字型修飾
@@ -4086,9 +4101,10 @@ forint|福林
 fork process|叉生行程
 fork|叉生
 formal argument|形式引數
+formal definition|形式定義
 formal parameter|形式參數
-formal public identifier|正式公開識別符號
-formal|正規的
+formal public identifier|形式公開識別符號
+formal|形式的
 formatted document|格式化之文件
 formatted file|格式化的檔案
 formatter|格式編排器
@@ -4472,7 +4488,8 @@ graphics card|顯示卡
 graphics|美工繪圖
 graphic|圖形
 graphite|石墨
-graph|圖形
+graph theory|圖論
+graph|圖學
 grass|草地
 gravel|碎石
 grave|抑音符
@@ -4500,6 +4517,7 @@ greenland|格陵蘭
 greenwich mean time|格林威治標準時間
 greenyellow|綠黃
 green|綠色
+greeter|接待程式
 greeting|問候
 grenada|格瑞那達
 grenadine|石榴紅
@@ -4973,6 +4991,7 @@ image|影像
 imaginary|虛數
 imaging|成像
 imbalance|不平衡
+imitation|模仿
 immediate|即時
 immutable|不可變的
 impair|受損
@@ -5115,7 +5134,7 @@ infinite|無限大
 inflection|彎折
 infographic|資訊圖表
 infomercial|試用品廣告
-informal|非正式
+informal|非形式
 informatics|資訊學
 information about|相關資訊
 informational|參考性
@@ -5434,6 +5453,7 @@ italian|義大利語
 italic|斜體
 italy|義大利
 it appears|看來
+it depends|不一定
 itemisation|分項
 itemize|列舉
 item|項目
@@ -5645,6 +5665,7 @@ kit|工具組
 klingon|克林貢語
 kludge around things|打點瑣事
 knife|美工刀
+knot|結
 knowledge base|知識庫
 knowledgebase|知識庫
 knowledge|認知
@@ -5824,6 +5845,7 @@ legal notice|法律注意事項
 legal|合法的
 legend|圖例
 legibility|易讀性
+legitimate|合法
 leg|腿
 leisure|休閒
 lek|列克
@@ -5930,6 +5952,7 @@ light|細體字
 like above|如上
 like it|喜歡它
 likely|似乎
+likewise|而且
 like|如同
 lilac|淡紫
 limburgan|林堡語
@@ -5953,6 +5976,7 @@ line down|下移一列
 line endings|列尾結束符號
 line feed|送列
 linefeed|送列鍵
+line graph|折線圖
 line-in|線入
 line number|列號
 line-out|線出
@@ -6084,6 +6108,7 @@ logical object|邏輯物件
 logical operator|邏輯運算子
 logical partition|邏輯分割區
 logical sector|邏輯區
+logical value|邏輯值
 logical view|邏輯檢視
 logical|邏輯的
 logic error|邏輯錯誤
@@ -6118,6 +6143,7 @@ long form|長式
 longitude|經度
 long-term|長時期
 long term|長期
+long vector|長整數向量
 long|長
 look ahead|期望
 lookahead|期望
@@ -6436,8 +6462,8 @@ maximum|最大
 maximum"|最大值
 max size|最大尺寸
 maxtransfer|最大轉移量
-max|最大
 max.|最大
+max|最大
 may also|也可以
 mayan|馬雅語
 maybe|也許
@@ -6546,7 +6572,7 @@ message source|訊息源
 message store|訊息庫
 message transfer agent|訊息轉移代理
 message|訊息
-messaging service|信息服務
+messaging service|訊息服務
 messaging|傳訊
 mess up|弄亂
 mess|困境
@@ -6585,7 +6611,7 @@ microkernel|微核心
 micronesia|密克羅尼西亞
 microphone|嘜筒
 microprocessor|微處理器
-microprogramming|微程式規劃
+microprogramming|微程式規畫
 microprogram|微程式
 microsoft|Microsoft
 middle click|單擊中鍵
@@ -6652,8 +6678,8 @@ miscellaneous symbols|各式符號
 miscellaneous technical|各式技術符號
 miscellaneous|雜項
 miscreant|異端
-misc|雜項
 misc.|雜項
+misc|雜項
 misleading|誤導
 mismatch|不符合
 misordering|誤序
@@ -6864,7 +6890,7 @@ multipoint|多點
 multiprocessing|多重處理
 multiprocessor|多處理器
 multi-process|多重處理
-multiprogramming|多重規劃
+multiprogramming|多重規畫
 multiselection|多重選取
 multi session|多重區段
 multisession|多重區段
@@ -7203,11 +7229,13 @@ notifier|通告員
 notify|通知
 not implemented|尚未實作
 not installed|尚未安裝
+not interested|不感興趣
 not in use|不在使用中
 notion|觀念
-not known|不明
+not known|未知
 not like|不同於
 not long enough|長度不夠
+not necessarily|未必
 no to all|全部皆否
 not only|不衹
 notorious|惡名昭張的
@@ -7281,6 +7309,7 @@ nyasa|尼亞沙
 nynorsk|耐諾斯克
 nyoro|尼奧羅語
 nzima|尼兹馬語
+obey|遵守
 obfuscate|模糊化
 object code|物件碼
 object detail|物件詳細資訊
@@ -7337,6 +7366,8 @@ offprint|抽印
 offscreen buffer|螢幕關閉的緩衝區
 offset|偏移
 off-the-shelf|現成的
+off topic|離題
+off-topic|題外
 off|關閉
 of itself|其本身的
 often|常常
@@ -7421,6 +7452,8 @@ on the left|左側的
 on the map|地圖上
 on the right|右側的
 on the|在之上
+on topic|切題
+on-topic|話題
 onto|到
 on your behalf|代表您
 on|於
@@ -7607,6 +7640,7 @@ overline|上線
 overloaded function|多載化函式
 overloading|多載
 overload|過載
+overlong|過長
 overprint|套印
 over-receive|超收
 overrider|凌駕項
@@ -7823,6 +7857,7 @@ pel|像素
 penalty|懲罰
 pencil|鉛筆
 pending|擱置
+penetration|滲透
 penultimate|倒數第二
 penumbra|半影
 pen|畫筆
@@ -7930,6 +7965,8 @@ pictogram|圖像文字
 pictograph|圖案
 pictorial|圖象的
 picture|圖片
+pie chart|圓餅圖
+pie graph|圓餅圖
 pie slice|扇形
 pies|圓
 pig|猪
@@ -8229,7 +8266,7 @@ press|按下
 prestore|預儲
 presumably|據推測
 presume|推測
-pretty print|優質列印
+pretty print|美觀印出
 pretty|相當
 prevarication|推諉
 prevent|防止
@@ -8611,7 +8648,7 @@ reassembling|重組
 reassembly|重新組合
 reattach|重新附接
 rebase|重定基底
-reblend|重新漸變
+reblend|重新混成
 reboot|重新開機
 rebuild|重建
 recalculate|重新計算
@@ -8918,6 +8955,7 @@ resolver|解析器
 resolve|解析
 resource allocation|資源配置
 resource|資源
+respectful|表示敬意
 respective|各自的
 responder|回應者
 respond|反應
@@ -9434,6 +9472,7 @@ send to back|移到最下層
 send|發送
 senegal|塞內加爾
 senseless|無意義
+sensible|明智的
 sensitive information|機密資訊
 sensitive|敏感的
 sensitivity|靈敏度
@@ -9684,6 +9723,7 @@ silently|靜默地
 silent mode|無訊息模式
 silent|寂靜的
 silhouette|剪影
+silo|孤立
 silvery-white|銀白色
 silvery|銀色
 silver|銀
@@ -9726,6 +9766,7 @@ singularity|奇異性
 singular|單
 sinhala|錫蘭僧加羅語
 sinhalese|錫蘭語
+sink connection|匯集連接
 sink|槽
 sinophone|漢語風
 sino-tibetan|漢藏
@@ -9848,6 +9889,7 @@ soft|軟式
 sogdian|粟特語
 solarization|曝光
 solarize|日光作用
+soldering|焊接
 sold|販售
 solely|僅限
 solicitation|懇求
@@ -10066,6 +10108,7 @@ staging area|整備區
 staging|整備
 stagnation|停滯
 stained glass|有色玻璃
+stain|玷污
 staircasing|階梯效應
 stairway|樓梯
 stair|樓梯
@@ -10440,6 +10483,7 @@ sweden|瑞典
 swedish krona|瑞典克朗
 swedish|瑞典語
 sweepstakes|賭局
+swift|迅速
 swinging|擺動
 swing|Swing 類別
 swipe from the side|從側邊刷 
@@ -10513,7 +10557,7 @@ system wide|系統級別
 system|系統
 systray|系統匣
 tab bar|分頁控制列
-tab character|定位字元
+tab character|跳格字元
 table body|表格本體
 table-column|表格欄
 table header|表頭
@@ -10525,15 +10569,15 @@ tablet pc|平板電腦
 tablet|標牌
 table|表格
 tabloid|小報紙
-tab order|定位順序
-tab stop|定位停駐點
+tab order|跳格順序
+tab stop|跳格停駐點
 tabs to spaces|跳格轉為空格
 tabs|頁籤
-tabulate|定位
-tabulation|定位
+tabulate|跳格
+tabulation|跳格
 tabulator|排表機
-tab width|定位點寬度
-"tab|定位鍵
+tab width|跳格寬度
+"tab|跳格鍵
 tab|頁標
 tachometer|轉速計
 tagalog|塔加拉語(菲律賓)
@@ -10547,6 +10591,7 @@ tai languages|台語諸語言
 tai le|德宏傣文
 tail-recursive|尾部遞迴
 tail|尾端
+taint|髒污
 tai tham|老傣文
 tai viet|越南傣文
 taiwan, province of china|中華民國
@@ -10593,6 +10638,7 @@ tangut|西夏文
 tanzanian|坦尚尼亞
 tanzania|坦尚尼亞
 tan|正切函數
+tape out|設計定稿
 tape|磁帶
 tapping|觸點
 tap|分接頭
@@ -10718,6 +10764,7 @@ the availability of|能提供多少
 the cause|原因
 the colon|冒號
 the correct|正確
+the first|第一個
 the following|下列
 their|它們的
 the last record|最後一筆
@@ -11150,6 +11197,7 @@ trying to|嘗試
 tryout|試作
 try to|試著
 try|嘗試
+t-shirt|套衫
 tsimshian|欽西安語
 tsonga|宋加語
 tswana|茨瓦納語
@@ -11273,6 +11321,7 @@ uncategorized|未分類的
 unchanged|未變更
 uncheck|取消核取
 unclassified|未分類
+unclear|不明
 uncle|伯叔
 unclump|拆解
 uncoded|未定碼
@@ -11360,9 +11409,9 @@ unit|單位
 universal|泛用
 university|大學
 uni|使用者網路間介面
-unknown escape sequence|不明的逸出序列
-unknown|不明
-unknown"|不明的
+unknown escape sequence|未知的逸出序列
+unknown|未知
+unknown"|未知的
 unless otherwise|除非另外
 unless|除非
 unlikely|不太可能
@@ -11606,6 +11655,7 @@ version-control|版本控制
 versioned|標上版本的
 versioning|定版
 version number|版本編號
+version of windows|Windows 版本
 version|版本
 versus|對上
 vertebrae|脊椎
@@ -11633,7 +11683,7 @@ victim|受災者
 video buffer verifier|視訊緩衝核實器
 video gallery|影片庫
 video in|視訊輸入
-videomessaging|影像信息
+videomessaging|影片訊息
 video-off|視訊關閉
 video-on-demand|隨選視訊
 video out|視訊輸出

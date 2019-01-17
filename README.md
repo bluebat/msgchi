@@ -36,7 +36,8 @@ Dictionary Reference
 * 英中繁簡編程術語對照 <http://jjhou.boolan.com/terms.htm>
 * Translation Project <http://translationproject.org/>
 * 曾焯文《粵辭正典》
+* 邵慧君、甘于恩《粵語詞彙講義》
 
 Author
 ------
-Wei-Lun Chao <bluebat@member.fsf.org>
+趙惟倫(Wei-Lun Chao) <bluebat@member.fsf.org>

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 name = 'msgchi'
-version = '1.1'
+version = '1.2'
 copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2017'
 
 ## This program is free software; you can redistribute it and/or modify
@@ -234,8 +234,8 @@ class Translator:
             content = re.sub(r'\\"([^"]*?)\\"', r'`- \1 -`', content) #replace double quote
             content = re.sub(r'([^ ])`- ', r'\1 `- ', content) #split end quote
             content = re.sub(r' -`([^ ])', r' -` \1', content) #split front quote
-        content = re.sub(r'^(?i)(error occurred while|error occurred on|error while|error when|error) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -Error', content) #relocate head words
-        content = re.sub(r'^(?i)(failed to|failure to|delay before) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -\1', content) #relocate head words
+        content = re.sub(r'(?i)^(error occurred while|error occurred on|error while|error when|error) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -Error', content) #relocate head words
+        content = re.sub(r'(?i)^(failed to|failure to|delay before) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -\1', content) #relocate head words
         if re.search(r', (\w{3,} and |and |\w{3,} or |or |\w{3,}, etc)', content): #replace list comma
             content = re.sub(r', (\w{3,} and |and |\w{3,} or |or |\w{3,}, etc)', r',- \1', content)
             for i in range(content.count(', ')-2):
