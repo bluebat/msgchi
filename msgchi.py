@@ -163,7 +163,7 @@ class Translator:
         while i < len(content):
             notDone = True
             keyHead = content[i]
-            if keyHead in self.dictionary:
+            if keyHead in self.dictionary and keyHead != '"':
                 for j in range(len(self.dictionary[keyHead]),0,-1):
                     key = content[i:i+j]
                     if (len(key) == j) and (key in self.dictionary[keyHead][j-1]):
@@ -253,7 +253,7 @@ class Translator:
         content = re.sub(r' ?([,;:!\?\.]+)( *|\\n)$', r' \1\2', content) #split punctuation at end
         content = re.sub(r'([^ \\\'\._\-A-Za-z\u00c0-\u02af%\$])([A-Za-z\u00c0-\u02af\']{2,})', r'\1 \2', content) #split words at start
         content = re.sub(r'([A-Za-z\u00c0-\u02af\']{2,})([^ _\'\-0-9A-Za-z\u00c0-\u02af%])', r'\1 \2', content) #split words at end
-        content = re.sub(r'([^ "])\\n', r'\1 \\n', content) #split escape sequence at end
+        content = re.sub(r'([^ "]|^ )\\n', r'\1 \\n', content) #split escape sequence at end
         content = re.sub(r'(\\t|\\n|\\\\)([^"\\])', r'\1 \2', content) #split escape sequence at start
         content = re.sub(r'%\( (\w*) \)(\w)', r'%(\1)\2', content) #repair substituted variable
         content = re.sub(r'(>|\]|\)|%[a-z]|%[0-9][a-z]|%\([a-z]*\)[a-z])(, |\. |: |;|\?|!)', r'\1 \2', content) #split others before punctuation
