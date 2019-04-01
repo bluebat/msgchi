@@ -229,7 +229,7 @@ class Translator:
         content = re.sub(r'(?i)\bnot (.*) yet', r'not yet \1', content) #relocate not yet
         content = re.sub(r'(?i)\b(list|number|collection|one) of ([a-z ]{3,}?)s([^\w]+|$)', r'\2s \1 of\3', content) #relocate of plural
         if re.search(r'(`|\'|\\").*?(\'|\\")', content):
-            content = re.sub(r'(`|\')([^\']*?)\'', r'"- \2 -"', content) #replace single quote
+#            content = re.sub(r'(`|\')([^\']*?)\'', r'`- \2 -`', content) #replace single quote
 #            content = re.sub(r'(`|\')([^\']*?)\'', r'\2', content) #remove single quote
             content = re.sub(r'\\"([^"]*?)\\"', r'`- \1 -`', content) #replace double quote
             content = re.sub(r'([^ ])`- ', r'\1 `- ', content) #split end quote
@@ -523,7 +523,9 @@ class PO:
         self.messages[0].msgstr = re.sub(r'MIME-Version: [^\\"]*', r'MIME-Version: 1.0', self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'Content-Type: text/plain; charset=[^\\"]*', r'Content-Type: text/plain; charset=UTF-8', self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'Content-Transfer-Encoding: [^\\"]*', r'Content-Transfer-Encoding: 8bit', self.messages[0].msgstr)
-        if 'Plural-Forms:' not in self.messages[0].msgstr:
+        if 'Plural-Forms:' in self.messages[0].msgstr:
+            self.messages[0].msgstr = re.sub(r'Plural-Forms:: [^\\"]*', r'Plural-Forms: nplurals=1; plural=0;', self.messages[0].msgstr)
+        else:
             self.messages[0].msgstr += '"Plural-Forms: nplurals=1; plural=0;\\n"\n'
         sourceNo = 1
         for message in self.messages[1:]:
