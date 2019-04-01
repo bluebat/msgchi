@@ -65,7 +65,7 @@ class Arguments:
         parser.add_option('-o','--output',dest='outputFile',metavar='FILE',default='',help=_('name of the output file'))
         parser.add_option('-p','--package',dest='package',metavar='NAME-VERSION',default='',help=_('package name and version'))
         parser.add_option('-s','--skip',dest='doSkip',action='store_true',default=False,help=_('skip completed msgid'))
-        parser.add_option('-t','--type',dest='type',metavar='po|php|ini|txt',default='',help=_('message file type'))
+        parser.add_option('-t','--type',dest='type',metavar='po|prg|ini|txt',default='',help=_('message file type'))
         parser.add_option('-w','--wrap',dest='wrap',action='store_true',default=False,help=_('wrap long messages'))
         parser.add_option('-x','--exclude',dest='exclude',metavar='RE',default='',help=_('excluded regular expression'))
         parser.add_option('-X','--xmltag',dest='xmltag',action='store_false',default=True,help=_('text in XML tags not excluded'))
@@ -106,7 +106,7 @@ class Arguments:
                 sys.exit(_('invalid message regular expression %s') % self.opts.expression)
         elif self.opts.type == 'po' or not self.opts.type:
             self.opts.accelerator = self.opts.accelerator if self.opts.accelerator else '_&'
-        elif self.opts.type == 'php':
+        elif self.opts.type == 'prg':
             self.opts.expression = '(^.*=>? ?[\'\"])(.*)([\'\"][^\'\"A-Za-z]*$)'
         elif self.opts.type == 'ini':
             self.opts.expression = '(^[A-Za-z].*=)(.*)($)'
@@ -229,8 +229,8 @@ class Translator:
         content = re.sub(r'(?i)\bnot (.*) yet', r'not yet \1', content) #relocate not yet
         content = re.sub(r'(?i)\b(list|number|collection|one) of ([a-z ]{3,}?)s([^\w]+|$)', r'\2s \1 of\3', content) #relocate of plural
         if re.search(r'(`|\'|\\").*?(\'|\\")', content):
-#            content = re.sub(r'(`|\')([^\']*?)\'', r'"- \2 -"', content) #replace single quote
-            content = re.sub(r'(`|\')([^\']*?)\'', r'\2', content) #remove single quote
+            content = re.sub(r'(`|\')([^\']*?)\'', r'"- \2 -"', content) #replace single quote
+#            content = re.sub(r'(`|\')([^\']*?)\'', r'\2', content) #remove single quote
             content = re.sub(r'\\"([^"]*?)\\"', r'`- \1 -`', content) #replace double quote
             content = re.sub(r'([^ ])`- ', r'\1 `- ', content) #split end quote
             content = re.sub(r' -`([^ ])', r' -` \1', content) #split front quote
@@ -253,11 +253,11 @@ class Translator:
         content = re.sub(r' ?([,;:!\?\.]+)( *|\\n)$', r' \1\2', content) #split punctuation at end
         content = re.sub(r'([^ \\\'\._\-A-Za-z\u00c0-\u02af%\$])([A-Za-z\u00c0-\u02af\']{2,})', r'\1 \2', content) #split words at start
         content = re.sub(r'([A-Za-z\u00c0-\u02af\']{2,})([^ _\'\-0-9A-Za-z\u00c0-\u02af%])', r'\1 \2', content) #split words at end
-        content = re.sub(r'([^ "]|^ )\\n', r'\1 \\n', content) #split escape sequence at end
+        content = re.sub(r'([^ "]|^[ a])\\n', r'\1 \\n', content) #split escape sequence at end
         content = re.sub(r'(\\t|\\n|\\\\)([^"\\])', r'\1 \2', content) #split escape sequence at start
         content = re.sub(r'%\( (\w*) \)(\w)', r'%(\1)\2', content) #repair substituted variable
         content = re.sub(r'(>|\]|\)|%[a-z]|%[0-9][a-z]|%\([a-z]*\)[a-z])(, |\. |: |;|\?|!)', r'\1 \2', content) #split others before punctuation
-        content = re.sub(r'%\{ (\w*) \}', r'%{\1}', content) #repair substituted variable for .spec
+        content = re.sub(r'\{ (\w*) \}', r'{\1}', content) #repair substituted variable
         content = re.sub(r'& ([a-z]{2,}) ;', r'&\1;', content) #repair html mark
         content = content.split(' ')
         result, i, onceDone, contentHead, lastSign, mapped = '', 0, True, '', -1, True
@@ -463,7 +463,9 @@ class PO:
                 message.msgstr = line
                 section = 'MSGSTR'
             elif line.startswith('"'):
-                if section == 'MSGID':
+                if section == 'MSGCTXT':
+                    message.msgctxt = message.msgctxt[:message.msgctxt.rfind('"')] + line[line.find('"')+1:]
+                elif section == 'MSGID':
                     message.msgid = message.msgid[:message.msgid.rfind('"')] + line[line.find('"')+1:]
                 elif section == 'MSGID_PLURAL':
                     message.msgid_plural = message.msgid_plural[:message.msgid_plural.rfind('"')] + line[line.find('"')+1:]
@@ -631,7 +633,7 @@ class MSG:
                     sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                 message.msgstr += translator.chi2chi(sourceId)
             if arguments.opts.doKeep and message.msgid and message.msgstr != message.msgid:
-                if arguments.opts.type == 'php':
+                if arguments.opts.type == 'prg':
                     message.tail = message.tail.strip('\n') + ' //' + message.msgid + '\n'
                 else:
                     message.tail += '# ' + message.msgid + '\n'
