@@ -524,7 +524,7 @@ class PO:
         self.messages[0].msgstr = re.sub(r'Content-Type: text/plain; charset=[^\\"]*', r'Content-Type: text/plain; charset=UTF-8', self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'Content-Transfer-Encoding: [^\\"]*', r'Content-Transfer-Encoding: 8bit', self.messages[0].msgstr)
         if 'Plural-Forms:' in self.messages[0].msgstr:
-            self.messages[0].msgstr = re.sub(r'Plural-Forms:: [^\\"]*', r'Plural-Forms: nplurals=1; plural=0;', self.messages[0].msgstr)
+            self.messages[0].msgstr = re.sub(r'Plural-Forms: [^\\"]*', r'Plural-Forms: nplurals=1; plural=0;', self.messages[0].msgstr)
         else:
             self.messages[0].msgstr += '"Plural-Forms: nplurals=1; plural=0;\\n"\n'
         sourceNo = 1
