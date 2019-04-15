@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 name = 'msgchi'
-version = '1.2'
-copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2017'
+version = '1.3'
+copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2019'
 
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -171,7 +171,8 @@ class Translator:
                             value = self.dictionary['"'][j+1]['"'+key+'"']
                         elif '"' in self.dictionary and i == 0 and j<len(self.dictionary['"']) and '"'+key in self.dictionary['"'][j]: #BOL
                             value = self.dictionary['"'][j]['"'+key]
-                        elif i+j == len(content) and j<len(self.dictionary[keyHead]) and key+'"' in self.dictionary[keyHead][j]: #EOL
+                        elif (i+j == len(content) or ord(content[i+j])<13312 or ord(content[i+j])>40959) and j<len(self.dictionary[keyHead]) and key+'"' in self.dictionary[keyHead][j]: #EOL
+#                        elif i+j == len(content) and j<len(self.dictionary[keyHead]) and key+'"' in self.dictionary[keyHead][j]: #EOL
                             value = self.dictionary[keyHead][j][key+'"']
                         else:
                             value = self.dictionary[keyHead][j-1][key]
@@ -220,7 +221,7 @@ class Translator:
     def eng2chi(self, content):
         if arguments.opts.exclude:
             content = re.sub(arguments.opts.exclude, r'', content) #remove excluded RE
-        content = content.replace("’","'").replace("annot","an not")
+        content = content.replace("’","'").replace("annot","an not").replace("\u2026","...")
         if re.search(r'\'', content):
             content = content.replace("I'm","I am").replace("an't","an not").replace("n't"," not").replace("'re"," are").replace("ou've","ou have").replace("I've","I have")
         content = re.sub(r'(Do |Does )([^\?]*[^\? ]) ?\?', r'\2 -do ?', content) #relocate do
@@ -229,7 +230,7 @@ class Translator:
         content = re.sub(r'(?i)\bnot (.*) yet', r'not yet \1', content) #relocate not yet
         content = re.sub(r'(?i)\b(list|number|collection|one) of ([a-z ]{3,}?)s([^\w]+|$)', r'\2s \1 of\3', content) #relocate of plural
         if re.search(r'(`|\'|\\").*?(\'|\\")', content):
-#            content = re.sub(r'(`|\')([^\']*?)\'', r'`- \2 -`', content) #replace single quote
+            content = re.sub(r'(`|\')([^\']*?)\'', r'`- \2 -`', content) #replace single quote
 #            content = re.sub(r'(`|\')([^\']*?)\'', r'\2', content) #remove single quote
             content = re.sub(r'\\"([^"]*?)\\"', r'`- \1 -`', content) #replace double quote
             content = re.sub(r'([^ ])`- ', r'\1 `- ', content) #split end quote
@@ -254,11 +255,13 @@ class Translator:
         content = re.sub(r'([^ \\\'\._\-A-Za-z\u00c0-\u02af%\$])([A-Za-z\u00c0-\u02af\']{2,})', r'\1 \2', content) #split words at start
         content = re.sub(r'([A-Za-z\u00c0-\u02af\']{2,})([^ _\'\-0-9A-Za-z\u00c0-\u02af%])', r'\1 \2', content) #split words at end
         content = re.sub(r'([^ "]|^[ a])\\n', r'\1 \\n', content) #split escape sequence at end
-        content = re.sub(r'(\\t|\\n|\\\\)([^"\\])', r'\1 \2', content) #split escape sequence at start
-        content = re.sub(r'%\( (\w*) \)(\w)', r'%(\1)\2', content) #repair substituted variable
+        content = re.sub(r'(\\t|\\n|\\\\|\\\\\\t)([^"\\])', r'\1 \2', content) #split escape sequence at start
+        content = re.sub(r'%\( (\w*) \)([disu])', r'%(\1)\2', content) #repair substituted variable
         content = re.sub(r'(>|\]|\)|%[a-z]|%[0-9][a-z]|%\([a-z]*\)[a-z])(, |\. |: |;|\?|!)', r'\1 \2', content) #split others before punctuation
         content = re.sub(r'\{ (\w*) \}', r'{\1}', content) #repair substituted variable
+        content = re.sub(r'%([\-\.0-9]{0,3}) ([flu]{1,3})', r'%\1\2', content) #repair substituted variable
         content = re.sub(r'& ([a-z]{2,}) ;', r'&\1;', content) #repair html mark
+        content = re.sub(r'([a-z_A-Z]{4,}) (\(\)[ ,;:$])', r'\1\2', content) #repair function name
         content = content.split(' ')
         result, i, onceDone, contentHead, lastSign, mapped = '', 0, True, '', -1, True
         while i < len(content):
@@ -282,7 +285,8 @@ class Translator:
                             value = self.dictionary['"'][j+1][('"',)+key+('"',)]
                         elif '"' in self.dictionary and i == 0 and j<len(self.dictionary['"']) and ('"',)+key in self.dictionary['"'][j]: #BOL
                             value = self.dictionary['"'][j][('"',)+key]
-                        elif i+j == len(content) and j<len(self.dictionary[keyHead]) and key+('"',) in self.dictionary[keyHead][j]: #EOL
+                        elif (i+j == len(content) or re.match(r'[^A-Za-z]',content[i+j])) and j<len(self.dictionary[keyHead]) and key+('"',) in self.dictionary[keyHead][j]: #EOL
+#                        elif i+j == len(content) and j<len(self.dictionary[keyHead]) and key+('"',) in self.dictionary[keyHead][j]: #EOL
                             value = self.dictionary[keyHead][j][key+('"',)]
                         else:
                             value = self.dictionary[keyHead][j-1][key]
@@ -378,7 +382,8 @@ class Translator:
                     onceDone = True
                     lastSign = -1
                 else:
-                    if '(_' in keyHead or '(&' in keyHead or '()' in keyHead or keyHead[0] in ')]}<>\\/=.:|@+':
+#                    if '(_' in keyHead or '(&' in keyHead or '()' in keyHead or keyHead[0] in ')]}<>\\/=.:|@+':
+                    if keyHead.startswith('(_') or keyHead.startswith('(&') or keyHead.startswith('()') or keyHead[0] in ')]}<>\\/=.:|@+':
                         result += contentHead
                     else:
                         result += ' '+contentHead if lastSign>=0 else contentHead

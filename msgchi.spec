@@ -1,5 +1,5 @@
 Name:		msgchi
-Version:	1.2
+Version:	1.3
 Release:	1
 Summary:	Translating messages from template files to chinese
 License:	GPL, PD
@@ -33,8 +33,7 @@ make DESTDIR=%{buildroot} install
 %{_mandir}/man1/*
 
 %changelog
-* Thu Jan 17 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 1.2
-- Update to 1.2
-
+* Mon Apr 15 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 1.3
+- Update to 1.3
 * Wed Jun 07 2017 Wei-Lun Chao <bluebat@member.fsf.org> - 1.0
 - First release
