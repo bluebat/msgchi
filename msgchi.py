@@ -172,11 +172,10 @@ class Translator:
                         elif '"' in self.dictionary and i == 0 and j<len(self.dictionary['"']) and '"'+key in self.dictionary['"'][j]: #BOL
                             value = self.dictionary['"'][j]['"'+key]
                         elif (i+j == len(content) or ord(content[i+j])<13312 or ord(content[i+j])>40959) and j<len(self.dictionary[keyHead]) and key+'"' in self.dictionary[keyHead][j]: #EOL
-#                        elif i+j == len(content) and j<len(self.dictionary[keyHead]) and key+'"' in self.dictionary[keyHead][j]: #EOL
                             value = self.dictionary[keyHead][j][key+'"']
                         else:
                             value = self.dictionary[keyHead][j-1][key]
-                        if value:
+                        if value: #not empty
                             if ord(value[0]) == 12295 or 13312 <= ord(value[0]) <= 40959:
                                 result += ' '+value if lastSign>0 else value
                             else:
@@ -286,7 +285,6 @@ class Translator:
                         elif '"' in self.dictionary and i == 0 and j<len(self.dictionary['"']) and ('"',)+key in self.dictionary['"'][j]: #BOL
                             value = self.dictionary['"'][j][('"',)+key]
                         elif (i+j == len(content) or re.match(r'[^A-Za-z]',content[i+j])) and j<len(self.dictionary[keyHead]) and key+('"',) in self.dictionary[keyHead][j]: #EOL
-#                        elif i+j == len(content) and j<len(self.dictionary[keyHead]) and key+('"',) in self.dictionary[keyHead][j]: #EOL
                             value = self.dictionary[keyHead][j][key+('"',)]
                         else:
                             value = self.dictionary[keyHead][j-1][key]
@@ -398,13 +396,13 @@ class PO:
     class Message:
         def __init__(self):
             self.comments = []
-            self.fuzzy = bool()
+            self.fuzzy = False
             self.domain = ''
             self.msgctxt = ''
             self.msgid = ''
             self.msgid_plural = ''
             self.msgstr = ''
-            self.obsolete = bool()
+            self.obsolete = False
         def output(self):
             if re.search(r'\\n([^"\\])', self.msgid):
                 self.msgid = re.sub(r'^(msgid)\s', r'\1 ""\n', self.msgid)
