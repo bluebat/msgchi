@@ -86,8 +86,8 @@ msgstr "找不到輸入檔 %s"
 msgid "Unformated entry: %s (use | as separator)"
 msgstr "未格式化的條目：%s (使用 | 做為分隔符號)"
 
-msgid "Error reading input files. Not UTF-8 encoded?"
-msgstr "讀取輸入檔時發生錯誤。並非 UTF-8 編碼？"
+msgid "Error reading %s. Not UTF-8 encoded?"
+msgstr "讀取 %s 時發生錯誤。並非 UTF-8 編碼？"
 
 msgid "no such option: %s"
 msgstr "無此選項：%s"

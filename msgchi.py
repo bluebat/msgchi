@@ -228,14 +228,14 @@ class Translator:
         content = re.sub(r'(?i)\bno (.*) found', r'not found any \1', content) #relocate no found
         content = re.sub(r'(?i)\bnot (.*) yet', r'not yet \1', content) #relocate not yet
         content = re.sub(r'(?i)\b(list|number|collection|one) of ([a-z ]{3,}?)s([^\w]+|$)', r'\2s \1 of\3', content) #relocate of plural
+        content = re.sub(r'(?i)^(error occurred while|error occurred on|error while|error when|error) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -Error', content) #relocate head words
+        content = re.sub(r'(?i)^(failed to|failure to|delay before) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -\1', content) #relocate head words
         if re.search(r'(`|\'|\\").*?(\'|\\")', content):
             content = re.sub(r'(`|\')([^\']*?)\'', r'`- \2 -`', content) #replace single quote
 #            content = re.sub(r'(`|\')([^\']*?)\'', r'\2', content) #remove single quote
             content = re.sub(r'\\"([^"]*?)\\"', r'`- \1 -`', content) #replace double quote
             content = re.sub(r'([^ ])`- ', r'\1 `- ', content) #split end quote
             content = re.sub(r' -`([^ ])', r' -` \1', content) #split front quote
-        content = re.sub(r'(?i)^(error occurred while|error occurred on|error while|error when|error) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -Error', content) #relocate head words
-        content = re.sub(r'(?i)^(failed to|failure to|delay before) ([ %\w\-\(\)`\'"_&]*[\w\)\'"])', r'\2 -\1', content) #relocate head words
         if re.search(r', (\w{3,} and |and |\w{3,} or |or |\w{3,}, etc)', content): #replace list comma
             content = re.sub(r', (\w{3,} and |and |\w{3,} or |or |\w{3,}, etc)', r',- \1', content)
             for i in range(content.count(', ')-2):
@@ -665,7 +665,7 @@ if __name__ == '__main__':
         try:
             handleIn.readIn(inputFile)
         except:
-            sys.exit(_('Error reading input files. Not UTF-8 encoded?'))
+            sys.exit(_('Error reading %s. Not UTF-8 encoded?') % inputFile)
         if handleIn.messages:
             handleIn.translate()
         handleIn.writeOut()
