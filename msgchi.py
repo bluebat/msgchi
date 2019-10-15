@@ -54,7 +54,7 @@ class Knowns:
 class Arguments:
     def __init__(self):
         parser = optparse.OptionParser(usage=_('%prog [options] [input files]')+'\nv'+version+', '+copyright,formatter=MyHelpFormatter())
-        parser.add_option('-a','--accelerator',dest='accelerator',metavar='""|_|&',default='',help=_('define keyboard accelerator'))
+        parser.add_option('-a','--accelerator',dest='accelerator',metavar='""|_|&|"~"',default='',help=_('define keyboard accelerator'))
         parser.add_option('-c','--credit',dest='credit',metavar='"NAME <EMAIL>"',default=knowns.credit,help=_('credit of the translator'))
         parser.add_option('-d','--dictionary',dest='dicFile',action='append',metavar='FILE',default=[],help=_('name of the dictionary file'))
         parser.add_option('-e','--expression',dest='expression',metavar='"(^)(.*)($)"',default='',help=_('message regular expression'))
@@ -109,11 +109,11 @@ class Arguments:
         elif self.opts.type == 'prg':
             self.opts.expression = '(^.*=>? ?[\'\"])(.*)([\'\"][^\'\"A-Za-z]*$)'
         elif self.opts.type == 'ini':
-            self.opts.expression = '(^[A-Za-z].*=)(.*)($)'
+            self.opts.expression = '(^[_A-Za-z].*= *)(.*)($)'
         elif self.opts.type == 'txt':
             self.opts.expression = '(^)(.*)($)'
-        elif self.opts.type == 'ts' and self.opts.lang[:3] != 'eng':
-            self.opts.expression = '(^\s*<translation>)(.*)(</translation>$)'
+#        elif self.opts.type == 'ts' and self.opts.lang[:3] != 'eng':
+#            self.opts.expression = '(^\s*<translation>)(.*)(</translation>$)'
         else:
             sys.exit(_('invalid message file type %s') % self.opts.type)
         if self.pars:
@@ -250,6 +250,9 @@ class Translator:
             if '&' in arguments.opts.accelerator and re.match(r'(&[A-Za-z]|[^&]*[A-Za-z]&|[^&]*\W&[A-Za-z])[Ka-z][^&]*$', content) and re.search(r'[A-Z]', content):
                 replacement = r'\1\2 (&'+content[content.find('&')+1].upper()+')'
                 content = re.sub(r'&([A-Za-z])([^<>\?:,;\.\\]*)', replacement, content) #relocate shortcut key
+            if '~' in arguments.opts.accelerator and re.match(r'(~[A-Za-z]|[^~]*[A-Za-z]~|[^~]*\W~[A-Za-z])[Ka-z][^~]*$', content) and re.search(r'[A-Z]', content):
+                replacement = r'\1\2 (~'+content[content.find('~')+1].upper()+')'
+                content = re.sub(r'~([A-Za-z])([^<>\?:,;\.\\]*)', replacement, content) #relocate shortcut key
         content = re.sub(r' ?([,;:!\?\.]+)( *|\\n)$', r' \1\2', content) #split punctuation at end
         content = re.sub(r'([^ \\\'\._\-A-Za-z\u00c0-\u02af%\$])([A-Za-z\u00c0-\u02af\']{2,})', r'\1 \2', content) #split words at start
         content = re.sub(r'([A-Za-z\u00c0-\u02af\']{2,})([^ _\'\-0-9A-Za-z\u00c0-\u02af%])', r'\1 \2', content) #split words at end
@@ -380,8 +383,7 @@ class Translator:
                     onceDone = True
                     lastSign = -1
                 else:
-#                    if '(_' in keyHead or '(&' in keyHead or '()' in keyHead or keyHead[0] in ')]}<>\\/=.:|@+':
-                    if keyHead.startswith('(_') or keyHead.startswith('(&') or keyHead.startswith('()') or keyHead[0] in ')]}<>\\/=.:|@+':
+                    if keyHead.startswith('(_') or keyHead.startswith('(&') or keyHead.startswith('(~') or keyHead.startswith('()') or keyHead[0] in ')]}<>\\/=.:|@+':
                         result += contentHead
                     else:
                         result += ' '+contentHead if lastSign>=0 else contentHead

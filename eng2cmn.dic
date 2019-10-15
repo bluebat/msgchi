@@ -131,6 +131,7 @@ active document|主動式文件
 active-line-state|現用線路狀態
 actively|主動
 active state|作用狀態
+actives|動態
 active title bar|現用視窗標題列
 active|現用
 activity slot|活動項目
@@ -1291,6 +1292,7 @@ bluetooth|藍牙
 blueviolet|藍紫
 blue|藍色
 blurb|推薦語
+blurry|模糊的
 blur|模糊
 boardcode|字碼板
 board size|棋盤大小
@@ -2170,6 +2172,7 @@ complex|複雜
 compliance|規範遵循
 compliant|相容
 complicated|複雜
+complimentary close|結尾敬語
 comply|遵守
 component name|組件名稱
 component selector|組件選取器
@@ -2493,6 +2496,7 @@ cove|拱形
 cowardly|斗膽
 cow|牛
 cpu affinity|中央處理器親和度
+cpu bracket|中央處理器支架
 cracker|駭客
 crackle|爆音
 cram|填塞
@@ -3017,6 +3021,7 @@ dimension|尺寸
 dimgray|暗灰
 diminish|減損
 dimmed|暗灰色的
+dimming|暗淡
 dim|調暗
 dinar|戴納
 dingbats|裝飾符號
@@ -4114,7 +4119,6 @@ flexible|多變
 flex|屈曲
 flicker|閃爍
 flip-flop|正反器
-flipped|不穩的
 flip|翻轉
 floating constant|浮點常數
 floating element|浮動元素
@@ -4739,7 +4743,7 @@ handler|處理常式
 handle the|處理
 handle|控柄
 handling|處理
-handouts|講義
+handout|講義
 hand set|手持裝置
 handshake|交握
 handshaking|交握協定
@@ -5321,6 +5325,7 @@ initialize|初始化
 initials|縮寫
 initial|初始
 initiate|啟動
+initiation|初始化
 initiator|初始器
 in it|其中
 injected dose|注射劑量
@@ -5445,6 +5450,8 @@ integration|整合
 integrator|積分器
 integrity|正直
 intellectual property|智能財產
+intelligent crime|智能型犯罪
+intelligent criminal|智能型罪犯
 intelligent|智能
 intended for|適用於
 intended purpose|預定目的
@@ -6144,8 +6151,8 @@ limiter|限制器
 limits|限度
 limit|限制
 line and the following|這列以下
-linear a|甲系線性文
-linear b|乙系線性文
+linear a|線形文字 A
+linear b|線形文字 B
 lineart|線圖
 linear|線性
 line-breaking-method|分列方法
@@ -6446,6 +6453,7 @@ mailer|郵件程式
 mailing list|郵遞論壇
 mailing|郵寄
 mail merge|合併列印
+mailstop|收發室
 mailto|郵寄到
 mail user agent|郵件使用者代理程式
 mail|郵件
@@ -6634,6 +6642,7 @@ math operation|數學運算
 math|數學
 matrix|矩陣
 matters to you|與您有關的
+matter|事情
 matte|色版
 maturity|成熟度
 maurette|明紫
@@ -7549,6 +7558,7 @@ objects with the same name|同名物件
 object tree|物件樹狀結構
 object types|物件型式
 object|物件
+obligatory note|義務提醒
 oblique|傾斜的
 obscene|猥褻
 observation|觀察
@@ -8356,6 +8366,8 @@ porting|移植
 portion|部分
 portmapper|通訊埠映射器
 port number|埠號
+portrait left|螢幕向左轉直
+portrait right|螢幕向右轉直
 "portrait|直印
 portrait|肖像
 port specification|埠規格
@@ -9173,6 +9185,7 @@ request|請求
 required attribute|必要的屬性
 required field|必填欄位
 required permission|所需的許可
+required pressure timeout|壓力達標等候時間
 required|必要項
 requirement|需求
 requires an argument|需要一個引數
@@ -9812,7 +9825,7 @@ service-user|服務使用者
 service|服務
 sesotho|塞索托語
 session id|期間識別碼
-session initiation protocol|通訊啟動協定
+session initiation protocol|通訊初始化協定
 session key|作業階段金鑰
 session layer|會談層
 session name|區段名稱
@@ -10135,6 +10148,7 @@ smaller|較小
 smallest|最小
 small memory model|小型記憶體式樣
 small|小
+smart phone|智巧型手機
 smartphone|智巧型手機
 smart|智巧
 smiley|表情符號
@@ -10612,6 +10626,7 @@ subfield|子欄位
 subfile|子檔案
 subfolder|子資料夾
 subformula|子公式
+subform|子表單
 subgroup|次群組
 subgrove|子樹叢
 subitems|子項目
@@ -11774,6 +11789,8 @@ unpin|鬆開
 unplugged|未插入
 unplug|拔出
 unpredictability|不可預測性
+unprotected|已取消保護的
+unprotect|取消保護
 unpublished|尚未發行
 unpunched|無孔的
 unqualified type|非限定型式
