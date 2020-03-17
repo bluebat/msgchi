@@ -31,12 +31,19 @@ Program Reference
 
 Dictionary Reference
 --------------------
-* CPATCH <http://glossary.pank.org/>
-* CMEX 「兩岸資訊及通信術語對照表」
-* 英中繁簡編程術語對照 <http://jjhou.boolan.com/terms.htm>
-* Translation Project <http://translationproject.org/>
-* 曾焯文《粵辭正典》
-* 邵慧君、甘于恩《粵語詞彙講義》
+* eng2cmn
+	* CPATCH <http://glossary.pank.org/>
+	* CMEX 「兩岸資訊及通信術語對照表」
+	* 英中繁簡編程術語對照 <http://jjhou.boolan.com/terms.htm>
+	* Translation Project <http://translationproject.org/>
+* cmn2yue
+	* 曾焯文《粵辭正典》
+	* 邵慧君、甘于恩《粵語詞彙講義》
+	* 陳雄根、張錦少《粵語詞匯溯源》
+* cmn2nan
+	* 教育部臺灣閩南語常用詞辭典 <https://twblg.dict.edu.tw/holodict_new/default.jsp>
+	* 潘科元台語文理想國 <https://blog.xuite.net/khoguan/blog>
+	* 愛台語 <https://itaigi.tw/>
 
 Author
 ------

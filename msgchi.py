@@ -222,7 +222,7 @@ class Translator:
             content = re.sub(arguments.opts.exclude, r'', content) #remove excluded RE
         content = content.replace("’","'").replace("annot","an not").replace("\u2026","...")
         if re.search(r'\'', content):
-            content = content.replace("I'm","I am").replace("an't","an not").replace("n't"," not").replace("'re"," are").replace("ou've","ou have").replace("I've","I have")
+            content = content.replace("I'm","I am").replace("won't","will not").replace("an't","an not").replace("n't"," not").replace("'re"," are").replace("ou've","ou have").replace("I've","I have")
         content = re.sub(r'(Do |Does )([^\?]*[^\? ]) ?\?', r'\2 -do ?', content) #relocate do
         content = re.sub(r'([%\w][ %\w\-]*) not found([^ \w]+|$)', r'not found \1 \2', content) #relocate not found
         content = re.sub(r'(?i)\bno (.*) found', r'not found any \1', content) #relocate no found
