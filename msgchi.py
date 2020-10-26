@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 name = 'msgchi'
-version = '1.3'
-copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2019'
+version = '1.4'
+copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2020'
 
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -58,13 +58,14 @@ class Arguments:
         parser.add_option('-c','--credit',dest='credit',metavar='"NAME <EMAIL>"',default=knowns.credit,help=_('credit of the translator'))
         parser.add_option('-d','--dictionary',dest='dicFile',action='append',metavar='FILE',default=[],help=_('name of the dictionary file'))
         parser.add_option('-e','--expression',dest='expression',metavar='"(^)(.*)($)"',default='',help=_('message regular expression'))
-        parser.add_option('-k','--keep',dest='doKeep',action='store_true',default=False,help=_('keep translated msgstr'))
+        parser.add_option('-F','--fuzzyfree',dest='fuzzyfree',action='store_true',default=False,help=_('force message fuzzy-free'))
+        parser.add_option('-k','--keep',dest='keep',action='store_true',default=False,help=_('keep translated msgstr'))
         parser.add_option('-l','--language',dest='lang',metavar='ABC2XYZ',default='',help=_('source and target languages'))
-        parser.add_option('-m','--mapped',dest='doMapped',action='store_true',default=False,help=_('full-mapped messages only'))
-        parser.add_option('-n','--msgno',dest='doMsgno',action='store_true',default=False,help=_('number all messages'))
+        parser.add_option('-m','--mapped',dest='mapped',action='store_true',default=False,help=_('full-mapped messages only'))
+        parser.add_option('-n','--msgno',dest='msgno',action='store_true',default=False,help=_('number all messages'))
         parser.add_option('-o','--output',dest='outputFile',metavar='FILE',default='',help=_('name of the output file'))
         parser.add_option('-p','--package',dest='package',metavar='NAME-VERSION',default='',help=_('package name and version'))
-        parser.add_option('-s','--skip',dest='doSkip',action='store_true',default=False,help=_('skip completed msgid'))
+        parser.add_option('-s','--skip',dest='skip',action='store_true',default=False,help=_('skip completed msgid'))
         parser.add_option('-t','--type',dest='type',metavar='po|prg|ini|txt',default='',help=_('message file type'))
         parser.add_option('-w','--wrap',dest='wrap',action='store_true',default=False,help=_('wrap long messages'))
         parser.add_option('-x','--exclude',dest='exclude',metavar='RE',default='',help=_('excluded regular expression'))
@@ -201,7 +202,7 @@ class Translator:
                     if not keyHead.isupper():
                         mapped = False
                 i += 1
-        return '' if arguments.opts.doMapped and not mapped else result
+        return '' if arguments.opts.mapped and not mapped else result
     def desurfix(self, word):
         if word.endswith(("'s","s'")):
             return word[:-2]
@@ -222,7 +223,7 @@ class Translator:
             content = re.sub(arguments.opts.exclude, r'', content) #remove excluded RE
         content = content.replace("’","'").replace("annot","an not").replace("\u2026","...")
         if re.search(r'\'', content):
-            content = content.replace("I'm","I am").replace("won't","will not").replace("an't","an not").replace("n't"," not").replace("'re"," are").replace("ou've","ou have").replace("I've","I have")
+            content = content.replace("I'm","I am").replace("won't","will not").replace("an't","an not").replace("n%'t"," not").replace("n't"," not").replace("'re"," are").replace("ou've","ou have").replace("I've","I have")
         content = re.sub(r'(Do |Does )([^\?]*[^\? ]) ?\?', r'\2 -do ?', content) #relocate do
         content = re.sub(r'([%\w][ %\w\-]*) not found([^ \w]+|$)', r'not found \1 \2', content) #relocate not found
         content = re.sub(r'(?i)\bno (.*) found', r'not found any \1', content) #relocate no found
@@ -240,6 +241,8 @@ class Translator:
             content = re.sub(r', (\w{3,} and |and |\w{3,} or |or |\w{3,}, etc)', r',- \1', content)
             for i in range(content.count(', ')-2):
                 content = re.sub(r', (\w{3,},)', r',- \1', content)
+        if re.search(r'\w{2,};\w{2,};\w{2,};', content): #protect semicolon separator
+            content = re.sub(r';', r';;', content)
         content = re.sub(r'([a-z])\(s\)', r'\1', content) #remove plural mark
         content = re.sub(r'_n?:.*\\n', r'', content) #remove comment
         if arguments.opts.accelerator:
@@ -392,7 +395,7 @@ class Translator:
                     i += 2 if i < len(content)-1 and content[i+1] in ['-ly','-ing','-en'] else 1
                     onceDone = True
                     lastSign = -1 if keyHead[-1] in '([{<>\\/=.:|@+' or keyHead[-2:-1] == '\\' else 1
-        return '' if arguments.opts.doMapped and not mapped else result
+        return '' if arguments.opts.mapped and not mapped else result
 
 class PO:
     class Message:
@@ -419,7 +422,11 @@ class PO:
                         if len(resultList[i]) > knowns.wrapcolumn:
                             resultList[i] = re.sub(r'(.{70}[ \000])([^"])', r'\1"\n"\2', resultList[i]) #break lines by width
                         resultList[i] = resultList[i].replace('\000', '') #restore chinese character width
-            if self.fuzzy and not [x for x in self.comments if 'fuzzy' in x]:
+            if arguments.opts.fuzzyfree:
+                if '#, fuzzy\n' in self.comments:
+                    self.comments.remove('#, fuzzy\n')
+                self.fuzzy = False    
+            elif self.fuzzy and not [x for x in self.comments if 'fuzzy' in x]:
                 self.comments.append('#, fuzzy\n')
             result = ''.join(self.comments) + self.domain + self.msgctxt + '\n'.join(resultList)
             if self.obsolete:
@@ -500,18 +507,18 @@ class PO:
                 self.messages[0].comments[i] = re.sub('(?i)(traditional|simplified|hongkong) chinese', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
                 self.messages[0].comments[i] = re.sub('[a-z]{2,3}_(CN|HK|TW)', knowns.locale, self.messages[0].comments[i])
         if not [x for x in self.messages[0].comments if '# This file is distributed under the same license' in x]:
-                self.messages[0].comments.insert(2,'# This file is distributed under the same license as the '+packageName+' package.\n')
+            self.messages[0].comments.insert(2,'# This file is distributed under the same license as the '+packageName+' package.\n')
+        if self.messages[0].fuzzy:
+            self.messages[0].comments.remove('#, fuzzy\n')
+            self.messages[0].fuzzy = False
         if arguments.opts.credit:
             if [x for x in self.messages[0].comments if 'FIRST AUTHOR' in x]:
                 self.messages[0].comments = [x.replace('FIRST AUTHOR <EMAIL@ADDRESS>',arguments.opts.credit) for x in self.messages[0].comments]
-                if self.messages[0].fuzzy:
-                    self.messages[0].comments.remove('#, fuzzy\n')
-                    self.messages[0].fuzzy = False
             else:
-                lastCredit = '# '+re.sub(r'.*Last-Translator: ([^\\]*).*', r'\1', self.messages[0].msgstr).strip()+', '+re.sub(r'.*PO-Revision-Date: ([^-]*).*', r'\1', self.messages[0].msgstr).strip()
                 if self.messages[0].comments and self.messages[0].comments[-1].strip() != '#':
                     self.messages[0].comments.append('#\n')
-                if not [x for x in self.messages[0].comments if lastCredit in x]:
+                lastCredit = '# '+re.sub(r'.*Last-Translator: ([^\\]*).*', r'\1', self.messages[0].msgstr).strip()+', '+re.sub(r'.*PO-Revision-Date: ([^-]*).*', r'\1', self.messages[0].msgstr).strip()
+                if not [x for x in self.messages[0].comments if lastCredit in x] and not ('NAME' in lastCredit):
                     self.messages[0].comments.insert(-1,lastCredit+'.\n')
                 if not [x for x in self.messages[0].comments if arguments.opts.credit in x]:
                     self.messages[0].comments.insert(-1,'# '+arguments.opts.credit+time.strftime(', %Y.\n'))
@@ -537,8 +544,8 @@ class PO:
             sourceId = message.msgid[message.msgid.find('"')+1:message.msgid.rfind('"')]
             strHead = message.msgstr[:message.msgstr.find('"')]
             sourceStr = message.msgstr[message.msgstr.find('"')+1:message.msgstr.rfind('"')]
-            if not (message.obsolete or arguments.opts.doSkip and not message.fuzzy and sourceStr):
-                if arguments.opts.doMsgno:
+            if not (message.obsolete or arguments.opts.skip and not message.fuzzy and sourceStr):
+                if arguments.opts.msgno:
                     message.comments = [x for x in message.comments if '#. msgno ' not in x]
                     message.comments.insert(0, '#. msgno %d\n' % sourceNo)
                     sourceNo += 1
@@ -557,7 +564,7 @@ class PO:
                         resultStr += translator.chi2chi(re.sub(knowns.xmltag, r'\1', sourceId))+re.sub(knowns.xmltag, r'\2', sourceId)
                         sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                     resultStr += translator.chi2chi(sourceId)
-                if arguments.opts.doKeep and sourceStr and resultStr != sourceStr:
+                if arguments.opts.keep and sourceStr and resultStr != sourceStr:
                     message.comments.append('# "%s"\n' % re.sub(r'\\n([^"\\])', r'\\n"\n# "\1', sourceStr))
                 message.fuzzy = bool(resultStr) and (message.fuzzy or not bool(sourceStr) and not message.fuzzy)
                 message.msgstr = '%s"%s"\n' % (strHead, resultStr)
@@ -639,7 +646,7 @@ class MSG:
                     message.msgstr += translator.chi2chi(re.sub(knowns.xmltag, r'\1', sourceId))+re.sub(knowns.xmltag, r'\2', sourceId)
                     sourceId = re.sub(knowns.xmltag, r'\3', sourceId)
                 message.msgstr += translator.chi2chi(sourceId)
-            if arguments.opts.doKeep and message.msgid and message.msgstr != message.msgid:
+            if arguments.opts.keep and message.msgid and message.msgstr != message.msgid:
                 if arguments.opts.type == 'prg':
                     message.tail = message.tail.strip('\n') + ' //' + message.msgid + '\n'
                 else:
