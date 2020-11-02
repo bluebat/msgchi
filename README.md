@@ -40,10 +40,14 @@ Dictionary Reference
 	* 曾焯文《粵辭正典》
 	* 邵慧君、甘于恩《粵語詞彙講義》
 	* 陳雄根、張錦少《粵語詞匯溯源》
+	* 現代標準漢語與粵語對照資料庫 <https://apps.itsc.cuhk.edu.hk/hanyu/>
 * cmn2nan
-	* 教育部臺灣閩南語常用詞辭典 <https://twblg.dict.edu.tw/holodict_new/default.jsp>
+	* 教育部臺灣閩南語常用詞辭典 <https://twblg.dict.edu.tw/holodict_new/>
 	* 潘科元台語文理想國 <https://blog.xuite.net/khoguan/blog>
 	* 愛台語 <https://itaigi.tw/>
+	* 陳世明、陳文彥《臺語漢字學》
+* cmn2hak
+	* 客家委員會客語辭彙 <https://cloud.hakka.gov.tw/details?p=126632>
 
 Author
 ------

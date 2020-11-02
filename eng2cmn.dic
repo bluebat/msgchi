@@ -7,12 +7,14 @@
 ...|…
 .|。
 :|：
+;;|;
 ;|；
 ?|？
 `-|「
 105-key|105 鍵
 16-bit|16 位元
 18-hole|18 洞
+1 hour ago|一小時之前
 24 hour|24 小時
 2 nd|第二
 32-bit|32 位元
@@ -39,6 +41,7 @@ abkhazian|亞布卡薩語
 abnormally big|過大
 abnormal termination|異常終止
 abnormal|不正常
+a board|機板
 aboriginal|原始
 abort|放棄
 about to|即將
@@ -147,6 +150,7 @@ activity|活動
 act on|進行動作
 actual argument|實際引數
 actual|實際的
+actuate|作動
 actuator|致動器
 acute accent|揚音符
 acute|銳角
@@ -218,7 +222,6 @@ adoption|採用
 ad spot|廣告片段
 adult|成人
 advanced filter|進階篩選
-advanced settings|進階設定
 advanced|進階
 advancement|進展
 advance width|步進寬度
@@ -255,6 +258,7 @@ afrikaans|南非語
 afro-asiatic languages|非亞諸語言
 after a few days|幾天之後
 after a paragraph|段落之後
+after installation|於安裝之後
 after that|在那之後
 afterwards|在此之後
 afterward|向後
@@ -337,6 +341,7 @@ allergy|過敏
 alliance|聯盟
 all-in-one|一體
 all its|它所有的
+all matches|所有符合者
 allocate memory space for|配置記憶體空間給
 allocate|配置
 allocation|配額
@@ -344,6 +349,7 @@ allocator|配置器
 allotted|所分配的
 allowable|被允許的
 allowance|限額
+allowlist|允許名單
 allow you to|允許您
 allow|允許
 all rights reserved|著作權所有
@@ -353,6 +359,7 @@ all your changes will be lost|您將會失去所有變更部分
 all"|全部
 all|所有
 almost|幾乎
+a load|負載
 alone|單獨
 alongside|伴隨
 along with|隨附於
@@ -371,6 +378,7 @@ alphanumeric|文數字
 alpha value|透明度
 alpha|阿法
 already -en|已
+already installed|已經安裝
 already in use|已在使用中
 already|已經
 also|也
@@ -406,6 +414,7 @@ american samoa|美屬薩摩亞
 amethyst|紫水晶
 amharic|阿姆哈拉語
 amid|摻入
+a minute ago|一分鐘之前
 a missing|缺少的
 ammunition|軍火
 among which|其中
@@ -469,6 +478,7 @@ angle|角度
 angola|安哥拉
 angstrom|埃
 anguilla|安圭拉
+an hour|一小時
 animals & nature|動物 & 自然
 animal|動物
 animate|動畫
@@ -478,7 +488,7 @@ anniversary|周年紀念
 annotate|註解
 annotation|附註
 announcement|公告
-announce|宣布
+announce|宣佈
 annoyance|討厭
 annuity|年金
 anonymous union|匿名等位
@@ -755,18 +765,18 @@ at the front|位於前方
 at the moment|目前
 at the same time|同時
 at the top|位於頂端
-at this time|這個時候
+at this time|這一次
 attorney|律師
 attractive|吸引人的
 attractor|吸子
 attribute group|屬性群
 attribute type|屬性型式
 attribute|屬性
-attribution-noderivs|姓名標示-禁止改作
-attribution-noncommercial-noderivs|姓名標示-非商業性質-禁止改作
-attribution-noncommercial-sharealike|姓名標示-非商業性質-相同方式分享
-attribution-noncommercial|姓名標示-非商業性質
-attribution-sharealike|姓名標示-相同方式分享
+attribution-noderivs|姓名標示－禁止改作
+attribution-noncommercial-noderivs|姓名標示－非商業性質－禁止改作
+attribution-noncommercial-sharealike|姓名標示－非商業性質－相同方式分享
+attribution-noncommercial|姓名標示－非商業性質
+attribution-sharealike|姓名標示－相同方式分享
 attribution|歸屬
 attr.|屬性
 at your option|您自行選擇的
@@ -1035,6 +1045,7 @@ bear in mind|記在心上
 beat|節拍
 be available|為可用
 be aware that|請注意
+be awful|很可怕
 bebob|比波普爵士
 be busy|忙碌中
 be capable of|有能力
@@ -1158,6 +1169,7 @@ be set|被設定
 besides of|除了
 besides|此外
 beside|在旁邊
+be slated|預定
 be split in 2 parts|分為兩部分
 best-effort|盡力
 be still|仍然是
@@ -1286,6 +1298,7 @@ blink|閃動
 blin|比林語
 blip|光點
 blobby|珠斑
+blob|大型
 block boundary|區段界限
 block chain|區塊鏈
 blockchain|區塊鏈
@@ -1356,7 +1369,8 @@ bootable cd|可開機光碟
 bootable|可開機的
 boot block|啟動區段
 boot file|啟動檔案
-bootloader|開機管理程式
+bootloader|開機載入程式
+boot-manager|開機管理程式
 boot server|啟動伺服器
 bootstrap loader|啟動載入程式
 bootstrapper|啟動載入器
@@ -1402,6 +1416,7 @@ boxed|加框
 boxing|封箱
 box in|盒狀收縮
 box|框
+boycott|抵制
 braces|大括號
 brace|括號
 bracket|中括號
@@ -1422,6 +1437,10 @@ breadcrumb|麵包屑
 break apart|打散
 breakdown|分解
 breaker|破壞者
+breakout room|分組討論室
+breakout session|分組會議
+breakouts|突破
+breakout|爆發
 breakpoint trap|中斷點設陷
 breakpoint|中斷點
 breaks|換列和分頁
@@ -1482,6 +1501,7 @@ bugfix|錯誤修正
 buginese|布吉語
 bug|錯誤
 buhid|布黑德語
+build-dependencies|組建依存
 builder|產生器
 building block|組建區塊
 building|建立
@@ -1499,7 +1519,7 @@ bulgarian|保加利亞語
 bulgaria|保加利亞
 bulk edit|大量編輯
 bulk|堆積艙
-bulletin|布告
+bulletin|佈告
 bullet points|項目符號
 bullet|分項符號
 bully|欺負
@@ -1656,6 +1676,7 @@ cap-mark|能力標記
 capname|大寫名稱
 cap-set|能力集
 caps lock|大寫鍵
+capsule|膠囊
 captcha|人機驗證
 caption|題要
 capture|擷取
@@ -1711,7 +1732,7 @@ catalonia|加泰羅尼亞
 catalyst|加速器
 catastrophe|災難
 catchup|設回未讀
-catch|擷取
+catch|抓到
 categorized|分類
 category|分類
 catenate|聯結
@@ -1725,11 +1746,11 @@ cause|造成
 caution|留意
 caveats|注意事項
 cayman|開曼
-cc attribution-noderivs|創用 CC 姓名標示-禁止改作
-cc attribution-noncommercial-noderivs|創用 CC 姓名標示-非商業性質-禁止改作
-cc attribution-noncommercial-sharealike|創用 CC 姓名標示-非商業性質-相同方式分享
-cc attribution-noncommercial|創用 CC 姓名標示-非商業性質
-cc attribution-sharealike|創用 CC 姓名標示-相同方式分享
+cc attribution-noderivs|創用 CC 姓名標示－禁止改作
+cc attribution-noncommercial-noderivs|創用 CC 姓名標示－非商業性質－禁止改作
+cc attribution-noncommercial-sharealike|創用 CC 姓名標示－非商業性質－相同方式分享
+cc attribution-noncommercial|創用 CC 姓名標示－非商業性質
+cc attribution-sharealike|創用 CC 姓名標示－相同方式分享
 cc attribution|創用 CC 姓名標示
 ccw|逆時針
 cc|副本
@@ -1798,7 +1819,6 @@ changeback|切回
 change bar|變更列
 change case|大小寫轉換
 changelog|變更記錄
-change setting|變更設定值
 change to|變更為
 change|變更
 channel number|通道編號
@@ -1930,7 +1950,7 @@ circulate|流通
 circumflex|抑揚符號
 circumstance|情況
 circumvent|規避
-cirth|精靈-色斯文
+cirth|精靈－色斯文
 citation|引用
 cite|引用
 citizens|民眾
@@ -1958,7 +1978,7 @@ clause|子句
 cleaning|清理
 clean up|清理
 cleanup|清理
-clean|清除
+clean|清潔
 clear all bookmarks|清除所有書籤
 clear all|全部清除
 clearing|清除
@@ -1992,14 +2012,15 @@ clock register|鐘訊暫存器
 clock tick|時鐘周期
 clockwise|順時針
 clock|時鐘
-clone device|仿製裝置
-clone|仿本
+clone|複殖
 close all windows|關閉所有視窗
 close all|全部關閉
 close and return|關閉並返回
 closed loop|封閉迴路
 closed path|封閉路徑
 closely|接近
+close parentheses|關閉的括號
+close parenthesis|關閉的括號
 close session|關閉區段
 close-up|特寫
 closeup|特寫
@@ -2034,7 +2055,7 @@ code page|字碼頁
 codepage|編碼頁
 code point|碼點
 codepoint|程式碼點
-code settings|代碼撰寫設定值
+code settings|代碼撰寫設定
 codeset|碼集
 code table|碼表
 codeword|碼字
@@ -2121,6 +2142,7 @@ coming from|來自
 coming soon|敬請期待
 command argument|指令引數
 command box|指令方塊
+commander|指揮官
 command interpreter|指令解譯器
 command key|指令鍵
 command line options|命令列引數的選項
@@ -2141,10 +2163,10 @@ commercial usage|商業用途
 commercial|商業
 commission|委任
 commitment|承諾
-committed|已定案
+committed|已定稿
 committee|委員會
-committer|定案者
-commit|定案
+committer|定稿者
+commit|定稿
 commonality|共同性
 commonly|通常
 common name|一般名稱
@@ -2269,7 +2291,6 @@ config file|組態檔案
 config-reader|組態讀取器
 configurable|可組配的
 configuration guide|組態操作指南
-configuration setting|組態設定值
 configuration|組態
 configured|已組配
 configure how|組配方式
@@ -2625,7 +2646,7 @@ cursor|游標
 curvature|曲率
 curved line|曲線
 curve|曲線
-cushitic languages|庫希特語諸語言
+cushitic languages|庫希特諸語言
 cusp|尖頭
 custom control|自訂控制項
 customer|客戶
@@ -2734,7 +2755,6 @@ data tag group|資料標籤群
 datatype|資料型態
 data|資料
 date of birth|出生日期
-dates|約會
 datetime|日期時間
 date|日期
 dayak|達雅
@@ -2787,6 +2807,7 @@ decision|決策
 deck|卡片組
 declaration|宣告
 declarator|宣告子
+declared here|在這裡宣告
 declare|宣告
 declick|雜音消除
 decline|婉拒
@@ -2805,10 +2826,10 @@ decrease|減少
 decrement|遞減
 decrypt|解密
 dec|十二月
-dedicated to|貢獻於
+dedicated to|專注於
 dedicated|專屬
-dedicate himself to|貢獻於
-dedicate|貢獻
+dedicate himself to|專注於
+dedicate|專注
 dedication|獻辭
 deduce|推論
 deductible|扣除額
@@ -2821,7 +2842,8 @@ deep|深刻的
 defamatory|中傷
 default constructor|預設建構函式
 defaulted|缺席
-default:LTR|default:LTR
+default:ltr|default:LTR
+default:rtl|default:RTL
 defaults|預設值
 default|預設
 defective|有缺陷的
@@ -2898,6 +2920,7 @@ denominator|分母
 denotation|標誌
 denote|標誌
 density|密度
+denylist|拒絕名單
 deny|拒絕
 department|部門
 dependability|可依存性質
@@ -2990,11 +3013,13 @@ device details|裝置詳細資訊
 device-independent|與裝置無關
 device-mapper|裝置映射程式
 device number|裝置編號
+device tree|硬體結構樹
 device|裝置
 devoice|取消語音
 devoted to|致力於
 devote himself to|致力於
 dhivehi|迪培希語
+%d hour|%d 小時
 dht|分散式雜湊表
 diacritical mark|讀音符號
 diacritic|變音符
@@ -3024,6 +3049,7 @@ did not find|找不到
 did not have|並無
 did not yet|尚未
 did not|並未
+did you mean|您的意思是指
 did you|您是否
 die|消滅
 differ about|上有所不同
@@ -3077,7 +3103,6 @@ direct mode|直接存取模式
 directories first|目錄前置
 directory hierarchy|目錄階層
 directory record|目錄錄
-directory settings|目錄設定
 directory tree|樹狀目錄
 directory|目錄
 director|導演
@@ -3152,7 +3177,7 @@ display menu|顯示功能表
 display mode to use|要用的顯示模式
 display name|代號
 display order|播放次序
-display setting|顯示器設定值
+display setting|顯示器設定
 display size|顯示器尺寸
 display|顯示
 dispose|棄置
@@ -3176,6 +3201,7 @@ distributed|已經散佈的
 distribute|散佈
 distribution|散佈
 distributor|散佈者
+disturb|打擾
 %'d items|%'d 個項目
 %d items|%d 個項目
 dither|遞色
@@ -3227,7 +3253,7 @@ domino tiles|骨牌
 donate|樂捐
 donation|捐款
 done|完成
-dongle|硬體鎖
+dongle|裝置棒
 dong|盾
 donor|捐贈者
 do not care about|不要去管
@@ -3340,6 +3366,7 @@ drum solo|鼓獨奏
 drum|磁鼓
 dry run|模擬測試
 dsn|資料來源名稱
+%d times|%d 次
 dual-attachment|雙附件
 duala|杜亞拉語
 dual-channel|雙頻道
@@ -3367,6 +3394,7 @@ duplication|複製法
 duplicator|複製機
 duployan|杜洛耶
 durability|持久性
+duration of the update|更新期間
 duration|持續時間
 during idle time|在閒置期間
 during the upgrade|在升級期間
@@ -3425,6 +3453,7 @@ edge enhancement|邊緣強化
 edge|邊緣
 editability|可編輯性
 editable|可編輯
+edit anyway|依然編輯
 edit control|編輯控制項
 editing area|編輯區
 edition statement|版本敘述
@@ -3910,7 +3939,7 @@ factorial|階乘
 factorization|因數分解
 factorize|因數分解
 factory defaults|出廠預設值
-factory settings|出廠設定值
+factory settings|出廠設定
 factory|工廠
 factor|因子
 facts|短註
@@ -4034,6 +4063,7 @@ file selection|選取檔案
 filesize|檔案大小
 file specified|指定的檔案
 filespec|檔案規格
+files that are this big|這種大小的檔案
 filestore|檔案庫
 file system hierarchy|檔案系統階層
 file system table|檔案系統表
@@ -4264,6 +4294,7 @@ for instance|舉例來說
 forint|福林
 fork process|叉生行程
 fork|叉生
+for license|以了解授權
 formal argument|形式引數
 formal definition|形式定義
 formal parameter|形式參數
@@ -4290,6 +4321,7 @@ form|表單
 for now|暫時
 for no|表示不要
 for private use only|限私人使用
+for security|出於安全理由
 for short|簡稱
 for some time now|已有一段時間
 for some time|有一段時間
@@ -4298,6 +4330,8 @@ for the first time|首次
 for this purpose|為了這個目的
 fortnight|兩週
 forum|論壇
+for usage|以了解用法
+for version|以獲得版本
 forward declaration|前置宣告
 forwarded|已轉信
 forwarding|轉送
@@ -4312,7 +4346,6 @@ for your information|供您參考
 for you|為您
 for|用於
 foundation|基金會
-founded in|成立於
 founded|成立
 founding|創始
 foundry|鑄造廠
@@ -4529,7 +4562,6 @@ general ledger|總賬
 general public license|通用公共授權
 general purpose register|通用暫存器
 general purpose|一般用途
-general settings|一般設定
 general|一般
 generated-object|產生的物件
 generate|產生
@@ -4584,7 +4616,6 @@ glassy eyes|目光呆滯
 global default|全域預設值
 global name|總體名稱
 global progress|整體進度
-global settings|全域設定
 global|全域
 globbing|萬用匹配
 glossary|字彙
@@ -4725,6 +4756,7 @@ growth|增長
 grow|增長
 grunge|嘈雜音樂
 gtk-add|加入
+gtk+ based|基於 GTK+ 的
 gtk-cancel|取消
 gtk-edit|編輯
 gtk-help|求助
@@ -4770,6 +4802,7 @@ haitian|海地語
 haiti|海地
 hakka chinese|漢語客家語
 halation|光暈
+half an hour ago|半小時之前
 half of all|半數的
 half-shaped|半形
 half size|一半大小
@@ -4804,7 +4837,7 @@ hangup|掛斷
 hang|掛機
 hanja|漢字
 hankaku|半角
-hanunoo|菲律賓-的含努鬧語
+hanunoo|菲律賓－的含努鬧語
 han|漢字
 happen again|再次發生
 happen|發生
@@ -5053,6 +5086,7 @@ hotspare|緊急備援
 hot spot|作用點
 hotspot|熱點
 hot|熱門
+hour ago|小時之前
 hours|小時
 hour|時
 housekeeping|事務類工作
@@ -5064,6 +5098,7 @@ how and when|方式與時機
 how are you|您好嗎
 however|然而
 how long|多久
+how many times|多少次
 how many|有多少
 how often|多久會
 how things work|事物如何運作
@@ -5206,7 +5241,8 @@ implicit|隱含的
 imply|隱含
 importance|重要性
 important to see|值得一看
-important|重要
+important"|重要
+important|重要的
 imported symbol|匯入符號
 importer|匯入器
 import|匯入
@@ -5228,6 +5264,7 @@ inactivity|不作用
 in addition to|除了
 in addition|另外
 in a few minutes|幾分鐘後
+in a minute|在一分鐘之內
 in an efficient manner|以有效率的方式
 in any event|在任何狀況下
 in any way|以任何方式
@@ -5291,15 +5328,15 @@ india|印度
 indicate|指示
 indication|指示
 indicator|指示器
-indic-bengali|印度-孟加拉語
+indic-bengali|印度－孟加拉語
 indices|索引
-indic-hindi|印度-印地語
-indic-kannada|印度-卡納達語
+indic-hindi|印度－印地語
+indic-kannada|印度－卡納達語
 indic languages|印度諸語言
-indic-malayalam|印度-喀拉拉語
-indic-punjabi|印度-旁遮普語
-indic-tamil|印度-坦米爾語
-indic-telugu|印度-特拉古語
+indic-malayalam|印度－喀拉拉語
+indic-punjabi|印度－旁遮普語
+indic-tamil|印度－坦米爾語
+indic-telugu|印度－特拉古語
 indic|印度
 indie|獨立製作
 indigenous|原住民
@@ -5353,6 +5390,7 @@ infrastructure|基礎架構
 infringement|侵權
 infringe|侵害
 in front|前方
+in function|在函式中
 in greeting|在接觸通訊中
 in %g second|於 %g 秒後
 ingush|印古什語
@@ -5412,6 +5450,7 @@ in order to continue|以便繼續進行
 in order to|以便
 inordinary|不尋常
 in other words|換句話來說
+in parentheses|在括號中
 in parenthesis|在括號中
 in particular|尤其
 inpatient|住院病患
@@ -5581,6 +5620,7 @@ inter|幅間
 intestine|腸
 in that case|在該例中
 in the center|位於中央
+in the cloud|在雲端
 in the drive|在光碟機中
 in the first place|起先
 in the future|在未來
@@ -5605,6 +5645,7 @@ introduction|介紹
 introspection|內視
 intro|簡介
 intuitive|直覺
+in turn|然後
 int|整數
 inuktitut|伊努特語
 inupiak|依奴皮維克語
@@ -5638,7 +5679,7 @@ invoice|發票
 invoker|調用者
 invoke|調用
 involve|牽連出
-in|在中
+in|於
 in."|英吋
 %i of %i|%2$i 中的 %1$i
 ionic|離子
@@ -5672,7 +5713,7 @@ isomorphic|同構
 isopropyl alcohol|異丙醇
 isotropic|等向
 israel|以色列
-issuance|發布
+issuance|發佈
 issued to|發放對象
 issuer|發證者
 issues|問題
@@ -5693,6 +5734,7 @@ iteration|迭代
 iterative|迭代的
 iterator|迭代器
 it hurts|好痛
+%i times|%i 次
 it is highly recommended|強烈建議
 it is important|是相當地重要
 it is not possible to|無法
@@ -5757,8 +5799,8 @@ journal entry|流水賬條目
 journal|日誌
 joystick|搖桿
 jpop|日式流行音樂
-judeo-arabic|猶太-阿拉伯語
-judeo-persian|猶太-波斯語
+judeo-arabic|猶太－阿拉伯語
+judeo-persian|猶太－波斯語
 judgment|判決
 jukebox|媒體櫃
 julian|儒略曆
@@ -5799,9 +5841,9 @@ kanji|漢字
 kannada|卡納達語
 kanqxi|康熙
 kanuri|卡努里語
-karachay-balkar|卡拉恰伊-巴爾卡爾語
+karachay-balkar|卡拉恰伊－巴爾卡爾語
 karachi|喀拉蚩
-kara-kalpak|卡拉-卡爾帕克語
+kara-kalpak|卡拉－卡爾帕克語
 karelian|卡累利阿語
 karen languages|克倫諸語言
 karma|業力
@@ -5890,6 +5932,7 @@ kina|基那
 kinematics|動力學
 kingdom|王國
 kinyarwanda|盧安達語
+kiosk|自動化服務機
 kip|基普
 kirghiz|吉爾吉斯語
 kiribati|吉里巴斯
@@ -5916,6 +5959,7 @@ koro|科羅語
 koruna|克朗
 kosraean|科斯拉伊語
 kpelle|克佩勒語
+kra languages|仡央諸語言
 krona|克朗
 kru languages|克魯諸語言
 k-space|頻率空間
@@ -6068,6 +6112,7 @@ left justify|靠左對齊
 left margin|左邊界
 left mouse button|滑鼠左鍵
 left or right|向左或向右
+left parentheses|左括號
 left parenthesis|左括號
 left-pointing double angle quotation mark|左尖雙角引號
 left single quotation mark|左單引號
@@ -6083,6 +6128,7 @@ legal notice|法律注意事項
 legal|合法的
 legend|圖例
 legibility|易讀性
+legitimacy|合法性
 legitimate|合法
 leg|腿
 leisure|休閒
@@ -6304,6 +6350,7 @@ locale-specific|語區特定的
 locale|語區
 local file|本機檔案
 local folders|本機資料夾
+local host|本機
 local interfaces|本機介面
 locality|局部
 localizable|可本地化
@@ -6343,6 +6390,7 @@ log as|記錄為
 logfile path|記錄檔案路徑
 logfile|日誌檔案
 log file|記錄檔
+logged in as|登入為
 logged in|登入
 logger|自動記錄器
 logging in|登入中
@@ -6357,6 +6405,8 @@ logical view|邏輯檢視
 logical"|邏輯
 logical|邏輯的
 logic error|邏輯錯誤
+log in as|登入為
+login as|登入為
 login process|登入行程
 login screen|登入畫面
 log into|登入
@@ -6371,7 +6421,7 @@ log on|登入
 logon|登錄
 log out|登出
 logout|登出
-logo|圖標
+logo|標章
 log rotation|記錄自動重建
 log service|記錄服務
 log viewer|記錄檢視器
@@ -6447,8 +6497,8 @@ low priority|低度優先
 low security|低度安全
 low|低
 lozi|洛齊語
-luba-katanga|盧巴-加丹加語
-luba-lulua|盧巴-盧拉語
+luba-katanga|盧巴－加丹加語
+luba-lulua|盧巴－盧拉語
 luck|運氣
 luiseno|盧伊塞諾語
 lule sami|魯爾薩米語
@@ -6544,7 +6594,7 @@ make link|建立鏈結
 make no sense|不具任何意義
 make no|無法做出任何
 makeover|打扮
-make public|公布
+make public|公佈
 maker|自造者
 make sense|具任何意義
 make sure that|確定
@@ -6619,6 +6669,7 @@ many people|許多人
 many thanks for|十分感謝
 many thanks to|十分感謝
 many thanks|十分感謝
+many times|多次
 many|許多
 maori|毛利語
 map feature|映射功能
@@ -6681,7 +6732,6 @@ master|主
 masthead|報頭
 match brace|使用成對括號
 matches in|項目符合者於
-matches|符合者
 match prefix|字首須符合
 match-string|符合字串
 match|符合
@@ -6808,6 +6858,7 @@ merchantability or fitness for a particular purpose|對於某一特定目的之�
 merchantability|適銷性
 mercury|水銀
 mercy|慈悲
+merely|僅僅
 merengue|美倫格風格
 merge|合併
 meridian|子午線
@@ -7033,7 +7084,7 @@ monitor log|監控記錄檔
 monitor message|監控訊息
 monitor|監視器
 monkey|猴子
-mon-khmer languages|孟-高棉諸語言
+mon-khmer languages|孟－高棉諸語言
 monochrome|單色
 monolingual|單語言
 monologue|獨白
@@ -7055,9 +7106,11 @@ moon|月亮
 more accessible|更方便
 more detailed|更詳細的
 more easily|更易於
+more matches|更多符合者
 more pleasing|更佳的
 more than once|一次以上
 more than|超過
+more times|更多次
 more|更多
 moroccan dirham|摩洛哥迪拉姆
 morocco|摩洛哥
@@ -7258,6 +7311,7 @@ ndonga|恩敦加語
 neapolitan|拿坡里語
 nearest|最近的
 near|接近
+necessarily|必要地
 necessary|必要的
 needed for|所需自
 needed|所需的
@@ -7355,11 +7409,11 @@ nickname|暱稱
 nick|凹部
 nifty|俏皮
 nigeria|奈及利亞
-niger-kordofanian languages|尼日-剛果諸語言
+niger-kordofanian languages|尼日－剛果諸語言
 niger|尼日
 night light|夜光
 night|夜
-nilo-saharan languages|尼羅-撒哈拉諸語言
+nilo-saharan languages|尼羅－撒哈拉諸語言
 nil|零
 nineteenth|第十九
 nintendo|任天堂
@@ -7382,6 +7436,7 @@ nogai|諾蓋語
 noise-line-state|雜訊線路狀態
 noise|雜訊
 no longer|不再
+no matches|沒有符合者
 nomenclature|命名法則
 nominal|標稱
 nominated|提名的
@@ -7435,6 +7490,7 @@ non-volatile|非揮發性質
 non-zero|非零
 nonzero|非零值
 non|非
+noob|菜鳥
 noon|中午
 nordic|北歐語言
 norfolk|諾福克
@@ -7458,6 +7514,7 @@ northern mariana islands|北馬里亞納群島
 northern|北
 north korea|北韓
 north|北
+no rule to make|沒有規則用來製作
 no rule to|沒有規則可
 norway|挪威
 norwegian krone|挪威克朗
@@ -7523,6 +7580,7 @@ not listed|未列出
 not long enough|長度不夠
 not mounted|未掛載
 not necessarily|未必
+not now|不是現在
 no to all|全部皆否
 not only|不衹
 notorious|惡名昭張的
@@ -7618,6 +7676,7 @@ object tree|物件樹狀結構
 object types|物件型式
 object|物件
 obligatory note|義務提醒
+oblige|逼迫
 oblique|傾斜的
 obscene|猥褻
 observation|觀察
@@ -7666,7 +7725,7 @@ off|關閉
 of itself|其本身的
 often|常常
 of the form|的形式
-of|的
+of|之於
 ogham|歐甘文
 oh,|噢，
 oil paint|油畫
@@ -7767,7 +7826,8 @@ opening hours|開放時間
 opening tag|開頭標籤
 open message|開啟電子郵件
 openness|開放精神
-open parenthesis|空圓括號
+open parentheses|開放的括號
+open parenthesis|開放的括號
 open parent|上一層
 open source|開放原始碼
 open with|開啟方式
@@ -7908,6 +7968,7 @@ output log|輸出記錄
 output port|輸出埠
 output volume|輸出音量
 output|輸出
+outright|立即
 outset|外貼
 outside line|外線
 outside|外側
@@ -8041,6 +8102,7 @@ panama|巴拿馬
 panel|面板
 pane|窗格
 pangasinan|龐加辛南語
+panic|驚恐
 panning|平移
 pannonian|潘諾尼亞
 panorama|全景
@@ -8068,6 +8130,7 @@ parameter-label|參數標貼
 parameter|參數
 paraplegic|半身麻痺患者
 parent-child relationship|親子關係
+parentheses|括號
 parenthesis|括號
 parenting|養育
 parent notes|上層節點
@@ -8134,7 +8197,6 @@ patent troll|專利流氓
 patent|專利
 pathdepth|路徑深度
 pathname|路徑名稱
-path settings|路徑設定
 path|路徑
 patient|病患
 patron|惠顧者
@@ -8177,7 +8239,6 @@ perforated|穿孔的
 perforating|打洞
 perforator|打洞器
 performance penalty|效能減退
-performance settings|效能設定
 performance|效能
 performer|執行者
 performing|履行
@@ -8201,6 +8262,7 @@ permit|允許
 permutation|排列
 perpendicular to|垂直於
 perpendicular|垂直
+perpetual|永遠的
 persian|波斯語
 persistence|持續性
 persistent database|永久性質的資料庫
@@ -8357,6 +8419,7 @@ pluggable authentication|可即插型認證
 plug-ins|外掛程式
 plug-in|外掛程式
 plugin|外掛程式
+plug in|插入
 plug|插接
 plum|梅紅
 plural|眾數形
@@ -8517,6 +8580,7 @@ precompiled|先行編譯
 precondition|前提
 pre-defined|預先定義的
 predefine|預先定義
+pre-dependencies|預先依存
 pre-designated|預先指明
 predicate|述詞
 predictable|可預測
@@ -8593,7 +8657,7 @@ preview area|預覽區
 preview|預覽
 previous chapter|上一章節
 previous frame|上一影格
-previously|在之前
+previously|之前
 previous page|上一頁
 previous paragraph|上一段落
 previous track|上一曲目
@@ -8712,7 +8776,7 @@ prompt for action|動作提示
 promptly|迅速
 prompt"|提示
 prompt|迅速的
-promulgate|頒布
+promulgate|頒佈
 proofreading|審閱
 proofstrain|耐應變
 proof|證明
@@ -8767,7 +8831,7 @@ pseudorandom|假擬隨機
 pseudotarget|假擬目標
 psychedelic rock|迷幻搖滾
 psychedelic|迷幻音樂
-public announce|公布
+public announce|公佈
 publication|出版品
 public directory|公共目錄
 public domain|公共財
@@ -8815,6 +8879,8 @@ puzzle|解題
 pyramid|棱錐
 qatar|卡達
 qcnt|量子數
+qr code|快應條碼
+qt based|基於 Qt 的
 quadratic spline|二次曲線
 quadratic|四方形
 quadrilateral|四邊形
@@ -8859,9 +8925,9 @@ quiet|安靜的
 quillotine|裁紙機
 quilting bee|拼布會
 quite|相當
-quit now|馬上脫離
-quit without|脫離但不
-quit|脫離
+quit now|馬上離去
+quit without|離去但不
+quit|離去
 quotation mark|引號
 quotation|引言
 quota|配額
@@ -8956,6 +9022,8 @@ read-side|讀取周圍的
 read through|看過
 read-write|可讀可寫
 ready for|準備好
+ready to be installed|準備好可供安裝
+ready to be read|準備好可供讀取
 ready to|準備好
 ready|就緒
 read|讀取
@@ -9255,6 +9323,7 @@ request to send|請求發送
 request|請求
 required attribute|必要的屬性
 required field|必填欄位
+required from|需求來自
 required permission|所需的許可
 required pressure timeout|壓力達標等候時間
 required|必要項
@@ -9268,6 +9337,7 @@ require|需求
 reread|重新讀取
 rerouted|再次設定路線
 reroute|重設路線
+re-run|重新運行
 resample|重新取樣
 rescale|重定比例
 rescan|重新掃描
@@ -9420,6 +9490,7 @@ right key|向右鍵
 right margin|右邊界
 right mouse button|滑鼠右鍵
 right now|立即
+right parentheses|右括號
 right parenthesis|右括號
 right place|正確地點
 right-pointing double angle quotation mark|右尖雙引號
@@ -9883,8 +9954,9 @@ series|系列
 serif|襯線
 serious|嚴重的
 serpentine|彎曲的
+serpent|蛟
 serration|鋸齒狀
-server-client|伺服器-客戶端
+server-client|伺服器－客戶端
 server extension|伺服器擴充
 server process|伺服器行程
 server program|伺服程式
@@ -9922,7 +9994,7 @@ setswana|茨瓦納語
 sets|集合
 setter|賦值子
 settings file|設定檔
-settings|設定值
+settings|設定項目
 setting tile|設定圖塊
 setting up|設定
 settled|已結清
@@ -10016,9 +10088,11 @@ short reference|簡短參考
 short term|短期
 short usage|簡短用法
 short|短
+should be avoided|應該要避免
 should be careful|應該要小心
 should not|不應該
 should|應該
+%s hour|%s 小時
 show again|再次顯示
 show all|全部顯示
 showcase|櫥窗
@@ -10181,6 +10255,7 @@ slapstick|鬧劇
 slash|斜線
 slateblue|青藍
 slategray|青灰
+slate|石板
 slave|從屬
 slavonic|斯拉夫語
 sleep|暫停
@@ -10251,6 +10326,7 @@ social|社交
 socket|承接座
 so far|目前為止
 %s of %s|%2$s 中的 %1$s
+soft-dependencies|軟性依存
 soften|柔化
 softlink|軟式鏈結
 softness|柔軟度
@@ -10398,13 +10474,13 @@ specification|規格
 specific-error|特定錯誤
 specific heat|比熱
 specific option|特定選項
-specific setting|特定的設定值
 specific|特定的
 specifier|說明符
 specify|指定
 specimen|樣本
 speckle|斑點
 spectator|觀眾
+spectre|幽靈
 spectrum analyzer|頻譜儀
 spectrum|光譜
 speech|語音
@@ -10556,6 +10632,7 @@ stdin|標準輸入
 stdout|標準輸出
 std.|標準
 steady|穩定
+(S) teal lock|竊取鎖定
 steal|竊取
 steelblue|鋼青
 steel-gray|鐵灰色
@@ -10663,7 +10740,7 @@ structured-name|結構化名稱
 structure|結構
 struct|結構
 strut|支撐
-stub|殘餘
+stub|樁腳
 stuck|宕機
 student|學生
 studio|工作室
@@ -10775,6 +10852,7 @@ subwidget|子視窗元件
 sub|子
 succeed|成功
 successfully completed|已成功完成
+successfully installed|已成功安裝
 successfully loaded|已成功載入
 successfull|成功
 successful|成功
@@ -10841,6 +10919,8 @@ surface|表面
 surfix|後綴
 suriname|蘇利南
 surname|姓氏
+surrealism|超現實主義
+surreal number|超現實數
 surrogates|代理區
 surround sound|環繞音效
 surround|圍繞
@@ -10854,6 +10934,7 @@ suspicious stuff|惡意材料
 susu|蘇蘇語
 sutu|蘇土語
 svalbard and jan mayen|冷岸群島及央棉
+svizzera|瑞士
 swahili|史瓦西里語
 swap partition|交換分割區
 swap space|交換空間
@@ -10969,7 +11050,7 @@ tab width|跳格寬度
 tab|頁籤
 tachometer|轉速計
 tagalog|塔加拉語(菲律賓)
-tagbanwa|菲律賓-塔格板瓦語
+tagbanwa|菲律賓－塔格板瓦語
 tagging|貼標
 tag library|標籤檔案庫
 tagline|經典臺詞
@@ -11032,7 +11113,7 @@ tan|正切函數
 tape out|設計定稿
 tape|磁帶
 tapping|觸點
-tap|分接頭
+tap|戳
 tarball|打包檔
 target machine|目標電腦
 target|目標
@@ -11091,7 +11172,7 @@ temporary|暫時的
 temptation|誘惑
 tends to|傾向於
 tend|接近
-tengwar|精靈-談格瓦文
+tengwar|精靈－談格瓦文
 tentative|試行
 tenths of|十分之一
 tenth|第十
@@ -11161,6 +11242,7 @@ that|該
 the|
 the answer|答案
 the availability of|能提供多少
+the board|機板
 the cause|原因
 the colon|冒號
 the correct|正確
@@ -11171,8 +11253,8 @@ their|它們的
 the last record|最後一筆
 the medium|媒體
 themes|主題
-theme to use|要用的布景主題
-theme|布景主題
+theme to use|要用的佈景主題
+theme|佈景主題
 the missing|缺少的
 them|它們
 then-current|當時公認的
@@ -11237,7 +11319,7 @@ this release|這次釋出
 this scheme|這種方案
 this screen|這個畫面
 this text|這段文字
-this time|這一次
+this time|這次
 this week|本週
 this will|這將
 this year|今年
@@ -11317,7 +11399,6 @@ time server|校時伺服器
 time-slicing|劃分時間片段
 times new roman|Times New Roman
 timestamp|時間戳記
-times|次
 timezone|時區
 time|時間
 timing-out|逾時
@@ -11357,6 +11438,7 @@ to edit|以編輯
 to elaborate a bit|大略談一下
 to enable|以啟用
 to find|以尋找
+to force|以強制
 to free|以釋放
 to front|於序頁
 together|一齊
@@ -11404,9 +11486,11 @@ tool bar|工具列
 toolbar|工具列
 toolbox|工具箱
 toolchain|工具鏈
+tooling|模具
 toolkit|工具組
 tooltip|提示框
 tool|工具
+too many times|太多次
 too many|太多
 too much|太多
 too old to|太舊而無法
@@ -11415,6 +11499,7 @@ to or from|成為或來自
 too small to|太小而無法
 too"|也
 too|太
+to pass|以傳遞
 top-down|由上而下
 to perform|以進行
 top-float|頂流體
@@ -11435,8 +11520,9 @@ top to bottom|從上到下
 top trends|熱門趨勢
 top|頂
 "top|頂端
-to quit|以脫離
+to quit|以離去
 to reach|到達
+to replace|以置換
 to right|往右
 torpedo|魚雷
 torrent|訊流
@@ -11673,7 +11759,7 @@ twi|奇族語(迦那)
 two-digit|兩位數
 two-factor|雙因素
 two or more|兩個以上
-two-phase commit|二階段定案
+two-phase commit|二階段定稿
 two-way-alternate|雙向替換
 two-way-recovery|雙向復原
 two-way|雙向
@@ -11819,10 +11905,12 @@ uniform|單一形式
 unindent|復原縮排
 uninhibited|解禁
 uninstallation|解除安裝
+uninstalled|已解除安裝
 uninstaller|解除安裝程式
 uninstalling|解除安裝
 uninstall|解除安裝
 unintentionally|無意地
+uninteresting|無趣的
 uninterpretable|不可解譯
 union type|聯集型態
 union|聯合
@@ -11868,6 +11956,7 @@ unnecessary|並非必要
 unnumbered|未編號的
 unofficial|非正式
 unordered|無序
+unpackaged|未加入套件的
 unpack|解裝
 unpaired|未成對
 unparseable|無法剖析的
@@ -11940,6 +12029,7 @@ unzip|解壓縮
 %u of %u|%2$u 中的 %1$u
 up and running|啟動並執行
 upcoming|即將來臨的
+updatable|可更新
 update|更新
 updown|上下按鈕
 upgrade|升級
@@ -11977,6 +12067,7 @@ url|網址
 uruguayan|烏拉圭
 uruguay|烏拉圭
 usability|可用性
+usable for|可用於
 usable|可用
 usage|使用率
 usage:|用法：
@@ -11986,7 +12077,6 @@ use as|做為
 use both|同時使用
 used file|使用過檔案
 used for|用於
-used in|已用於
 used space|使用空間
 used to|用來
 used|已用
@@ -12086,6 +12176,7 @@ verbose mode|詳細模式
 verbose|詳細的
 verbosity|詳細度
 verb|動詞
+verdict|判決
 veriables|變數
 verification|核實
 verified|已經核實
@@ -12116,7 +12207,7 @@ vertices|頂點數
 vertigo|眩暈
 very first|首次
 very|很
-veteran|有經驗的
+veteran|資深
 veto|否決
 viability|可用性
 viable|可行的
