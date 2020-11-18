@@ -32,6 +32,9 @@ make DESTDIR=%{buildroot} install
 %{_datadir}/locale/*/LC_MESSAGES/*
 %{_mandir}/man1/*
 
+%clean
+rm -rf %{buildroot}
+
 %changelog
 * Fri Oct 23 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 1.4
 - Update to 1.4

@@ -58,7 +58,7 @@ class Arguments:
         parser.add_option('-c','--credit',dest='credit',metavar='"NAME <EMAIL>"',default=knowns.credit,help=_('credit of the translator'))
         parser.add_option('-d','--dictionary',dest='dicFile',action='append',metavar='FILE',default=[],help=_('name of the dictionary file'))
         parser.add_option('-e','--expression',dest='expression',metavar='"(^)(.*)($)"',default='',help=_('message regular expression'))
-        parser.add_option('-F','--fuzzyfree',dest='fuzzyfree',action='store_true',default=False,help=_('force message fuzzy-free'))
+        parser.add_option('-F','--fuzzyfree',dest='fuzzyfree',action='store_true',default=False,help=_('force messages fuzzy-free'))
         parser.add_option('-k','--keep',dest='keep',action='store_true',default=False,help=_('keep translated msgstr'))
         parser.add_option('-l','--language',dest='lang',metavar='ABC2XYZ',default='',help=_('source and target languages'))
         parser.add_option('-m','--mapped',dest='mapped',action='store_true',default=False,help=_('full-mapped messages only'))
@@ -246,7 +246,7 @@ class Translator:
         content = re.sub(r'([a-z])\(s\)', r'\1', content) #remove plural mark
         content = re.sub(r'_n?:.*\\n', r'', content) #remove comment
         if arguments.opts.accelerator:
-            if '_' in arguments.opts.accelerator and re.match(r'(_[A-Za-z]|[^_]*[A-Za-z]_|[^_]*\W_[A-Za-z])[Ka-z][^_]*$', content) and re.search(r'[A-Z]', content):
+            if '_' in arguments.opts.accelerator and re.match(r'(_[A-Za-z]|[^_]*[A-Za-z]_|[^_]*\W_[A-Za-z])[Ka-z][^_]*$', content) and re.search(r'[A-Z]', content) and not re.search(r'%\([a-z]*_[a-z]*\)', content):
                 replacement = r'\1\2 (_'+content[content.find('_')+1].upper()+')'
                 content = re.sub(r'_([A-Za-z])([^<>\?:,;\.\\]*)', replacement, content) #relocate shortcut key
             content = re.sub(r'&([a-z]{2,});', r'& \1 ;', content) #split html mark
@@ -261,10 +261,10 @@ class Translator:
         content = re.sub(r'([A-Za-z\u00c0-\u02af\']{2,})([^ _\'\-0-9A-Za-z\u00c0-\u02af%])', r'\1 \2', content) #split words at end
         content = re.sub(r'([^ "]|^[ a])\\n', r'\1 \\n', content) #split escape sequence at end
         content = re.sub(r'(\\t|\\n|\\\\|\\\\\\t)([^"\\])', r'\1 \2', content) #split escape sequence at start
-        content = re.sub(r'%\( (\w*) \)([disu])', r'%(\1)\2', content) #repair substituted variable
+        content = re.sub(r'%\( (\w*) \)([dirsu\-0-9])', r'%(\1)\2', content) #repair substituted variable
         content = re.sub(r'(>|\]|\)|%[a-z]|%[0-9][a-z]|%\([a-z]*\)[a-z])(, |\. |: |;|\?|!)', r'\1 \2', content) #split others before punctuation
         content = re.sub(r'\{ (\w*) \}', r'{\1}', content) #repair substituted variable
-        content = re.sub(r'%([\-\.0-9]{0,3}) ([flu]{1,3})', r'%\1\2', content) #repair substituted variable
+        content = re.sub(r'%([\-\.0-9]{0,4}) ([flu]{1,3})', r'%\1\2', content) #repair substituted variable
         content = re.sub(r'& ([a-z]{2,}) ;', r'&\1;', content) #repair html mark
         content = re.sub(r'([a-z_A-Z]{4,}) (\(\)[ ,;:$])', r'\1\2', content) #repair function name
         content = content.split(' ')
@@ -300,13 +300,10 @@ class Translator:
                                     result += ' '+value if lastSign>=0 else value
                                 else:
                                     result += ' '+value if lastSign>0 else value
-                                if ord(value[-1]) < 128: #ascii at end?
-                                    lastSign = 1 #with space
-                                else:
-                                    lastSign = 0
+                                lastSign = 1 if ord(value[-1]) < 128 else 0
                             else:
-                                result += value
-                                lastSign = -1 #without space
+                                result += ' '+value if lastSign>=0 and value[0] in '%' else value
+                                lastSign = 1 if 'a' <= value[-1] <= 'z' else -1
                         i += j
                         onceDone = True
                         break
@@ -319,10 +316,10 @@ class Translator:
                     j = len(key)
                     if keyHead in self.dictionary and j <= len(self.dictionary[keyHead]) and key in self.dictionary[keyHead][j-1]:
                         result += ' '+self.dictionary[keyHead][j-1][key] if lastSign>0 else self.dictionary[keyHead][j-1][key]
-                        lastSign = 0
+                        lastSign = 0 #depend space
                     else:
                         result += ' '+contentHead if lastSign>=0 else contentHead
-                        lastSign = 1
+                        lastSign = 1 #with space
                         mapped = False
                     i += 1
                     onceDone = True
@@ -411,6 +408,8 @@ class PO:
         def output(self):
             if re.search(r'\\n([^"\\])', self.msgid):
                 self.msgid = re.sub(r'^(msgid)\s', r'\1 ""\n', self.msgid)
+            if re.search(r'\\n([^"\\])', self.msgid_plural):
+                self.msgid_plural = re.sub(r'^(msgid_plural)\s', r'\1 ""\n', self.msgid_plural)
             if re.search(r'\\n([^"\\])', self.msgstr):
                 self.msgstr = re.sub(r'^(msgstr|msgstr\[0\])\s', r'\1 ""\n', self.msgstr)
             resultStr = re.sub(r'\\n([^"\\])', r'\\n"\n"\1', self.msgid + self.msgid_plural + self.msgstr) #break lines by newline
@@ -531,7 +530,10 @@ class PO:
             self.messages[0].msgstr = re.sub(r'Last-Translator: [^\\"]*', r'Last-Translator: '+arguments.opts.credit, self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'Language-Team: [^\\"]*', r'Language-Team: '+knowns.localedic[knowns.locale][1]+' <'+knowns.localedic[knowns.locale][2]+'>', self.messages[0].msgstr)
         language = knowns.locale if len(knowns.locale)==5 else knowns.locale[:3]
-        self.messages[0].msgstr = re.sub(r'Language: [^\\"]*', r'Language: '+language, self.messages[0].msgstr)
+        if 'Language:' in self.messages[0].msgstr:
+            self.messages[0].msgstr = re.sub(r'Language: [^\\"]*', r'Language: '+language, self.messages[0].msgstr)
+        else:
+            self.messages[0].msgstr = re.sub(r'MIME-Version:', r'Language: '+language+'\\\\n"\n"MIME-Version:', self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'MIME-Version: [^\\"]*', r'MIME-Version: 1.0', self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'Content-Type: text/plain; charset=[^\\"]*', r'Content-Type: text/plain; charset=UTF-8', self.messages[0].msgstr)
         self.messages[0].msgstr = re.sub(r'Content-Transfer-Encoding: [^\\"]*', r'Content-Transfer-Encoding: 8bit', self.messages[0].msgstr)
@@ -541,7 +543,10 @@ class PO:
             self.messages[0].msgstr += '"Plural-Forms: nplurals=1; plural=0;\\n"\n'
         sourceNo = 1
         for message in self.messages[1:]:
-            sourceId = message.msgid[message.msgid.find('"')+1:message.msgid.rfind('"')]
+            if message.msgid_plural:
+                sourceId = message.msgid_plural[message.msgid_plural.find('"')+1:message.msgid_plural.rfind('"')]
+            else:
+                sourceId = message.msgid[message.msgid.find('"')+1:message.msgid.rfind('"')]
             strHead = message.msgstr[:message.msgstr.find('"')]
             sourceStr = message.msgstr[message.msgstr.find('"')+1:message.msgstr.rfind('"')]
             if not (message.obsolete or arguments.opts.skip and not message.fuzzy and sourceStr):
@@ -582,7 +587,7 @@ class PO:
         if not handle.isatty():
             handle.close()
 
-class MSG:
+class NPO:
     class Message:
         def __init__(self):
             self.head = ''
@@ -670,7 +675,7 @@ if __name__ == '__main__':
     arguments = Arguments()
     translator = Translator()
     for inputFile in arguments.pars:
-        handleIn = MSG() if arguments.opts.expression else PO()
+        handleIn = NPO() if arguments.opts.expression else PO()
         try:
             handleIn.readIn(inputFile)
         except:

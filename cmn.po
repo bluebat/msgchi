@@ -29,7 +29,7 @@ msgstr "字典檔的名稱"
 msgid "message regular expression"
 msgstr "訊息正規表示式"
 
-msgid "force message fuzzy-free"
+msgid "force messages fuzzy-free"
 msgstr "強制訊息除去模糊"
 
 msgid "keep translated msgstr"

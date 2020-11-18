@@ -37,7 +37,7 @@ Dictionary Reference
 	* 英中繁簡編程術語對照 <http://jjhou.boolan.com/terms.htm>
 	* Translation Project <http://translationproject.org/>
 * cmn2yue
-	* 曾焯文《粵辭正典》
+	* 曾焯文《粵辭正典─健康篇》
 	* 邵慧君、甘于恩《粵語詞彙講義》
 	* 陳雄根、張錦少《粵語詞匯溯源》
 	* 現代標準漢語與粵語對照資料庫 <https://apps.itsc.cuhk.edu.hk/hanyu/>

@@ -20,6 +20,10 @@
 32-bit|32 位元
 3d box|立方體
 3rd party|第三方
+4.1-channel|4.1 聲道
+4-channel|4 聲道
+5.0-channel|5.0 聲道
+5.1-channel|5.1 聲道
 64-bit|64 位元
 64-bit edition|64 位元版
 8-bit|8 位元
@@ -378,7 +382,8 @@ alphanumeric|文數字
 alpha value|透明度
 alpha|阿法
 already -en|已
-already installed|已經安裝
+already installed"|已經安裝
+already installed|已經安裝的
 already in use|已在使用中
 already|已經
 also|也
@@ -1242,6 +1247,7 @@ billboard|告示牌
 billed|買單
 billing|賬目
 bill|賬單
+binary blob|二進位包
 binary compatible|二進位相容的
 binary operation|二進運算
 binary operator|二元運算子
@@ -1298,7 +1304,7 @@ blink|閃動
 blin|比林語
 blip|光點
 blobby|珠斑
-blob|大型
+blob|斑點
 block boundary|區段界限
 block chain|區塊鏈
 blockchain|區塊鏈
@@ -1854,6 +1860,7 @@ chechen|車臣語
 check box|核取方塊
 checkbox|核取方塊
 check capitalization|檢查字母大小寫
+checked out|已簽出
 checked|已勾選
 checkered|方格的
 checker|檢查器
@@ -2874,9 +2881,11 @@ degenerate|退化
 degradation|劣化
 degraded|降級
 degree sign|度號
+degrees|度數
 degree|度
 deinstallation|移除安裝
 deinstall|反安裝
+deinterlace|去交錯
 deinterleave|去交錯
 dejagging|消除鋸齒線
 delaware|德拉瓦語
@@ -3369,7 +3378,7 @@ dsn|資料來源名稱
 %d times|%d 次
 dual-attachment|雙附件
 duala|杜亞拉語
-dual-channel|雙頻道
+dual-channel|雙通道
 dual-ported|雙埠
 dual|雙
 ductile|柔軟
@@ -4181,6 +4190,7 @@ flared|喇叭狀
 flash disk|閃碟
 flashing|閃動的
 flash memory|快閃記憶體
+flatbed|平板
 flat file|平面檔案
 flatness|平度
 flatten|平面化
@@ -4605,6 +4615,7 @@ gigabyte|十億位元組
 gilbert and ellice|吉爾柏特及埃里斯
 gilbertese|吉伯特語
 gimmick|噱頭
+git repository|Git 程式庫
 given angle|預設角度
 given for|施用於
 given|給定的
@@ -4668,6 +4679,7 @@ gracefully|平順
 gracious thanks for|由衷的感謝
 gracious thanks to|由衷的感謝
 gracious thanks|由衷的感謝
+gradians|梯度
 gradient|梯度
 gradual|逐漸的
 graduated|漸變的
@@ -5493,6 +5505,7 @@ in spite of this|儘管如此
 in spite of|儘管
 in %s second|於 %s 秒後
 installation|安裝
+installed"|已安裝
 installed|已安裝的
 installer|安裝程式
 installing|安裝
@@ -5924,6 +5937,7 @@ kick|踢出
 kikuyu|基庫尤語
 killed|砍除
 killer|殺手
+killing|砍除中
 kill process|砍除行程
 kill|砍除
 kilobyte|千位元組
@@ -6220,6 +6234,7 @@ light orange|淺橙
 light pink|淺粉紅
 lightpink|淺粉紅
 light purple|淺紫
+light rain|小雨
 light red|淺紅色
 lightsalmon|淺橙紅
 lightseagreen|淺海藻綠
@@ -6599,6 +6614,7 @@ maker|自造者
 make sense|具任何意義
 make sure that|確定
 make sure|確定
+makes|使得
 make up|構成
 make use of|利用
 make visible|顯現
@@ -7005,6 +7021,7 @@ missile|火箭
 missing dot|缺少句點
 missing person|失蹤者
 mission|任務
+misspelled|拼錯的
 misspell|拼錯
 miss|缺少
 mistake|錯誤
@@ -8182,6 +8199,7 @@ passphrase|密語
 passport|護照
 pass-through|傳遞
 pass through|轉送
+passthrough|轉送
 pass to|傳遞給
 password aging|密碼生命期
 password required|必須輸入密碼
@@ -8191,7 +8209,7 @@ paste as|貼上為
 paste special|專選貼上
 paste|貼上
 past|過去
-patches|補丁
+patches|修補檔案
 patch|修補程式
 patent troll|專利流氓
 patent|專利
@@ -8735,6 +8753,7 @@ process with|行程具有
 process|處理
 produce|產生
 production|生產
+productivity|生産力
 product|產品
 professional|專業
 proficiency|能力
@@ -8937,6 +8956,7 @@ quote|引言
 race condition|競爭情況
 race|競速
 radial|徑向
+radians|弧度
 radicals|部首
 radical|根號
 radicand|被開方
@@ -8955,6 +8975,8 @@ radix|基數
 raid level|RAID 層
 rainbow|彩虹
 raindrop|雨滴
+rain|雨
+raise flash|引發快閃
 raise to top|提到最上層
 raise|引發
 raising|舉起
@@ -9060,6 +9082,7 @@ received data|接收數據
 received from|已接收自
 receiver|收件者
 receive|接收
+recency|新近度
 recent enough|時間夠近
 recenter|重新置中
 recent files|最近使用的檔案
@@ -9683,6 +9706,7 @@ sao tome and principe|聖多美及普林西比
 sapphire|藍寶石
 sarajevo|塞拉耶佛
 sarati|沙拉提文
+sardine|沙丁魚
 sardinian|薩丁尼亞語
 sar|信號雜訊比
 sasak|莎莎克語
@@ -9791,6 +9815,7 @@ scroll in|捲入
 scroll up|向上捲動
 scroll|捲動
 scrubbing|播放選位
+%s : %d of %d|%1$s：%3$d 中的 %2$d
 seagreen|海藻綠
 seagull|海鷗
 sealed|密封
@@ -10218,6 +10243,7 @@ sino-tibetan|漢藏
 sint eustatius|聖尤斯特歇斯
 sint maarten|聖馬丁
 sinusoidal|正弦
+%s : %i of %i|%1$s：%3$i 中的 %2$i
 siouan languages|蘇語諸語言
 sister|姊妹
 siswati|西斯瓦提語
@@ -10258,6 +10284,8 @@ slategray|青灰
 slate|石板
 slave|從屬
 slavonic|斯拉夫語
+sleeplessness|失眠
+sleepless|睡不着
 sleep|暫停
 sleeve|封套
 slewing|旋轉
@@ -10546,6 +10574,7 @@ sranan tongo|蘇利南東墎語
 sri lanka|斯里蘭卡
 ssl key|SSL 金鑰
 ssn|社會保險號碼
+%s : %s of %s|%1$：%3$s 中的 %2$s
 %s's|%s 的
 stability|穩定性
 stable|穩定
@@ -10701,6 +10730,7 @@ straight-line depreciation|直線折舊
 straight line|直線
 straightness|直線
 straight|平直
+strain|勞損
 strange|怪異的
 strategy|策略
 stray|零星的
@@ -10883,7 +10913,10 @@ summer|加法器
 sum|和
 sundanese|巽他語
 sunday|週日
+sunrise|日出
+sunset|日落
 "sun|週日
+%s : %u of %u|%1$s：%3$u 中的 %2$u
 super block|超區塊
 superblock|超區塊
 superclass|超級類別
@@ -11532,6 +11565,7 @@ to self|給自己
 to serve as|當做
 to set|以設定
 to show|以顯示
+to skip|以跳過
 to start|啟始
 to stat|顯示狀態
 total capacity|總容量
@@ -11722,8 +11756,8 @@ tune-ups|調校
 tune|調校
 tunisian dinar|突尼西亞戴納
 tunisia|突尼西亞
-tunnelling|穿遂
-tunnel|遂道
+tunnelling|穿隧
+tunnel|隧道
 tupi languages|圖皮諸語言
 tuple|串組
 turkey|土耳其
@@ -12329,6 +12363,7 @@ want to|要
 want|想要
 warang citi|瓦郎奇蒂文字
 waray|瓦瑞語
+warmer|比較溫暖
 warm|溫暖
 warn|警告
 warp|回轉
