@@ -26,6 +26,7 @@
 5.1-channel|5.1 聲道
 64-bit|64 位元
 64-bit edition|64 位元版
+7.1-channel|7.1 聲道
 8-bit|8 位元
 8 bit clean|不含第八位元
 a|
@@ -1869,7 +1870,7 @@ check for|檢查有無
 check if|檢查是否
 checking program|查驗程式
 check in|簽入
-check key|核對鍵
+check key|檢核鍵
 checklist|檢核列表
 check mark|勾選標記
 check out|簽出
@@ -3870,6 +3871,7 @@ expenditure|開支
 expense|費用
 experience|經驗
 experimental|實驗性質
+experiment|實驗
 expertise|專業知識
 experts only|專家限用
 expert|專家
@@ -4037,6 +4039,7 @@ feminine ordinal indicator|陰性序數指示符
 fetch|擷取
 fewer|更少的
 few more|多一點
+few people|很少人
 few seconds|數秒
 few|幾個
 fiber distributed data interface|光纖分散式資料介面
@@ -4228,7 +4231,7 @@ fluctuation|變動
 fluent|流利
 fluidness|流暢度
 fluid|溶液
-flush|清理
+flush|沖寫
 flyer|傳單
 flying height|飛行高度
 fly through|掃視
@@ -4350,7 +4353,8 @@ forwardonly|順向
 forward references|後述參考
 forward reference|向前參考
 forwards|向前
-forward|轉寄
+forward|前進
+forward:|轉寄：
 for yes|表示同意
 for your information|供您參考
 for you|為您
@@ -5505,6 +5509,7 @@ in spite of this|儘管如此
 in spite of|儘管
 in %s second|於 %s 秒後
 installation|安裝
+installed size|安裝後大小
 installed"|已安裝
 installed|已安裝的
 installer|安裝程式
@@ -5884,6 +5889,7 @@ keep|保持
 kelvin|凱氏
 kenyan|肯亞
 kenya|肯亞
+kernel panic|內核崩壞
 kernel-tunable|內核可調的
 kernel|內核
 kern|字間微調
@@ -6470,7 +6476,7 @@ lookup|查找
 look up|查閱
 look|外觀
 loopback mount|回送掛載
-loopback|迴路
+loopback|回送
 looping|循環
 loop|迴圈
 loose binding|寬鬆繫結
@@ -6604,6 +6610,7 @@ make a gift|送一份禮物
 make a goal|達陣
 make a|做出
 make featured|定為特色
+makefile|建置檔
 make it better|讓它更好
 make link|建立鏈結
 make no sense|不具任何意義
@@ -6618,6 +6625,7 @@ makes|使得
 make up|構成
 make use of|利用
 make visible|顯現
+"make"|建置
 make|製作
 malagasy|馬達加斯加語
 malawi|馬拉威
@@ -7793,6 +7801,7 @@ one place down|向下一個位置
 one place up|向上一個位置
 one second|一秒鐘
 one stop|一次滿足
+one suspects that|一般認為
 one-way-recovery|單向復原
 one way|單向
 one|一個
@@ -8119,6 +8128,7 @@ panama|巴拿馬
 panel|面板
 pane|窗格
 pangasinan|龐加辛南語
+pangolin|穿山甲
 panic|驚恐
 panning|平移
 pannonian|潘諾尼亞
@@ -9176,6 +9186,7 @@ refinement|重整化
 refine|重整
 reflection|映像
 reflect|反映
+refocus|重新聚焦
 reformat|重新格式
 refresh rate|重刷速率
 refresh|重刷
@@ -12590,6 +12601,7 @@ worksheet|工作表
 workshop|工作室
 works like a charm|有神奇功效
 workspace pager|工作區切換器
+workspace-specific|工作區特定的
 workspace|工作區
 workstation|工作站
 work together|合作

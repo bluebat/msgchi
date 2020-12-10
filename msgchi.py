@@ -244,7 +244,7 @@ class Translator:
         if re.search(r'\w{2,};\w{2,};\w{2,};', content): #protect semicolon separator
             content = re.sub(r';', r';;', content)
         content = re.sub(r'([a-z])\(s\)', r'\1', content) #remove plural mark
-        content = re.sub(r'_n?:.*\\n', r'', content) #remove comment
+        content = re.sub(r'^_n?:[^\\]*\\n', r'', content) #remove comment
         if arguments.opts.accelerator:
             if '_' in arguments.opts.accelerator and re.match(r'(_[A-Za-z]|[^_]*[A-Za-z]_|[^_]*\W_[A-Za-z])[Ka-z][^_]*$', content) and re.search(r'[A-Z]', content) and not re.search(r'%\([a-z]*_[a-z]*\)', content):
                 replacement = r'\1\2 (_'+content[content.find('_')+1].upper()+')'

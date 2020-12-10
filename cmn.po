@@ -30,7 +30,7 @@ msgid "message regular expression"
 msgstr "訊息正規表示式"
 
 msgid "force messages fuzzy-free"
-msgstr "強制訊息除去模糊"
+msgstr "強制除去模糊標記"
 
 msgid "keep translated msgstr"
 msgstr "備註翻譯過的 msgstr"
