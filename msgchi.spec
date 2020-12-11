@@ -1,5 +1,5 @@
 Name:		msgchi
-Version:	1.4
+Version:	1.5
 Release:	1
 Summary:	Translating messages from template files to chinese
 License:	GPL, PD
@@ -36,7 +36,7 @@ make DESTDIR=%{buildroot} install
 rm -rf %{buildroot}
 
 %changelog
-* Fri Oct 23 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 1.4
-- Update to 1.4
+* Fri Dec 11 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 1.5
+- Update to 1.5
 * Wed Jun 07 2017 Wei-Lun Chao <bluebat@member.fsf.org> - 1.0
 - First release

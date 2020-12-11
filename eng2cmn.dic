@@ -2909,6 +2909,7 @@ delimiting|界定
 delimit|定界
 delivery|遞送
 deliver|投遞
+delta|差異
 demand|請求
 demangle|解讀
 demarshal|除封送
@@ -3063,7 +3064,7 @@ did you mean|您的意思是指
 did you|您是否
 die|消滅
 differ about|上有所不同
-difference|差異
+difference|差別
 different kinds of|不同種類的
 different|不同的
 differ in such a way that|不同之處在於
@@ -6475,7 +6476,6 @@ lookup table|查找表
 lookup|查找
 look up|查閱
 look|外觀
-loopback mount|回送掛載
 loopback|回送
 looping|循環
 loop|迴圈
@@ -8064,6 +8064,7 @@ packet-switched|分封交換
 packet-writing|封包寫入
 packet|封包
 packing|打包
+pack-reused|打包重用
 pack|包裝
 padding on|開啟填補
 padding|填補
