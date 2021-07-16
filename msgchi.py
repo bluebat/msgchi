@@ -246,7 +246,7 @@ class Translator:
         content = re.sub(r'([a-z])\(s\)', r'\1', content) #remove plural mark
         content = re.sub(r'^_n?:[^\\]*\\n', r'', content) #remove comment
         if arguments.opts.accelerator:
-            if '_' in arguments.opts.accelerator and re.match(r'(_[A-Za-z]|[^_]*[A-Za-z]_|[^_]*\W_[A-Za-z])[Ka-z][^_]*$', content) and re.search(r'[A-Z]', content) and not re.search(r'%\([a-z]*_[a-z]*\)', content):
+            if '_' in arguments.opts.accelerator and re.match(r'(_[A-Za-z]|[^_]*[A-Za-z]_|[^_]*\W_[A-Za-z])[Ka-z][^_]*$', content) and re.search(r'[A-Z]', content) and not re.search(r'%\([a-z]*_[a-z]*\)|\$[a-z]*_[a-z]*', content):
                 replacement = r'\1\2 (_'+content[content.find('_')+1].upper()+')'
                 content = re.sub(r'_([A-Za-z])([^<>\?:,;\.\\]*)', replacement, content) #relocate shortcut key
             content = re.sub(r'&([a-z]{2,});', r'& \1 ;', content) #split html mark
@@ -264,7 +264,7 @@ class Translator:
         content = re.sub(r'%\( (\w*) \)([dirsu\-0-9])', r'%(\1)\2', content) #repair substituted variable
         content = re.sub(r'(>|\]|\)|%[a-z]|%[0-9][a-z]|%\([a-z]*\)[a-z])(, |\. |: |;|\?|!)', r'\1 \2', content) #split others before punctuation
         content = re.sub(r'\{ (\w*) \}', r'{\1}', content) #repair substituted variable
-        content = re.sub(r'%([\-\.0-9]{0,4}) ([flu]{1,3})', r'%\1\2', content) #repair substituted variable
+        content = re.sub(r'%([\-\.0-9]{0,4}) ([dfilu]{1,3})', r'%\1\2', content) #repair substituted variable
         content = re.sub(r'& ([a-z]{2,}) ;', r'&\1;', content) #repair html mark
         content = re.sub(r'([a-z_A-Z]{4,}) (\(\)[ ,;:$])', r'\1\2', content) #repair function name
         content = content.split(' ')

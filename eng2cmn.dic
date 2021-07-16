@@ -598,6 +598,7 @@ archive|封存
 arcsine|反正弦
 arcs|圓弧
 arctangent|反正切
+arctic|北極
 arc|弧
 area-identifier|區域識別符號
 area|區域
@@ -761,6 +762,7 @@ attack|攻擊
 attain|達到
 attempt to|試圖
 attempt|試圖
+attended|有人值守的
 attendees|與會者
 attending|出席
 attention|注意
@@ -958,6 +960,7 @@ bahamian dollar|巴哈馬元
 bahasa|印尼語
 bahrain|巴林
 baht|泰銖
+bailing out|正在擺脫
 balance|平衡
 balboa|波亞
 balinese|峇里語
@@ -1087,6 +1090,7 @@ before|之前
 be full of|充滿了
 be full|已滿
 beginner|初學者
+beginning to|開始
 beginning|開頭
 begin with|以開始
 begin|開始
@@ -1118,7 +1122,7 @@ be located in|被放置在
 be logged out|登出
 belong to|屬於
 below the|之下
-below you can|以下您可以
+below you can|以下您能夠
 below|以下的
 belt|皮帶
 be made up of|所組成由
@@ -1585,7 +1589,7 @@ by service|依服務
 by size|依大小
 by status|依狀態
 by subject|依主題
-bytecode|位元碼
+bytecode|位元組碼
 byte order|位元組次序
 byte|位元組
 by the way,|順道一提，
@@ -1640,7 +1644,7 @@ canada|加拿大
 canadian aboriginal|加拿大原住民語
 canadian dollar|加拿大元
 canadian french|加拿大法語
-can also|也可以
+can also|也能夠
 canal|運河
 canary|金絲雀色
 can be addictive|是會上癮的
@@ -1651,8 +1655,9 @@ cancellation|取消通知
 cancel|取消
 candidates|侯選者
 candidate|侯選
-can even|甚至可以
-can help|可以幫助
+can even|甚至能夠
+can help|能夠幫助
+cannon bone|管骨
 can not be empty|不可為空
 can not find|找不到
 can not handle|無法處理
@@ -1661,9 +1666,9 @@ canonicalize|正則化
 canonical|規範的
 can only be used|衹能使用
 can only|衹能
-can still|仍然可以
+can still|仍然能夠
 canton and enderbury|坎吞及恩得伯利
-can type|可以輸入
+can type|能夠輸入
 canvas|畫布
 can|可以
 capability set|能力集
@@ -2147,6 +2152,7 @@ comedy|喜劇
 come in handy|會覺得好用
 come in pairs|成對出現
 comes with absolutely no warranty|完全不附帶任何擔保
+comes with no|沒有附帶任何
 comes with|隨附
 come together|一齊來
 comet|慧星
@@ -3008,8 +3014,7 @@ destructor|解構子
 desynchronizer|解同步器
 detach|卸離
 detailed view|細節檢視
-detailed|詳細
-detail information|詳細資訊
+detailed|細部
 detail|細節
 detected|偵測到
 detective|偵測
@@ -3019,6 +3024,7 @@ determinate|確定
 determine if|確定是否
 determine|確定
 deterministic|確定
+detour|繞道
 deutsche mark|德國馬克
 devanagari|梵文字母天城體
 developer|開發者
@@ -3026,7 +3032,7 @@ development|開發
 develop|開發
 device context|裝置情境
 device-dependent|依存於裝置的
-device details|裝置詳細資訊
+device details|裝置細節資訊
 device-independent|與裝置無關
 device-mapper|裝置映射程式
 device number|裝置編號
@@ -3726,7 +3732,7 @@ error condition|錯誤狀況
 error correction|錯誤更正
 error-corruption|資料損壞
 error count|錯誤計數
-error details|錯誤詳細資訊
+error details|錯誤細節資訊
 error dialog|錯誤對話框
 error file|錯誤檔案
 error handler|錯誤處理常式
@@ -4143,8 +4149,8 @@ find previous|找上一個
 find the|找到
 find what|尋找目標
 find|尋找
-finer|更詳細
-finest|最詳細
+finer|更細緻
+finest|最細緻
 finetune|微調
 fine,|不錯，
 fine|細緻
@@ -4294,6 +4300,7 @@ forbidden characters|禁止使用的字元
 forbidden|禁止
 forbid|禁止
 forced|強制的
+force touch|力度觸控
 force|強制
 for current directory|表示目前目錄
 for debugging purposes|為了偵錯的目的
@@ -4304,6 +4311,7 @@ foregoing|前述
 foreground|前景
 foreign key|外部索引鍵
 foreign|外來
+foreman|領班
 forestgreen|森林綠
 forever|永遠
 foreword|序言
@@ -4550,7 +4558,8 @@ gambia|甘比亞
 gamboge|藤黃
 game over|遊戲結束
 game|遊戲
-gamma|γ值
+gamma ray|伽瑪射線
+gamma|伽瑪值
 gamut|全音階
 gan chinese|漢語贛語
 ganda|干達語
@@ -4876,6 +4885,8 @@ happen again|再次發生
 happen|發生
 happy with|滿意
 happy|快樂
+haptic touch|力度觸控
+haptic|觸覺的
 hard-coded|固編的
 hardcode|寫死
 hard-code|硬式編碼
@@ -5415,7 +5426,7 @@ informational|參考性
 information field|資訊欄
 information file|資訊檔
 information|資訊
-informative|詳細資訊的
+informative|富含資訊的
 inform|通報
 info|資訊
 infrared|紅外線
@@ -6105,7 +6116,7 @@ layer|圖層
 layout file|佈局檔案
 layout object|編排物件
 layout style|編排樣式
-layout|版面配置
+layout|版面佈局
 lay them out|將其配置版面
 lay|紙規
 lazy|緩式
@@ -6333,8 +6344,8 @@ linker|鏈結器
 link set|鏈結集
 link type|鏈結型式
 link|鏈結
-linter|篩檢器
-lint|篩檢
+linter|梳理器
+lint|梳理
 linus|林納斯
 linux distribution|Linux 散佈版
 linux only|衹限於 Linux
@@ -6701,7 +6712,7 @@ manual column break|手動換欄
 manual entry|手冊條目
 manual feed|手動送紙
 manual help|線上手冊的說明
-manual layout|線上手冊的版面配置
+manual layout|線上手冊的版面佈局
 manual page break|手動分頁
 manual page|線上手冊
 manuals|手冊
@@ -7150,7 +7161,7 @@ montserrat|蒙塞拉特島
 "mon|週一
 moon|月亮
 more accessible|更方便
-more detailed|更詳細的
+more detailed|更多細節的
 more easily|更易於
 more matches|更多符合者
 more pleasing|更佳的
@@ -7239,6 +7250,7 @@ multiple documents|多份文件
 multiple of|的倍數
 multiple-precision|多重精確度
 multiple selection|多重選取
+multiple times|多次
 multiplexer|多工器
 multiplexing|多工
 multiplexor|多重訊號組合器
@@ -7709,7 +7721,7 @@ nzima|尼兹馬語
 obey|遵守
 obfuscate|模糊化
 object code|物件碼
-object detail|物件詳細資訊
+object detail|物件細節資訊
 object file|物件檔
 object identifier|物件識別符號
 object inspector|物件檢查器
@@ -7801,8 +7813,8 @@ omitted tag minimization parameter|省略標籤最簡化參數
 omit|省略
 on and off|開關
 onbeat|節拍時
-on behalf of all|謹代表所有
 on behalf of|代表
+"on behalf of|謹代表
 on-board|在主機板上的
 on by default|預設開啟
 once a day|一天一次
@@ -8060,6 +8072,7 @@ overrun|超出
 oversampling|超取樣
 overshoot|越限
 overstrike|疊印
+over the spot|近點
 overtime|加班
 overview|概觀
 overwhelm|淹沒
@@ -8263,7 +8276,7 @@ payment|款項
 payoff|代價
 payphone|公用電話
 pay|付款
-p-code|虛擬碼
+p-code|假擬碼
 peachpuff|粉桃紅
 peach|桃色
 peak-to-peak|峰至峰
@@ -8534,6 +8547,7 @@ pop|流行
 porn groove|情色音樂
 pornographic|色情
 portability|可攜性
+portable drive|可攜式磁碟
 portable|可移植的
 portbrazil|巴西葡萄牙語
 ported|移植
@@ -8767,8 +8781,8 @@ private network|專用網路
 private node|私有節點
 private|私人
 private"|私人的
-privileged|需要權限的
-privilege|權限
+privileged|需要權力的
+privilege|權力
 probabilistic|機率式
 probability|可能性
 probably|或許
@@ -8866,6 +8880,7 @@ provider-rejection|提供者拒絕
 provider|提供者
 provide|提供
 provisional|暫定
+provisioning|供給
 provision|條款
 proximity|近接
 proxy host|代理主機
@@ -9153,6 +9168,8 @@ record number|條目號碼
 record-oriented|記錄導向
 recordset-type|資料錄集類型
 recordset|資料錄集
+records in"|項記錄讀入
+records out"|項記錄寫出
 record start|記錄起始
 record status|錄音狀態
 record|記錄
@@ -9219,6 +9236,7 @@ refresh|重刷
 refundable|可退還的
 refunds|退款
 refusal|拒絕
+refuse to|拒絕
 refuse|拒絕
 regain|恢復
 regardless of|而不管
@@ -9400,6 +9418,7 @@ reread|重新讀取
 rerouted|再次設定路線
 reroute|重設路線
 re-run|重新運行
+resampler|重新取樣器
 resample|重新取樣
 rescale|重定比例
 rescan|重新掃描
@@ -9423,6 +9442,7 @@ reshape|重設形狀
 resident|常駐
 residual|殘餘
 residue|殘餘
+resign|辭去
 resilience|抗彈性
 resilver|重新同步
 resistance|阻力
@@ -9564,7 +9584,7 @@ right-to-left|由右到左
 right to privacy|隱私權
 rightwards arrow|向右箭號
 "right|右側
-right|權限
+right|權力
 ring finger|無名指
 ringtone|鈴聲
 ring|環
@@ -9825,7 +9845,7 @@ scratchpad|塗鴉
 scratch|暫用
 screencast|畫面場景
 screenful|全螢幕
-screening|審視
+screening|篩檢
 screen reader|螢幕助讀員
 screen saver|螢幕保護程式
 screensaver|螢幕保護程式
@@ -10062,6 +10082,7 @@ settings file|設定檔
 settings|設定項目
 setting tile|設定圖塊
 setting up|設定
+setting|設置
 settled|已結清
 settle|結賬
 set to|設定為
@@ -10287,7 +10308,7 @@ sinusoidal|正弦
 siouan languages|蘇語諸語言
 sister|姊妹
 siswati|西斯瓦提語
-siteaccess|網址存取權限
+siteaccess|網址存取權力
 site information|網站資訊
 sitemap|網站地圖
 site-wide|全站
@@ -10475,7 +10496,7 @@ sorting out|整理
 sort order|排列順序
 sort|排序
 sosofo|序列流動物件規格
-so that you can|這樣您就可以
+so that you can|這樣您就能夠
 sotho|索托語
 soul|靈魂樂
 sound card|音效卡
@@ -11200,8 +11221,7 @@ task bar|工作列
 taskbar|工作列
 task list|工作列表
 task manager|工作管理器
-tasks|事務
-task|任務
+task|工作項目
 tasteless|無味
 taste|品味
 tatar|韃靼語
@@ -11896,6 +11916,7 @@ unarchive|取消封存
 unary|一元
 unasserted|未主張的
 unassigned|未指派的
+unattended|無人值守的
 unauthorised|未經授權的
 unauthorized|未經授權的
 unavailability|不可用性
@@ -11948,6 +11969,7 @@ undone|已復原
 undo the last action|復原上次的操作
 undo the last operation|復原上次的動作
 undo|復原
+unearth|挖掘
 unencode|未編碼
 unencrypt|解密
 unenforceable|無法執行
@@ -12690,6 +12712,7 @@ xhosa|科薩語
 xiang chinese|漢語湘語
 x-line|小寫字母高線
 xor gate|互斥或閘
+x-ray|侖琴射線
 x-y chart|散點圖
 x-y graph|散點圖
 yacht|快艇
@@ -12721,14 +12744,15 @@ you are advised|建議您
 you are free to change and redistribute it|您可以自由變更和再次散佈它
 you are now|現在您
 you are satisfied|您覺得滿意
-you can always|您隨時可以
-you can then|然後您可以
+you can always|您隨時能夠
+you can then|然後您能夠
 you'd like to|您會想要
 you'd|您將
 you experience|您遇到
 you help|您協助
 you join|您參與
 you'll|您將
+you may|您可以
 your emails|hant-l10n@freelists.org
 your names|漢語官話翻譯小組
 your own|您自己的
