@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 name = 'msgchi'
-version = '1.5'
+version = '@VERSION@'
 copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2020'
 
 ## This program is free software; you can redistribute it and/or modify
@@ -67,6 +67,7 @@ class Arguments:
         parser.add_option('-p','--package',dest='package',metavar='NAME-VERSION',default='',help=_('package name and version'))
         parser.add_option('-s','--skip',dest='skip',action='store_true',default=False,help=_('skip completed msgid'))
         parser.add_option('-t','--type',dest='type',metavar='po|prg|ini|txt',default='',help=_('message file type'))
+        parser.add_option('-T','--test',dest='test',action='store_true',default=False,help=_('run under test mode')) #TEST
         parser.add_option('-w','--wrap',dest='wrap',action='store_true',default=False,help=_('wrap long messages'))
         parser.add_option('-x','--exclude',dest='exclude',metavar='RE',default='',help=_('excluded regular expression'))
         parser.add_option('-X','--xmltag',dest='xmltag',action='store_false',default=True,help=_('text in XML tags not excluded'))
@@ -98,6 +99,7 @@ class Arguments:
         for directory in ['./',knowns.confpath,'/usr/share/msgchi/']:
             if os.path.isfile(directory+self.opts.lang+'.dic'):
                 self.opts.dicFile.append(directory+self.opts.lang+'.dic')
+                break #TEST
         if not self.opts.dicFile:
             sys.exit(_('desired %s or the specified dictionary not found') % self.opts.lang)
         if self.opts.expression:
@@ -132,6 +134,15 @@ class Translator:
             for line in handle:
                 if not line.startswith('#') and line.count('|') == 1:
                     [key, value] = line.strip('\n').split('|')
+                    if arguments.opts.test: #TEST
+                        if arguments.opts.lang[:3] == 'eng': #TEST
+                            newValue = self.eng2chi(key) #TEST
+                        else: #TEST
+                            newValue = self.chi2chi(key) #TEST
+                        redundant = False #TEST
+                        if newValue == value or newValue == value.lower() and not value.isalpha(): #TEST
+                            sys.stderr.write(_('Redundant entry: %s|%s\n') % (key, value)) #TEST
+                            redundant = True #TEST
                     if arguments.opts.lang[:3] == 'eng':
                         key = re.sub(r'([^ \\\'\._\-A-Za-z%\$])([A-Za-z\']{2,})', r'\1 \2', key)
                         key = re.sub(r'([A-Za-z\']{2,})([^ _\'\-0-9A-Za-z%])', r'\1 \2', key)
@@ -141,6 +152,14 @@ class Translator:
                     length = len(key)
                     for i in range(length-len(self.dictionary[key[0]])):
                         self.dictionary[key[0]].append({})
+                    if arguments.opts.test: #TEST
+                        if key[0] in ('being','been','am','are','is','was','were','having','has','had'): #TEST
+                            sys.stderr.write(_('Bad entry: %s|%s\n') % (' '.join(key), value)) #TEST
+                        if key in self.dictionary[key[0]][length-1] and not redundant: #TEST
+                            if arguments.opts.lang[:3] == 'eng': #TEST
+                                sys.stderr.write(_('Duplicate entry: %s|%s(%s)\n') % (' '.join(key), value, self.dictionary[key[0]][length-1][key])) #TEST
+                            else: #TEST
+                                sys.stderr.write(_('Duplicate entry: %s|%s(%s)\n') % (key, value, self.dictionary[key[0]][length-1][key])) #TEST
                     self.dictionary[key[0]][length-1][key] = value
                 elif not line.startswith('#') and len(line) != 1:
                      sys.stderr.write(_('Unformated entry: %s (use | as separator)') % line)
@@ -267,6 +286,8 @@ class Translator:
         content = re.sub(r'%([\-\.0-9]{0,4}) ([dfilu]{1,3})', r'%\1\2', content) #repair substituted variable
         content = re.sub(r'& ([a-z]{2,}) ;', r'&\1;', content) #repair html mark
         content = re.sub(r'([a-z_A-Z]{4,}) (\(\)[ ,;:$])', r'\1\2', content) #repair function name
+        if arguments.opts.test and 'handleIn' in globals(): #TEST
+            return content #TEST
         content = content.split(' ')
         result, i, onceDone, contentHead, lastSign, mapped = '', 0, True, '', -1, True
         while i < len(content):

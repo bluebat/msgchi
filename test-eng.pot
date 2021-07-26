@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-04-12 10:55+CST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+msgid "_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+msgid "_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+msgid "Failed to mark %s board.\n"
+msgstr ""
+
+msgid "  Actual:'size' %12d...\n"
+msgstr ""
+
+msgid "\tScore \"board\""
+msgstr ""
+
+msgid " xxxyyy  xxxyyy %d,\n"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid ".<p>.\n"
+msgstr ""
+
+msgid "outputting|stepping games"
+msgstr ""
+
+msgid "translator-credits"
+msgstr ""
+
+msgid "Couldn't find Misc."
+msgstr ""
+
+msgid "Jog/Shuttle pressed"
+msgstr ""
+
+msgid "An AFM and a BFD, and stopped(sec)"
+msgstr ""
+
+msgid "You may _no..."
+msgstr ""
+
+msgid "You may _no…"
+msgstr ""
+
+msgid "\"%s\"Number of levels"
+msgstr ""
+
+msgid "<span weight=\"bold\" height=\"20\">Windows</span><table></table>"
+msgstr ""
+
+msgid "_OK"
+msgstr ""
+
+msgid "cf. p.38 e.g. a.m. i.e. No. 1"
+msgstr ""
+
+msgid "_HTTP"
+msgstr ""
+
+msgid "no cd/dvd-rom Drive"
+msgstr ""
+
+msgid "Remove childs of branch"
+msgstr ""
+
+msgid "Error while to '%s': %s"
+msgstr ""
+
+msgid "Error _diffusion"
+msgstr ""
+
+msgid "Máirín Duffy womens' school _page"
+msgstr ""
+
+msgid "Looking up n/a is empty"
+msgstr ""
+
+msgid "&amp; name defined twice"
+msgstr ""
+
+msgid "Shift+m"
+msgstr ""
+
+msgid "\tIt was opened twice.\n  input  output"
+msgstr ""
+
+msgid "%{name} %(source)s you have no right"
+msgstr ""
+
+msgid "creative commons attribution auto-logout"
+msgstr ""
+
+msgid "Korea, Korea, Italy, Italy, Korea, Italy, Iran and Windows version"
+msgstr ""
+
+msgid "None of this build-in ANSI printf"
+msgstr ""
+
+msgid "First cote d'ivoire will be done first."
+msgstr ""
+
+msgid "A"
+msgstr ""
+
+msgid "Let's go /etc/X11"
+msgstr ""
+
+msgid "I can't find %(name)s."
+msgstr ""
+
+msgid " -h --help sub-multiple color- or black-and-white"
+msgstr ""
+
+msgid "Open _File\"%s\""
+msgstr ""
+
+msgid "Help text:\n-h Help text\n -h Help text \n  -h Help text\nHelp text\n Help text \n  Help text\n"
+msgstr ""
+
+msgid "if not, has to write to misc. xxx e.g. someone."
+msgstr ""
+
+msgid "For more information to get more information."
+msgstr ""
+
+msgid "Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+msgid " \nOld old machine, very old"
+msgstr ""
+
+msgid "Plugins dependencies:"
+msgstr ""
+
+msgid "'\\' 1 \\ 2 _Windows"
+msgstr ""
+
+msgid "Language-Name"
+msgstr ""
+
+msgid "/_Help"
+msgstr ""
+
+msgid "/Help/_About"
+msgstr ""
+
+msgid "installing install() Reinstalling"
+msgstr ""
+
+msgid "%.2lf Hz"
+msgstr ""
+
+msgid "Based on Ln %i, Col %i , Ln %d, Col %d, Ch %d"
+msgstr ""
+
+msgid "tabs leaving no rule finances close tab sub-account"
+msgstr ""
+
+msgid "application;flatpak;permission;setting;"
+msgstr ""
+
+msgid "in 50% account %s: %u of %u"
+msgstr ""
+
+msgid "Verifying Drive %(drive)s (%(size)-0.f MB)"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+#~ msgid "An AFM and a BFD, and stopped(sec), May _no..."
+#~ msgstr ""

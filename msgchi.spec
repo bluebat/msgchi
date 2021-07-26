@@ -1,5 +1,5 @@
 Name:		msgchi
-Version:	1.5
+Version:	@VERSION@
 Release:	1
 Summary:	Translating messages from template files to chinese
 License:	GPL, PD
