@@ -8,7 +8,7 @@ URL:		https://github.com/bluebat/msgchi
 Source0:	https://github.com/bluebat/msgchi/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python3-devel
-Requires:	python3, gettext, msghack
+Requires:	python3, gettext
 
 %description
 msgchi is a Python3 script to help translators of chinese locales

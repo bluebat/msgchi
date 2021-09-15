@@ -1,9 +1,9 @@
-#!/bin/sh
-# mo2pot, GPL (c) Wei-Lun Chao <bluebat@member.fsf.org>, 2020.
+#!/bin/bash
+# mos2pot, GPL (c) Wei-Lun Chao <bluebat@member.fsf.org>, 2021.
 
-export TEXTDOMAIN=mo2pot
+export TEXTDOMAIN=mos2pot
 if [ "$1" == "" -o "$1" == "-h" -o "$1" == "--help" ] ; then
-  echo $"usage": $0 $"DOMAIN-NAME" [$"LOCALE-DIR"]
+  echo $"usage": $0 $"DOMAIN-NAME" [/usr/share/locale]
   exit
 fi
 if [ "$2" == "" ] ; then
@@ -29,7 +29,7 @@ cd $_TMPDIR
 rmdir --ignore-fail-on-non-empty $1
 if [ -d $1 ] ; then
   msgcat --use-first $1/*.po -o $1.po
-  msghack --empty $1.po -o $_PWDIR/$1.pot
+  msgfilter --keep-header -i $1.po -o $_PWDIR/$1.pot true
 else
   echo $"DOMAIN-NAME" $1 $"not found!"
 fi

@@ -31,7 +31,7 @@ uninstall:
 
 rpm: $(PACKAGE).spec
 	rm -rf $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
-	mkdir $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
+	mkdir -p $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
 	for f in eng2cmn.dic zhc2cmn.dic cmn2yue.dic; do LANG=C sort $$f > $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$$f; done
 	grep -v '#TEST' $(PACKAGE).py > $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$(PACKAGE).py
 	cp {Makefile,$(PACKAGE).spec,README.md,LICENSE,ChangeLog} $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
