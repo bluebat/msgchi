@@ -22,6 +22,11 @@ for _LOCALE in * ; do
   mo=$_LOCALEDIR/$_LOCALE/LC_MESSAGES/$1.mo
   if [ -e $mo ] ; then
     msgunfmt $mo | msgconv -t UTF-8 -o $_TMPDIR/$1/$_LOCALE.po
+  else
+    mo=$_LOCALEDIR/$_LOCALE/$1.mo
+    if [ -e $mo ] ; then
+      msgunfmt $mo | msgconv -t UTF-8 -o $_TMPDIR/$1/$_LOCALE.po
+    fi
   fi
 done
 
