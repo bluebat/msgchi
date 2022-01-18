@@ -44,12 +44,11 @@ class Knowns:
         self.localedic = {}
         self.localedic['zh_TW'] = ['zht','Chinese (traditional)','zh-l10n@linux.org.tw']
         self.localedic['zh_CN'] = ['zhc','Chinese (simplified)','i18n-zh@googlegroups.com']
-        self.localedic['zh_HK'] = ['zhh','Chinese (Hongkong)','hant-l10n@freelists.org']
         self.localedic['cmn_TW'] = ['cmn','Mandarin Chinese','hant-l10n@freelists.org']
         self.localedic['hak_TW'] = ['hak','Hakka Chinese','hant-l10n@freelists.org']
         self.localedic['nan_TW'] = ['nan','Min Nan Chinese','hant-l10n@freelists.org']
         self.localedic['lzh_TW'] = ['lzh','Literary Chinese','hant-l10n@freelists.org']
-        self.localedic['yue_HK'] = ['yue','Yue Chinese','hant-l10n@freelists.org']
+        self.localedic['yue_TW'] = ['yue','Yue Chinese','hant-l10n@freelists.org']
 
 class Arguments:
     def __init__(self):
@@ -525,7 +524,7 @@ class PO:
                 self.messages[0].comments[i] = re.sub('SOME DESCRIPTIVE TITLE.', knowns.localedic[knowns.locale][1]+' translation for '+packageName+'.', self.messages[0].comments[i])
                 self.messages[0].comments[i] = re.sub('(?i)chinese \((traditional|simplified|hongkong)\)', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
                 self.messages[0].comments[i] = re.sub('(?i)(traditional|simplified|hongkong) chinese', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
-                self.messages[0].comments[i] = re.sub('[a-z]{2,3}_(CN|HK|TW)', knowns.locale, self.messages[0].comments[i])
+                self.messages[0].comments[i] = re.sub('[a-z]{2,3}_(CN|TW)', knowns.locale, self.messages[0].comments[i])
         if not [x for x in self.messages[0].comments if '# This file is distributed under the same license' in x]:
             self.messages[0].comments.insert(2,'# This file is distributed under the same license as the '+packageName+' package.\n')
         if self.messages[0].fuzzy:

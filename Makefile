@@ -1,4 +1,4 @@
-VERSION = 1.5
+VERSION = 2.0
 DESTDIR =
 PREFIX = /usr
 PACKAGE = msgchi
@@ -32,7 +32,7 @@ uninstall:
 rpm: $(PACKAGE).spec
 	rm -rf $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
 	mkdir -p $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
-	for f in eng2cmn.dic zhc2cmn.dic cmn2yue.dic; do LANG=C sort $$f > $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$$f; done
+	for f in eng2cmn.dic zht2cmn.dic zhc2cmn.dic cmn2yue.dic; do LANG=C sort $$f > $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$$f; done
 	grep -v '#TEST' $(PACKAGE).py > $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$(PACKAGE).py
 	cp {Makefile,$(PACKAGE).spec,README.md,LICENSE,ChangeLog} $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
 	sed -i 's/@VERSION@/$(VERSION)/' $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$(PACKAGE).py $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/$(PACKAGE).spec
@@ -42,8 +42,8 @@ rpm: $(PACKAGE).spec
 	rpmbuild -ta $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz
 
 test:
-	LANG=C ./lensort-dic eng2cmn.dic > eng2cmn.sort ; mv -f eng2cmn.sort eng2cmn.dic ; ./msgchi.py -T -l eng2cmn test-eng.pot
+#	LANG=C ./lensort-dic eng2cmn.dic > eng2cmn.sort ; mv -f eng2cmn.sort eng2cmn.dic ; ./msgchi.py -T -l eng2cmn test-eng.pot
 #	LANG=C ./lensort-dic zhc2cmn.dic > zhc2cmn.sort ; mv -f zhc2cmn.sort zhc2cmn.dic ; ./msgchi.py -T -l zhc2cmn test-cmn.pot
 #	LANG=C ./lensort-dic zht2cmn.dic > zht2cmn.sort ; mv -f zht2cmn.sort zht2cmn.dic ; ./msgchi.py -T -l zht2cmn test-cmn.pot
-#	LANG=C ./lensort-dic cmn2yue.dic > cmn2yue.sort ; mv -f cmn2yue.sort cmn2yue.dic ; ./msgchi.py -T -l cmn2yue test-cmn.pot
+	LANG=C ./lensort-dic cmn2yue.dic > cmn2yue.sort ; mv -f cmn2yue.sort cmn2yue.dic ; ./msgchi.py -T -l cmn2yue test-cmn.pot
 #	LANG=C ./lensort-dic cmn2nan.dic > cmn2nan.sort ; mv -f cmn2nan.sort cmn2nan.dic ; ./msgchi.py -T -l cmn2nan test-cmn.pot
