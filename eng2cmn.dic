@@ -2374,7 +2374,6 @@ conjugate gradient|共軛梯度
 conjunction|接合
 conjunct|結合
 connected|連線
-connectioendpoint|連接端點
 connection-endpoint|連接端點
 connection error|連線錯誤
 connectionless-mode|免接模式
@@ -2830,8 +2829,8 @@ dde poke|DDE 寫入
 ddepoke|DDE 寫入
 dde|動態資料交換
 ddl|資料定義語言
-deactivate|停擺
-deactivation|停擺
+deactivate|關停
+deactivation|關停
 dead code|無作用程式碼
 dead keys|廢鍵
 dead key|無作用鍵
@@ -3313,7 +3312,7 @@ dolly|推拉
 domain knowhow|場域實力
 domain name|網域名稱
 domain object|網域物件
-domain socket|場域通訊端
+domain socket|場域插口
 domains|網域
 domain|領域
 dominican peso|多明尼加披索
@@ -4888,6 +4887,7 @@ guam|關島
 guarani|瓜拉尼語
 guarantee|保證
 guard clause|衛述句
+guard|守衛
 guatemala|瓜地馬拉
 guernsey|根息島
 guesstimate|預估
@@ -5026,6 +5026,7 @@ have not yet|尚未
 have no|沒有任何
 have occurred|發生了
 have only|衹有
+have read and understood|已讀過並了解
 have received|已收到
 have signed|已簽署
 have size 0|大小為零
@@ -5726,7 +5727,6 @@ internet message access protocol|網際網路郵件存取通訊協定
 internet protocol|網際網路通訊協定
 internet relay chat|多人線上交談系統
 internet service provider|網際網路服務供應商
-internet socket|網際網路通訊端
 internet|網際網路
 interoperability|交互操作性
 interoperable|可交流的
@@ -6225,6 +6225,8 @@ leadin|導入
 lead magic|導語魔術字元
 leadout|導出
 lead size|導語大小
+leads|門路
+lead time|交付時間
 lead to|導致
 leaf|葉
 leakage|漏
@@ -6534,7 +6536,7 @@ locked|鎖定的
 lock file|上鎖檔案
 lock in|套牢
 lock-in|限定
-lockout|鎖上
+lockout|閉鎖
 lock screen|鎖定畫面
 locktype|鎖定類型
 lock|鎖住
@@ -6624,6 +6626,7 @@ lossless compression|無損壓縮
 lossless|無損失
 loss-of-multiframe|多重影格漏失
 loss-of-tributary|支路漏失
+loss or failure|遺失或無效
 lossy compression|有損壓縮
 lossy|失真的
 loss|失真
@@ -7864,6 +7867,7 @@ obligatory note|義務提醒
 oblige|逼迫
 oblique|傾斜的
 obscene|猥褻
+obscure|冷僻
 observation|觀察
 observers|觀察員
 observe|觀察
@@ -7985,6 +7989,7 @@ only|衹有
 on occasion|有時候
 on/off|開/關
 on or off|開或關
+on-premises|地端
 on request|請求時
 on right|右側
 on-screen keyboard|螢幕小鍵盤
@@ -8383,6 +8388,7 @@ pass through|轉送
 passthrough|轉送
 pass to|傳遞給
 password aging|密碼生命期
+password attempt|密碼嘗試
 password required|必須輸入密碼
 password|密碼
 pass|回合
@@ -10291,6 +10297,8 @@ shear|修剪
 shebang|井歎號
 sheet|紙張
 shelf|窗架
+shell built-in|殼層內建命令
+shell builtin|殼層內建命令
 shell script|命令稿
 shell|命令殼
 shelter|避難所
@@ -10571,7 +10579,7 @@ snow|雪白
 snr|信號雜訊比
 socialist|社會主義
 social|社交
-socket|承接座
+socket|插口
 so far|目前為止
 %s of %s|%2$s 中的 %1$s
 soft-dependencies|軟性依存
@@ -11588,6 +11596,7 @@ this time|這次
 this week|本週
 this will|這將
 this year|今年
+...this|…這個
 this|這個
 thorax|胸腔
 those|那些
@@ -12385,6 +12394,7 @@ user-specified|使用者指定
 user to user|使用者至使用者
 user with the same name|相同名稱的使用者
 user|使用者
+use the code below to|使用以下的代碼來
 use to|用來
 use|使用
 usually guesses this correctly|通常能夠正確猜測

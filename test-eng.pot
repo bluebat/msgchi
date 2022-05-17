@@ -181,7 +181,7 @@ msgstr ""
 msgid "in 50% account %s: %u of %u"
 msgstr ""
 
-msgid "Verifying Drive %(drive)s (%(size)-0.f MB)"
+msgid "...this Verifying Drive %(drive)s (%(size)-0.f MB) guarded"
 msgstr ""
 
 msgid "_Forward"
