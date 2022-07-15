@@ -111,7 +111,7 @@ class Arguments:
         elif self.opts.type == 'prg':
             self.opts.expression = '(^.*=>? ?[\'\"])(.*)([\'\"][^\'\"A-Za-z]*$)'
         elif self.opts.type == 'ini':
-            self.opts.expression = '(^[_A-Za-z].*= *)(.*)($)'
+            self.opts.expression = '(^[\[_A-Za-z\]].*= *)(.*)($)'
         elif self.opts.type == 'txt':
             self.opts.expression = '(^)(.*)($)'
 #        elif self.opts.type == 'ts' and self.opts.lang[:3] != 'eng':
@@ -282,7 +282,7 @@ class Translator:
         content = re.sub(r'%\( (\w*) \)([dirsu\-0-9])', r'%(\1)\2', content) #repair substituted variable
         content = re.sub(r'(>|\]|\)|%[a-z]|%[0-9][a-z]|%\([a-z]*\)[a-z])(, |\. |: |;|\?|!)', r'\1 \2', content) #split others before punctuation
         content = re.sub(r'\{ (\w*) \}', r'{\1}', content) #repair substituted variable
-        content = re.sub(r'%([\-\.0-9]{0,4}) ([dfilu]{1,3})', r'%\1\2', content) #repair substituted variable
+        content = re.sub(r'%([\+\-\*\.0-9]{0,4}) ([dfijluz]{1,3})', r'%\1\2', content) #repair substituted variable
         content = re.sub(r'& ([a-z]{2,}) ;', r'&\1;', content) #repair html mark
         content = re.sub(r'([a-z_A-Z]{4,}) (\(\)[ ,;:$])', r'\1\2', content) #repair function name
         if arguments.opts.test and 'handleIn' in globals(): #TEST

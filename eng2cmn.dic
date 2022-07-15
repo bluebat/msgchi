@@ -188,7 +188,7 @@ add-ins|增益集
 add-in|增益功能
 additional information|附加資訊
 additional|額外
-addition|增加
+addition|新增
 additive-stream|相加流
 additive|加乘
 add it to|將它加入
@@ -197,7 +197,7 @@ add new item|加入新項目
 add new|加入新的
 add-on|附加元件
 add project|新增專案
-add-remove|增加移除
+add-remove|新增移除
 addressability|可定址能力
 address book|通訊錄
 addressbook|通訊錄
@@ -209,7 +209,7 @@ address resolution|位址解析
 address space|位址空間
 address translation|位址轉換
 address|位址
-add server|增加伺服器
+add server|新增伺服器
 add to|加入
 add|加入
 adhere|遵從
@@ -1086,6 +1086,7 @@ be closed to|不接受
 becomes even better|變得更好
 become|成為
 be committed|已定稿
+be complete|已齊全
 be configured for this|依此而組配
 be continued from|延續自
 be continued|會延續
@@ -1168,7 +1169,6 @@ be not enabled|還沒有啟用
 -be not -en|還沒有
 be not found|找不到
 -be not -ing|沒有正在
-be not installed|還沒有安裝
 be not interested|並不感興趣
 be not listed|還沒有列出
 be not registered|還沒有註冊
@@ -1591,6 +1591,7 @@ business|商務
 busted|檢測到
 busy|忙碌
 bus|匯流排
+but not installed|並未安裝
 but not|並不是
 button control|按鈕控制項
 button number|按鈕號碼
@@ -2031,7 +2032,8 @@ class number|類別編號
 classpath|類別路徑
 class|類別
 clause|子句
-cleaning|清理
+cleaning up|清理
+cleaning|清掃
 clean up|清理
 cleanup|清理
 clean|清潔
@@ -2094,6 +2096,7 @@ clusters|磁簇
 cluster|叢集
 clutterbar|酷特列
 cmd-line|命令列
+cmd. line|指令列
 cm|公分
 coarse|粗略
 coating|塗層
@@ -2180,6 +2183,7 @@ column width|欄寬
 column-wise|逐欄
 column|欄
 , col|，行
+col:|行：
 combat|對抗
 combination|組合
 combine|合併
@@ -2262,6 +2266,7 @@ complementary|補色
 complementation|取補數
 complementer|互補器
 complement|補數
+completed successfully|成功完成
 completed|已完成
 complete it to|將它補完為
 completely|完全
@@ -2609,6 +2614,7 @@ crackle|爆音
 cram|填塞
 crane|升降
 crash|崩潰
+crawling|爬梳
 crawl|爬行
 crazy|瘋狂
 crc|循環冗餘檢查
@@ -4482,6 +4488,7 @@ fraudulent|欺詐
 free account|免費賬號
 free block|可用區塊
 freed space|釋放的空間
+freed|釋放
 free extents|可用範圍
 freehand|徒手畫
 freeing|釋放
@@ -4935,7 +4942,7 @@ half|半
 hall of fame|榮譽榜
 halo|光暈
 halted|已終止
-halt-line-state|暫停線路狀態
+halt-line-state|停線狀態
 halt|停機
 hamiltonian|漢米爾敦函數
 handbook|手冊
@@ -5206,6 +5213,7 @@ hosted|寄存的
 host machine|主機電腦
 hostname|主機名稱
 host|主機
+hot-desking|輪用制辦公桌
 hot key|快速鍵
 hotkey|快速鍵
 hotlist|常用列表
@@ -5252,6 +5260,7 @@ humour|幽默
 hundredth|百分之一的
 hungarian|匈牙利語
 hungary|匈牙利
+hung up|宕機
 hung|宕機
 hupa|胡帕語
 hybrid sleep|混合睡眠
@@ -5375,6 +5384,7 @@ importance|重要性
 important to see|值得一看
 important"|重要
 important|重要的
+imported successfully|成功匯入
 imported symbol|匯入符號
 importer|匯入器
 import|匯入
@@ -5626,8 +5636,9 @@ in spite of|儘管
 in %s second|於 %s 秒後
 installation|安裝
 installed size|安裝後大小
-installed"|已安裝
-installed|已安裝的
+installed successfully|成功安裝
+installed"|安裝
+installed|安裝的
 installer|安裝程式
 installing|安裝
 install|安裝
@@ -6025,6 +6036,7 @@ keyboard layout|鍵盤佈局
 keyboard navigation|鍵盤瀏覽
 keyboard shortcuts|快捷鍵
 keyboard|鍵盤
+keychain|連鎖按鍵
 key code|鍵碼
 key component|金鑰組件
 key encipherment|金鑰編密
@@ -6488,6 +6500,7 @@ ln %i , col %i|列 %i，行 %i
 loadable|可載入的
 load balancing|負載平衡
 load copy|載入副本
+loaded successfully|成功載入
 loaded|已載入
 loader|載入器
 load on startup|啟動時載入
@@ -7390,6 +7403,8 @@ multiprocessing|多重處理
 multiprocessor|多處理器
 multi-process|多重處理
 multiprogramming|多重規畫
+multi-seat|一機多座
+multiseat|一機多座
 multiselection|多重選取
 multi session|多重區段
 multisession|多重區段
@@ -10068,6 +10083,7 @@ second|秒
 "second|第二
 secrecy|祕密性
 secret key|密鑰
+secrets|祕密
 secret|隱密
 secs|秒
 section element|節元素
@@ -10297,8 +10313,8 @@ shear|修剪
 shebang|井歎號
 sheet|紙張
 shelf|窗架
-shell built-in|殼層內建命令
-shell builtin|殼層內建命令
+shell built-in|命令殼內建指令
+shell builtin|命令殼內建指令
 shell script|命令稿
 shell|命令殼
 shelter|避難所
@@ -10393,6 +10409,7 @@ signal level|信號位準
 signal noise ratio|信噪比
 signal|信號
 signature|簽名
+signedness|符號性
 signed up|已報名
 signed|帶正負號
 signer|簽署人
@@ -11408,6 +11425,8 @@ teal|藍綠
 team|團隊
 tearoff|撕開線
 tear-off|移動式
+technically,|實質上
+technically|技術上
 technical|技術
 technician|技術人員
 technique|技術
@@ -12309,6 +12328,7 @@ unused space|未使用的空間
 unused|未使用的
 unusual|不尋常的
 unvalidated|未驗證
+unversioned obsoletes|不明版號的過時版本
 unwanted|討厭的
 unwind|旋開
 unwise|不明智
@@ -12317,7 +12337,7 @@ unzip|解壓縮
 up and running|啟動並執行
 upcoming|即將來臨的
 updatable|可更新
-updated successfully|已成功更新
+updated successfully|成功更新
 update|更新
 updown|上下按鈕
 up folder|上層資料夾
