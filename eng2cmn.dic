@@ -1575,6 +1575,7 @@ bumpy|隆起的
 bump|凸塊
 bundled|附帶的
 bundle|叢
+bureaucracy|官僚
 buriat|布里亞特語
 burkina faso|布吉納法索
 burlywood|原木色
@@ -2857,6 +2858,7 @@ debugging|偵錯
 debug|除錯
 decades|數十年
 decay|衰敗
+deceive|蒙蔽
 decelerate|減速
 december|十二月
 decent|合宜的
@@ -2992,8 +2994,8 @@ denominator|分母
 denotation|標誌
 denote|標誌
 density|密度
-denylist|拒絕名單
-deny|拒絕
+denylist|戒絕名單
+deny|戒絕
 department|部門
 dependability|可依存性質
 depended on|所依存的
@@ -4419,6 +4421,7 @@ form feed|表格饋送
 form layout|表單佈局
 form-level|表單層次
 for more information see|要獲得更多資訊請參看
+for more information, see|要獲得更多資訊，請參看
 for more|以獲得更多
 "for more|要獲得更多
 for most|於多數
@@ -7010,7 +7013,7 @@ member initialization list|成員初始值列表
 membership|會員資格
 memberwise|成員逐一
 member|成員
-meme|彌因
+meme|瀰因
 memorandum|備忘錄
 memory alignment|記憶體對位
 memory allocation|記憶體配置
@@ -7496,6 +7499,7 @@ navaho|納瓦霍語
 navajowhite|印第安黃
 navajo|納瓦霍語
 navigate forward|向前導覽
+navigate to|前往
 navigate|導覽
 navigation bar|導覽列
 navigation keys|導覽鍵
@@ -9461,6 +9465,7 @@ relaxation|鬆弛
 relay|中繼
 release build|釋出的組建
 release button|放開按鈕
+release candidate|候選釋出版本
 release notes|釋出說明
 release number|釋出編號
 release|釋出
@@ -12393,6 +12398,7 @@ used|已用
 use for|用於
 useful|有用
 useless|無用的
+use of|使用
 use-priority|優先用途
 user agent|使用者代理
 user-application|使用者應用
@@ -12926,7 +12932,7 @@ written to|寫入
 written|手寫的
 wrong|錯誤的
 wrote to|寫入了
-"wrote|已寫入
+wrote|寫入
 wu chinese|漢語吳語
 x-axis|X 軸
 xheight|小寫字母高度
