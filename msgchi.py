@@ -53,13 +53,13 @@ class Knowns:
 class Arguments:
     def __init__(self):
         parser = optparse.OptionParser(usage=_('%prog [options] [input files]')+'\nv'+version+', '+copyright,formatter=MyHelpFormatter())
-        parser.add_option('-a','--accelerator',dest='accelerator',metavar='""|_|&|"~"',default='',help=_('define keyboard accelerator'))
+        parser.add_option('-a','--accelerator',dest='accelerator',metavar='"_|&|~|"',default='',help=_('define keyboard accelerator'))
         parser.add_option('-c','--credit',dest='credit',metavar='"NAME <EMAIL>"',default=knowns.credit,help=_('credit of the translator'))
         parser.add_option('-d','--dictionary',dest='dicFile',action='append',metavar='FILE',default=[],help=_('name of the dictionary file'))
         parser.add_option('-e','--expression',dest='expression',metavar='"(^)(.*)($)"',default='',help=_('message regular expression'))
         parser.add_option('-F','--fuzzyfree',dest='fuzzyfree',action='store_true',default=False,help=_('force messages fuzzy-free'))
         parser.add_option('-k','--keep',dest='keep',action='store_true',default=False,help=_('keep translated msgstr'))
-        parser.add_option('-l','--language',dest='lang',metavar='ABC2XYZ',default='',help=_('source and target languages'))
+        parser.add_option('-l','--language',dest='lang',metavar='xxx2yyy',default='',help=_('source and target languages'))
         parser.add_option('-m','--mapped',dest='mapped',action='store_true',default=False,help=_('full-mapped messages only'))
         parser.add_option('-n','--msgno',dest='msgno',action='store_true',default=False,help=_('number all messages'))
         parser.add_option('-o','--output',dest='outputFile',metavar='FILE',default='',help=_('name of the output file'))
@@ -100,7 +100,7 @@ class Arguments:
                 self.opts.dicFile.append(directory+self.opts.lang+'.dic')
                 break #TEST
         if not self.opts.dicFile:
-            sys.exit(_('desired %s or the specified dictionary not found') % self.opts.lang)
+            sys.exit(_('desired %s or the specified dictionary not found') % self.opts.lang+'.dic')
         if self.opts.expression:
             if self.opts.type:
                 sys.exit(_('can not use both --expression and --type'))
@@ -306,7 +306,7 @@ class Translator:
                     elif keyDesurfix in self.dictionary[keyHead][j-1]:
                         key = keyDesurfix
                     if key: #found
-                        if '"' in self.dictionary and len(content) == 1 and j+1<len(self.dictionary['"']) and ('"',)+key+('"',) in self.dictionary['"'][j+1]: #just one
+                        if '"' in self.dictionary and len(content) == 1 and j+1<len(self.dictionary['"']) and ('"',)+key+('"',) in self.dictionary['"'][j+1]: #just this
                             value = self.dictionary['"'][j+1][('"',)+key+('"',)]
                         elif '"' in self.dictionary and i == 0 and j<len(self.dictionary['"']) and ('"',)+key in self.dictionary['"'][j]: #BOL
                             value = self.dictionary['"'][j][('"',)+key]

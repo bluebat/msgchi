@@ -187,5 +187,11 @@ msgstr ""
 msgid "_Forward"
 msgstr ""
 
+msgid "MM/DD/YY HH:MM:SS"
+msgstr ""
+
+msgid "does not appear to be a specfile."
+msgstr ""
+
 #~ msgid "An AFM and a BFD, and stopped(sec), May _no..."
 #~ msgstr ""

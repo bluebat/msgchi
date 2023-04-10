@@ -11,6 +11,8 @@
 ;|；
 ?|？
 `-|「
+0-day|零時差
+0day|零時差
 105-key|105 鍵
 16-bit|16 位元
 18-hole|18 洞
@@ -352,7 +354,6 @@ allergy|過敏
 alliance|聯盟
 all-in-one|一體
 all its|它所有的
-all matches|所有符合者
 allocate memory space for|配置記憶體空間給
 allocate|配置
 allocation|配額
@@ -524,6 +525,7 @@ antilogarithm|反對數
 antiquewhite|古董白
 antistatic|抗靜電
 anti-theft|防竊
+antivirus|防毒
 anti|抗
 a number of|一堆
 anycast|任播
@@ -590,6 +592,7 @@ aramaic|阿拉姆語
 a range of|一系列的
 arapaho|阿拉帕霍語
 arawak|阿拉瓦克語
+arbiter|仲裁器
 arbitrary|任意
 arbitration|仲裁
 arbitrator|仲裁人
@@ -970,6 +973,7 @@ bad checksum|不當的總和檢查
 badge|徽章
 bad length|長度不當
 bad parameter|不當參數
+bad usage|不當的用法
 bad|不當的
 bahamas|巴哈馬
 bahamian dollar|巴哈馬元
@@ -1238,6 +1242,7 @@ be under maintenance|正在進行維護
 be unknown|不明
 be unsure about|不確定
 be up-to-date|已更新
+be used as|用做為
 be used together|一齊使用
 bevel|斜角
 beware|注意
@@ -2035,8 +2040,8 @@ class|類別
 clause|子句
 cleaning up|清理
 cleaning|清掃
-clean up|清理
-cleanup|清理
+clean up|清理乾淨
+cleanup|清理乾淨
 clean|清潔
 clear all bookmarks|清除所有書籤
 clear all|全部清除
@@ -2045,6 +2050,7 @@ clear text|明文
 clear|清空
 clemency|仁厚
 clickable|可點選
+click chemistry|喀噠化學
 click here to|按一下這裡以
 click on the link below|在以下的鏈結上按一下
 click to|按一下以
@@ -2210,7 +2216,7 @@ command interpreter|指令解譯器
 command key|指令鍵
 command line options|命令列引數的選項
 command mode|指令模式
-command prompt|指令提示符號
+command prompt|指令提示字串
 command set|命令集
 commandset|命令集
 command substitution|指令替代
@@ -2510,6 +2516,7 @@ conveyor|輸送帶
 convey|載送
 convolution kernel|疊積核心
 convolution|疊積
+cookie policy|訊餅政策
 cookies|訊餅
 cook|庫克
 cooling fan|冷卻扇
@@ -2796,7 +2803,7 @@ dashed line|虛線
 dashed|虛線
 dashes|虛線
 dash patterns|虛線胚騰
-dash|破折號
+dash|短橫線
 database cursor|資料庫指標
 database manager|資料庫管理者
 database settings|資料庫的設定
@@ -2853,7 +2860,7 @@ death metal|死亡金屬
 debit|借方
 deblocking|解塊
 debugger|除錯程式
-debugging tool|除錯工具
+debugging tool|偵錯工具
 debugging|偵錯
 debug|除錯
 decades|數十年
@@ -2999,10 +3006,10 @@ deny|戒絕
 department|部門
 dependability|可依存性質
 depended on|所依存的
-dependency checking|檢查軟體依存性質
+dependency checking|檢查軟體依存項目
 dependency file|依存檔案
-dependency resolution|依存性質解析
-dependency|依存性質
+dependency resolution|依存項目解析
+dependency|依存項目
 dependent|附屬
 depending on|依據不同的
 depend on|取決於
@@ -3333,6 +3340,7 @@ done|完成
 dongle|裝置棒
 dong|盾
 donor|捐贈者
+do not appear to|看來不
 do not care about|不要去管
 do not have to|不須
 do not have|沒有
@@ -3454,6 +3462,7 @@ dual-ported|雙埠
 dual|雙
 ductile|柔軟
 duct|輸送管
+dude|老兄
 due date|截止日期
 due in|期限時間
 due today|今天到期
@@ -3467,6 +3476,7 @@ dummy|虛設
 dump|傾印
 duodecimal|十二進制
 duplex|雙工
+duplicate build-ids|重複的組建識別碼
 duplicate definition|重複定義
 duplicated|重複的
 duplicate|複製
@@ -3632,6 +3642,7 @@ empty lines|空列
 empty map|空映射
 empty page|空白頁面
 empty set|空集合
+empty tag|空的標籤
 empty value|空白值
 empty|清空
 emulate|擬真
@@ -3899,6 +3910,7 @@ examiner|審查器
 examine|審查
 example with|以為例
 example|範例
+exaptation|離應
 exceed|超出
 excellent|優秀
 exception|異常
@@ -4237,6 +4249,7 @@ fire|引發
 firmware revision|韌體修訂版本
 firmware|韌體
 first and second|第一和第二
+first defined here|最先在這裡定義
 first level|第一級
 first line|首列
 firstname|名
@@ -4250,6 +4263,7 @@ first step|第一步
 first three|前三個
 first time|第一次
 first two|前兩個
+first use|第一次使用
 first|先
 "first|第一個
 first,|首先，
@@ -5114,6 +5128,8 @@ heuristic|試探
 hexadecimal digit|十六進位數字
 hexadecimal|十六進位
 hex|十六進位
+hh:mm|HH:MM
+hh:mm:ss|HH:MM:SS
 hibernate|休眠
 hidden|隱藏
 hide hidden|不顯示隱藏
@@ -5657,6 +5673,7 @@ instead of|以代替
 instead|做為替代
 instification|對齊
 institute|研究所
+institutional memory|機構記憶
 institution|機構
 instruction cache|指令快取記憶體
 instruction scheduling|命令排程
@@ -6031,7 +6048,7 @@ kernel panic|內核崩壞
 kernel-tunable|內核可調的
 kernel|內核
 kern|字間微調
-key agreement|金鑰協定
+key agreement|關鍵協定
 key binding|按鍵繫結
 keybinding|按鍵繫結
 keyboard accelerator|鍵盤加速器
@@ -6041,7 +6058,7 @@ keyboard shortcuts|快捷鍵
 keyboard|鍵盤
 keychain|連鎖按鍵
 key code|鍵碼
-key component|金鑰組件
+key component|關鍵組件
 key encipherment|金鑰編密
 key features|金鑰特徵
 key frames|關鍵影格
@@ -6090,7 +6107,9 @@ kill|砍除
 kilobyte|千位元組
 kimbundu|金本杜語
 kina|基那
+kind of entity|實體種類
 kinematics|動力學
+kinetic|充滿活力的
 kingdom|王國
 kinyarwanda|盧安達語
 kiosk|自動化服務機
@@ -6555,7 +6574,7 @@ lock-in|限定
 lockout|閉鎖
 lock screen|鎖定畫面
 locktype|鎖定類型
-lock|鎖住
+lock|鎖定
 lo-fi|低傳真
 logarithmic|對數
 logarithm|對數
@@ -6915,6 +6934,7 @@ master|主
 masthead|報頭
 match brace|使用成對括號
 matches in|項目符合者於
+matches|符合者
 match prefix|字首須符合
 match-string|符合字串
 match|符合
@@ -7210,6 +7230,7 @@ mitre|斜面
 mixer device|混音裝置
 mixer|混音器
 mix|混合
+mm/dd|MM/DD
 mm film|公釐影片
 mm|公釐
 mnemonic key|快捷鍵
@@ -7300,7 +7321,6 @@ moon|月亮
 more accessible|更方便
 more detailed|更多細節的
 more easily|更易於
-more matches|更多符合者
 more pleasing|更佳的
 more specifically|更明確地
 more than once|一次以上
@@ -7639,7 +7659,6 @@ nogai|諾蓋語
 noise-line-state|雜訊線路狀態
 noise|雜訊
 no longer|不再
-no matches|沒有符合者
 nomenclature|命名法則
 nominal|標稱
 nominated|提名的
@@ -7654,6 +7673,7 @@ nonbreaking|不分列
 non-causal|非因果
 nonces|臨時值
 nonce|當前
+non-class|非類別
 non-client|非客戶端
 non-commercial|非商業
 non-data-capable|非數據能力
@@ -7689,6 +7709,7 @@ non-straight arms|非直臂
 non-string|非字串
 nonterminal|非終結語詞
 non-transferable|不可轉讓
+non-virtual|非虛擬
 non-visual|隱藏式
 non-volatile|非揮發性質
 non-zero|非零
@@ -7718,7 +7739,7 @@ northern mariana islands|北馬里亞納群島
 northern|北
 north korea|北韓
 north|北
-no rule to make|沒有規則用來製作
+no rule to make|沒有建置規則
 no rule to|沒有規則可
 norway|挪威
 norwegian krone|挪威克朗
@@ -7744,6 +7765,7 @@ not be able to|不能
 not between|並非介於
 not big enough|不夠大
 not both|並非兩者
+not changed|並未變更
 notch|刻度
 notebook|筆記型電腦
 noteless|無節點
@@ -7803,6 +7825,7 @@ notwithstanding|不管
 not yet|尚未
 not|無法
 noun|名詞
+no update needed|不需要更新
 novel idea|新奇的點子
 novel way|新奇的方式
 november|十一月
@@ -8350,6 +8373,7 @@ paramarrays|參數陣列
 parameter-label|參數標貼
 parameter|參數
 paraplegic|半身麻痺患者
+para-virtualization|伴虛擬化
 parent-child relationship|親子關係
 parentheses|括號
 parenthesis|括號
@@ -8362,6 +8386,7 @@ parent|上層
 paren|同位
 parity bit|同位元
 parity|同位
+parody|惡搞
 parser|剖析器
 parse|剖析
 parted|退出了
@@ -8698,6 +8723,7 @@ polygon|多邊形
 poly-line|折線
 polyline|折線
 polymarker|多點標記
+polymorphic|多型
 polymorphism|多型
 polytonic|多音調
 pop-folk|流行民歌
@@ -9224,6 +9250,8 @@ rapid|迅捷的
 rapper|饒舌歌手
 rap|饒舌
 rarotongan|拉羅通加語
+raspberry pi|樹莓派
+raspberry|樹莓
 rasterization|柵格化
 rasterizer|柵格化程式
 rasterize|柵格化
@@ -9301,6 +9329,7 @@ reboot|重新開機
 rebuild|重新組建
 recalculate|重新計算
 recall|回收
+recap|回顧
 receiptant|收信人
 receipt|接收者
 received data|接收數據
@@ -9310,12 +9339,12 @@ receive|接收
 recency|新近度
 recent enough|時間夠近
 recenter|重新置中
-recent files|最近使用的檔案
-recent list|最近使用的列表
-recently used|最近使用過
-recently|最近
-recent project|最近使用的專案
-recent|最近使用
+recent files|近期使用的檔案
+recent list|近期使用的列表
+recently used|近期使用過
+recently|近期
+recent project|近期的專案
+recent|近期使用
 recheck|重新檢查
 recipient|收件者
 reciprocal|倒數
@@ -9343,8 +9372,8 @@ record number|條目號碼
 record-oriented|記錄導向
 recordset-type|資料錄集類型
 recordset|資料錄集
-records in"|項記錄讀入
-records out"|項記錄寫出
+records in|項記錄讀入
+records out|項記錄寫出
 record start|記錄起始
 record status|錄音狀態
 record|記錄
@@ -9362,6 +9391,7 @@ recursion|遞迴
 recursive|遞迴
 recycler|資源回收筒
 redeclaration|重新宣告
+redeclared as|重覆宣告為
 redeem|兌換
 redefine|重新定義
 redefinition|重複定義
@@ -9419,6 +9449,7 @@ regard|關於
 regenerate|重新產生
 regenerator|再生器
 reggae|雷鬼
+region of size 0|大小為零的區域
 region|區域
 registered as|註冊成
 registered sign|已註冊符號
@@ -10001,6 +10032,7 @@ scheduled|已排程
 scheduler|排程程式
 schedule|排程
 schema|結構描述
+schemes|基模
 scheme|方案
 schilling|先令
 school|學校機構
@@ -10099,8 +10131,7 @@ section|區段
 sector-pairwise|區段成對
 sector|磁區
 secularism|世俗主義
-secure protocol|安全協定
-secure|安全化
+secure|安全
 security concern|安全上的考量
 security enforcement|強制安全措施
 security risk|安全上的風險
@@ -10889,9 +10920,11 @@ stately|莊嚴的
 state machine|狀態機
 statement|敘述
 "statement|結算單
+state of the art|先進的
 state or province|州或省
 state/province|州╱省
 states that|顯示出
+state witness|污點證人
 state|狀態
 staticizer|靜態產生器
 static-type|靜態類型
@@ -10915,7 +10948,6 @@ stdin|標準輸入
 stdout|標準輸出
 std.|標準
 steady|穩定
-(S) teal lock|竊取鎖定
 steal|竊取
 steelblue|鋼青
 steel-gray|鐵灰色
@@ -11220,6 +11252,7 @@ survive|存活
 susceptibility|磁化率
 suspectable|疑慮
 suspected|疑似
+suspect|猜測
 suspend|懸置
 suspicious stuff|惡意材料
 sustainability|延續性
@@ -11353,6 +11386,7 @@ tai languages|台語諸語言
 tai le|德宏傣文
 tail-recursive|尾部遞迴
 tail|尾端
+tainted|污點
 taint|髒污
 tai tham|老傣文
 tai viet|越南傣文
@@ -11409,6 +11443,7 @@ tape|磁帶
 tapping|觸點
 tap|戳
 tarball|打包檔
+tarbumb|打包炸彈
 target machine|目標電腦
 target|目標
 tar header|打包標頭
@@ -11426,6 +11461,7 @@ taxi|計程車
 tax rate|稅率
 tax|稅
 teacher|老師
+teal lock|竊取鎖定
 teal|藍綠
 team|團隊
 tearoff|撕開線

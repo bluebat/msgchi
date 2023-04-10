@@ -5,10 +5,10 @@ Creating a translation catalog for chinese locales.
 Description
 -----------
 The input file is a template POT file, or a translated PO file for another chinese language.
-
 Dictionaries are UTF-8 coded text files with the format in each line:
-Source Words|Translated Words
-(Source Words are lower case; Source Words with pre/surfix [-] or ["] for internal use.)
+	Source Words|Translated Words
+
+Source Words are lower case; Source Words with pre/surfix [-] or ["] for internal use.
 (Excluded single word: be, being, been, am, are, is, was, were; have, having, has, had)
 
 Install
@@ -18,7 +18,7 @@ Install
 
 License
 -----------
-* The script files are released under GPL.
+* The script files are released under GPLv3.
 * The dictionary files are released under Public Domain.
 
 Program Reference
