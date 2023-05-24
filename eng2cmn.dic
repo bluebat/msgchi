@@ -399,7 +399,7 @@ also|也
 altaic languages|阿爾泰諸語言
 altai|阿爾泰語
 alternate|交替
-alternating|交互的
+alternating|交替的
 "alternatively,|或者是，
 alternative representation|替代表述法
 alternative text|替代文字
@@ -1613,7 +1613,7 @@ by default|按照預設
 by description|依描述
 byelorussian|白羅斯
 by email|依電子郵件
-bye|再見
+bye|掰
 by flag|依旗標
 by folder|依資料夾
 by hand|手動
@@ -4781,6 +4781,7 @@ golf|高爾夫
 gondi|貢德語
 gone offline|離線
 gone online|上線
+good bye|再見
 good luck|祝您好運
 goods|貨物
 good|良好
@@ -5715,7 +5716,7 @@ intense|強烈
 intensity|強度
 intentionally|有意地
 intent|含義
-interaction|交互作用
+interaction|互動
 interactive mode|互動模式
 interactive|互動式
 interact|互動式操作
@@ -5780,7 +5781,7 @@ interval number|區間號碼
 interval|間隔
 intervention|介入
 interworking|交互作用
-interwork|互動
+interwork|交互
 inter|幅間
 intestine|腸
 in that case|在該例中
@@ -6066,6 +6067,7 @@ keyframes|關鍵影格
 key frame|主要框架
 keyhole|鎖眼
 key identifier|金鑰識別碼
+key imported successfully|成功匯入金鑰
 key in|鍵入
 key management|金鑰管理
 key material|金鑰材料
@@ -6631,6 +6633,7 @@ longest|最長的
 longevity|長壽
 long form|長式
 longitude|經度
+longplay|遊戲實況
 long-term|長時期
 long term|長期
 long vector|長整數向量
@@ -7594,7 +7597,7 @@ newer|較新
 newest|最新
 new key|新的索引鍵
 new line|換列
-newline|新列字元
+newline|換列字元
 new search|重新搜尋
 newsgroup|新聞群組
 newspaper|報紙
@@ -7739,6 +7742,7 @@ northern mariana islands|北馬里亞納群島
 northern|北
 north korea|北韓
 north|北
+no rule to make target|沒有規則用來建置目標
 no rule to make|沒有建置規則
 no rule to|沒有規則可
 norway|挪威
@@ -8284,7 +8288,7 @@ pack-reused|打包重用
 pack|包裝
 padding on|開啟填補
 padding|填補
-pad|填充
+pad|填補
 page break|分頁符
 page count|頁數
 pagedown|下頁
@@ -8377,6 +8381,7 @@ para-virtualization|伴虛擬化
 parent-child relationship|親子關係
 parentheses|括號
 parenthesis|括號
+parenthesized|括號包圍的
 parenting|養育
 parent notes|上層節點
 parent pool|親代池
@@ -9894,7 +9899,7 @@ ruled|刻度
 ruler|尺規
 rule|規則
 ruling|刻度
-run code|執行階段程式碼
+run code|執行時期程式碼
 rundi|克倫地語
 rung|階
 runic|古代北歐文字
@@ -9906,9 +9911,9 @@ runlevel|執行層級
 running|執行
 run out of memory|記憶體用完
 runtime checks|執行時檢查
-run-time-only|僅限執行階段
+run-time-only|僅限執行時期
 run-time|執行時期
-runtime|執行階段
+runtime|執行時期
 run|運行
 rupee|盧比
 rupiah|盧比
@@ -11329,6 +11334,7 @@ synonym|同義字
 synopsis|概述
 syntax coloring|語法着色
 syntax|語法
+synthesia|合成
 synthesis|合成
 synthesizer|合成器
 synthetic|人造
