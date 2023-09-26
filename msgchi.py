@@ -100,7 +100,7 @@ class Arguments:
                 self.opts.dicFile.append(directory+self.opts.lang+'.dic')
                 break #TEST
         if not self.opts.dicFile:
-            sys.exit(_('desired %s or the specified dictionary not found') % self.opts.lang+'.dic')
+            sys.exit(_('desired %s or the specified dictionary not found') % (self.opts.lang+'.dic'))
         if self.opts.expression:
             if self.opts.type:
                 sys.exit(_('can not use both --expression and --type'))
