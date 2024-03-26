@@ -149,12 +149,11 @@ activation|開通
 activator|開通子
 active content|主動式內容
 active document|主動式文件
-active-line-state|現用線路狀態
+active-line-state|活躍線路狀態
 actively|主動
-active state|作用狀態
 actives|動態
-active title bar|現用視窗標題列
-active|現用
+active title bar|活躍視窗標題列
+active|活躍
 activity slot|活動項目
 activity type|活動型式
 activity|活動
@@ -242,7 +241,7 @@ advance width|步進寬度
 advance|事先的
 advantage|優點
 adventure|冒險
-advertisement|廣告
+advertisement|宣傳
 advertise|通告
 advice|建言
 advise loop|建議名單
@@ -1348,7 +1347,7 @@ blink|閃動
 blin|比林語
 blip|光點
 blobby|珠斑
-blob|斑點
+blob|軟體包
 block boundary|區段界限
 block chain|區塊鏈
 blockchain|區塊鏈
@@ -1918,6 +1917,7 @@ check capitalization|檢查字母大小寫
 checked out|已簽出
 checked|已勾選
 checkered|方格的
+checkers|西洋跳棋
 checker|檢查器
 check forced|強制進行檢查
 check for|檢查有無
@@ -2058,11 +2058,11 @@ click here to|按一下這裡以
 click on the link below|在以下的鏈結上按一下
 click to|按一下以
 click|按一下
-client and server|主從
+client and server|客戶端與伺服端
 client area|客戶端工作區
 client-aware|顧及客戶端設定的
 client id|客戶識別碼
-client-server|主從式
+client-server|客戶－伺服式
 client side|客戶端
 client|客戶端
 cliff|懸崖
@@ -2249,6 +2249,7 @@ communication|通訊
 community|社群
 comoro|葛摩
 compact|壓縮
+companion|同伴
 company|公司
 comparable to|可對應於
 comparand|比較元
@@ -2377,6 +2378,7 @@ confirm|確認
 conflict resolution|衝突的解決方式
 conflict|衝突
 conformance|符合度
+conformity|符合性
 conform to|合乎
 confuse|困惑
 confusion|困惑
@@ -2720,7 +2722,6 @@ current position|現行位置
 current process|目前行程
 current rank|現行等級
 current selection|目前的選取
-current session|目前的階段作業
 current|目前的
 cursive|草寫的
 cursor|游標
@@ -2865,6 +2866,7 @@ dear|敬愛的
 de-assert|解效
 death metal|死亡金屬
 debit|借方
+deblob|除包
 deblocking|解塊
 debugger|除錯程式
 debugging|偵錯
@@ -3065,7 +3067,6 @@ desired|設想的
 desire|意願
 desktop computer|桌上型電腦
 desktop menu|桌面功能表
-desktop session|桌面階段作業
 desktop|桌面
 despeckle|除斑
 despite|儘管
@@ -4255,6 +4256,7 @@ finno-ugrian languages|芬烏諸語言
 firebrick|磚紅
 firewall|防火牆
 fire|引發
+firmware blob|韌體包
 firmware revision|韌體修訂版本
 firmware|韌體
 first and second|第一和第二
@@ -4312,6 +4314,7 @@ flat|扁平
 flavor|風格
 flea|跳蚤
 flesh|肉
+fleuron|花飾
 flex hints|屈曲修飾
 flexible|多變
 flex|屈曲
@@ -4439,7 +4442,7 @@ formatting|格式化
 format|格式
 formed|形成
 former|前項
-form factor|主機板尺寸
+form factor|形制
 form feed|表格饋送
 form layout|表單佈局
 form-level|表單層次
@@ -4664,8 +4667,8 @@ gambia|甘比亞
 gamboge|藤黃
 game over|遊戲結束
 game|遊戲
-gamma ray|伽瑪射線
-gamma|伽瑪值
+gamma ray|伽馬射線
+gamma|伽馬值
 gamut|全音階
 gan chinese|漢語贛語
 ganda|干達語
@@ -4699,6 +4702,7 @@ gender|性別
 general availability|通行
 general delimiter|通用分隔符號
 general entity|通用實體
+generalization|類推
 generalized|一般化
 general ledger|總賬
 general public license|通用公共授權
@@ -4968,6 +4972,7 @@ halftone|半調
 halfwidth|半形
 half|半
 hall of fame|榮譽榜
+hallucinate|幻覺
 halo|光暈
 halted|已終止
 halt-line-state|停線狀態
@@ -5005,7 +5010,7 @@ haptic|觸覺的
 hard-coded|固編的
 hardcode|寫死
 hard-code|硬式編碼
-hardcore|強硬風格
+hardcore|硬核風格
 hard disk|硬碟
 harddisk|硬碟
 hard drive|硬碟
@@ -5197,7 +5202,7 @@ holding|保有
 holdover|自持
 hold time|持有時間
 hold|暫停
-hole|漏洞
+hole|洞
 holiday|假日
 holland|荷蘭
 hollow diamond|空心菱形
@@ -5323,6 +5328,7 @@ iconify|最小化
 iconize|最小化
 icon set|圖示集
 icon|圖示
+idc|機房
 ideal|理想的
 idea|主意
 ide disk|IDE 磁碟
@@ -5432,8 +5438,8 @@ in %1 second|於 %1 秒後
 in %2 second|於 %2 秒後
 inaccessible|不可存取
 in accordance with|相應的
-inactive|非現用
-inactivity|不作用
+inactive|非活躍
+inactivity|不活躍
 in addition to|除了
 in addition|另外
 in a few minutes|幾分鐘後
@@ -6217,7 +6223,7 @@ largest|最大
 large|大
 laser|雷射
 lasso|套索
-last active mode|上次作用模式
+last active mode|上次活躍模式
 last branch|末項分支
 last chance|最後機會
 last day|前一天
@@ -6301,6 +6307,7 @@ leaving the files in|將檔案留在
 lebanese|黎巴嫩
 lebanon|黎巴嫩
 ledger|分類賬
+led indicator|發光二極體指示燈
 left align|靠左對齊
 left and right|左右
 left arrow key|向左鍵
@@ -6648,6 +6655,7 @@ longevity|長壽
 long form|長式
 longitude|經度
 longplay|遊戲實況
+long-run|長時
 long-term|長時期
 long term|長期
 long vector|長整數向量
@@ -6904,7 +6912,7 @@ margin|邊界
 mariner|海事人員
 mari|馬里語
 mark as|標記為
-marked as active|標記為作用中
+marked as active|標記為活躍
 marked empty|標記為空
 marked section|標記段落
 marker object|記號物件
@@ -6945,6 +6953,7 @@ master instance|主控實例
 master key|主控金鑰
 master-line-state|主線路狀態
 master password|主控密碼
+master-slave|主從式
 master volume|主音量
 mastery|掌控
 master|主
@@ -8244,6 +8253,7 @@ overcurrent|溢流
 overdue|過期
 overflow|溢位
 overhang|突出部分
+overhaul|翻修
 overhead|過度
 overhead"|開銷
 overlap|重疊
@@ -8568,6 +8578,7 @@ petite|小型的
 petition|請願
 phags-pa|八思巴文
 phaistos|費斯托斯文
+phantom|幻影
 phase-locked|鎖相
 phase number|相位號碼
 phase|階段
@@ -8734,6 +8745,7 @@ polishing|美化
 polish|波蘭語
 polka|波爾卡舞蹈配樂
 pollard|柏格理拼音符
+polling interval|輪詢間隔
 polling|意見調查
 poll|意見調查
 polsk punk|波蘭龐克
@@ -9097,7 +9109,8 @@ provider|提供者
 provide|提供
 province|省
 provisional|暫定
-provisioning|供給
+provisioned|配發
+provisioning|配發
 provision|條款
 proximity|近接
 proxy host|代理主機
@@ -9493,6 +9506,7 @@ reinsert|重新插入
 reinstalled|已重新安裝
 reinstalling|重新安裝
 reinstall|重新安裝
+reinstate|恢復
 reinvent|重新發明
 rejang|勒姜文
 rejector|拒絕者
@@ -9828,8 +9842,8 @@ roa|認可之營運機構
 robbing|奪取
 robotic|機械的
 robot|機器人
-robustness|強健性
-robust|牢靠的
+robustness|強韌性
+robust|強韌的
 rock & roll|搖滾
 rock|搖滾樂
 role|角色
@@ -10297,8 +10311,7 @@ session initiation protocol|通訊初始化協定
 session key|作業階段金鑰
 session layer|會談層
 session name|區段名稱
-session properties|階段作業性質
-session-specific|階段作業特定的
+session-specific|作業階段特定的
 sessions|期間
 session|作業階段
 set as default|設成預設值
@@ -11476,6 +11489,7 @@ tarnsparent|透通的
 tar|打包
 task bar|工作列
 taskbar|工作列
+tasklet|工作單
 task list|工作列表
 task manager|工作管理器
 task|工作項目
@@ -11559,6 +11573,7 @@ test only|純屬測試
 testor|測試器
 test page|測試頁
 test|測試
+tethering|繫連
 tetum|德頓語
 text area|文字區
 text body|內文
@@ -11605,6 +11620,7 @@ the availability of|能提供多少
 the board|機板
 the cause|原因
 the colon|冒號
+the companion|伴隨的
 the correct|正確
 the fact that|惟有
 the first|第一個
@@ -11881,6 +11897,7 @@ topology|拓樸
 to position|以定位
 top right|右上
 to provide|以提供
+to provision|配發
 top ten|前十名
 top to bottom|從上到下
 top trends|熱門趨勢
@@ -12053,6 +12070,7 @@ trim|修剪
 trinidad|千里達
 trip-hop|迷幻舞曲
 triple-click|按三下
+triplet|三連數
 triple|三倍
 trip|旅程
 tristan da cunha|崔斯坦達庫尼亞群島
@@ -12688,7 +12706,7 @@ vte-profile|虛擬終端機環境規範
 vt-functional-unit|虛擬終端機功能單元
 vt-mode|虛擬終端機模式
 vulgar|粗俗
-vulnerability|弱點
+vulnerability|漏洞
 wafer start|投片
 wafer|晶圓
 wait for|等待
@@ -12947,6 +12965,7 @@ work offline|離線工作
 work online|線上工作
 work phone|公務電話
 work properly|正常運作
+workqueue|工作佇列
 work relatively well|相對表現不錯
 worksheet|工作表
 workshop|工作室

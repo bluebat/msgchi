@@ -36,7 +36,7 @@ make DESTDIR=%{buildroot} install
 rm -rf %{buildroot}
 
 %changelog
-* Wed May 24 2023 Wei-Lun Chao <bluebat@member.fsf.org> - 2.3
-- Update to 2.3
+* Sun Mar 24 2024 Wei-Lun Chao <bluebat@member.fsf.org> - 2.4
+- Update to 2.4
 * Wed Jun 07 2017 Wei-Lun Chao <bluebat@member.fsf.org> - 1.0
 - First release
