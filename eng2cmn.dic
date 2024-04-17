@@ -809,18 +809,18 @@ at|於
 audible|聽覺的
 audio buffer|音效緩衝區
 audio card|音效卡
-audio cd|音訊光碟
+audio cd|音樂光碟
 audio control|音效控制
 audio device|音效裝置
 audio file|音效檔
-audiographic|音訊圖形
+audiographic|音效圖形
 audio input|音效輸入
 audio recording|錄音
 audios|短曲
-audio type|音訊型式
+audio type|音效型式
 audiovisual|視聽
 audio volume|聲音大小
-audio|音訊
+audio|音效
 audit log|稽核記錄
 audit trail|稽核存底
 audit|稽核
@@ -2301,13 +2301,14 @@ component type|組件型式
 component|成分
 composer|作曲
 compose|撰寫
-composite glyph|組合字圖
-composite type|組合型式
-composite widget|組合式視窗元件
+composite glyph|合成字圖
+composite type|合成型式
+composite widget|合成式視窗元件
 composite|合成
-compositing|複合
-composition window|組字視窗
-composition|佈局
+compositor|合成器
+compositing|合成
+composition window|合成視窗
+composition|合成
 compound expression|複合式表示式
 compound|複合
 comprehension|理解力
@@ -3266,8 +3267,8 @@ display menu|顯示功能表
 display mode to use|要用的顯示模式
 display name|代號
 display order|播放次序
-display setting|顯示器設定
-display size|顯示器尺寸
+display setting|顯示畫面設定
+display size|顯示畫面尺寸
 display|顯示
 dispose|棄置
 disposition|部署
@@ -7065,7 +7066,7 @@ memorandum|備忘錄
 memory alignment|記憶體對位
 memory allocation|記憶體配置
 memory area|記憶儲存區
-memory bank|記憶體組
+memory bank|記憶體庫
 memory-based|以記憶體為基礎的
 memory card|記憶卡
 memory exceeded|超出記憶體
@@ -7323,7 +7324,7 @@ mongo|芒戈語
 monitoring|監看
 monitor log|監控記錄檔
 monitor message|監控訊息
-monitor|監視器
+monitor|顯示器
 monkey|猴子
 mon-khmer languages|孟－高棉諸語言
 monochrome|單色
@@ -13114,3 +13115,4 @@ zoom to fit|最適縮放
 zoom|縮放
 zulu|祖魯
 zuni|祖尼語
+scuttle|鑿沉
