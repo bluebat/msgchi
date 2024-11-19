@@ -76,6 +76,7 @@ accelerator|加速功能
 accented letter|揚音字母
 accent|音調
 acceptable|可接受的
+acceptance test|驗收
 acceptance|接受
 accepted|接受的
 acceptor|接受者
@@ -807,14 +808,9 @@ at your option|您自行選擇的
 at your own risk|風險請自負
 at|於
 audible|聽覺的
-audio buffer|音效緩衝區
-audio card|音效卡
 audio cd|音樂光碟
-audio control|音效控制
-audio device|音效裝置
 audio file|音效檔
 audiographic|音效圖形
-audio input|音效輸入
 audio recording|錄音
 audios|短曲
 audio type|音效型式
@@ -1279,7 +1275,6 @@ bihari|比哈語
 bikol|比科爾語
 bilateral|雙邊
 bilberry|歐洲藍莓
-bilinear filtering|雙線性過濾
 bilinear|雙線性
 bilingual|雙語言
 bilin|比林語
@@ -1878,6 +1873,7 @@ changeback|切回
 change bar|變更列
 change case|大小寫轉換
 changelog|變更記錄
+changes to this file|這個檔案的變更
 change to|變更為
 change|變更
 channel number|通道編號
@@ -2149,7 +2145,7 @@ collaborator|協作者
 collapse all|全部塌縮
 collapse from|塌縮自
 collapse tree|塌縮樹狀結構
-collapse|崩壞
+collapse|塌縮
 collate copies|自動分頁
 collate|排序
 collating sequence|比較序列
@@ -2301,14 +2297,11 @@ component type|組件型式
 component|成分
 composer|作曲
 compose|撰寫
-composite glyph|合成字圖
 composite type|合成型式
 composite widget|合成式視窗元件
 composite|合成
-compositor|合成器
-compositing|合成
-composition window|合成視窗
 composition|合成
+compositor|合成器
 compound expression|複合式表示式
 compound|複合
 comprehension|理解力
@@ -2861,6 +2854,8 @@ deadline|截止期限
 deadlock|死結
 dead process|無作用行程
 dead store|無作用儲存體
+deadwood|朽木
+dead wood|枯木
 dead-zone|死角區
 deallocate|取消配置
 dear|敬愛的
@@ -3247,6 +3242,7 @@ disk partition|磁碟分割區
 disk space|磁碟空間
 diskspace|磁碟空間
 disk|磁碟
+dislocation|差排
 dismiss|去除
 dismountable|可拆卸的
 dismount|卸載
@@ -3597,6 +3593,7 @@ electrolyte|電解質
 electronic shutter|電子快門
 electronics|電子學
 electronic|電子
+electron|電子
 elegant|優雅的
 element number|元件號碼
 element|元件
@@ -3656,9 +3653,9 @@ empty set|空集合
 empty tag|空的標籤
 empty value|空白值
 empty|清空
-emulate|擬真
-emulation|擬真
-emulator|擬真器
+emulate|仿真
+emulation|仿真
+emulator|仿真器
 emulsion|乳劑
 enable all|全部啟用
 enabled by default|預設啟用
@@ -3897,7 +3894,7 @@ event|事件
 even width|對等寬度
 even|即使
 ever-changing|百變
-ever lost|一旦遺失
+ever lost|一旦丟失
 everybody|所有人
 everyday|每日
 every few minutes|每隔幾分鐘
@@ -4303,7 +4300,7 @@ flag|旗標
 flame|火焰
 flap|蓋板
 flared|喇叭狀
-flash disk|閃碟
+flash disk|隨身碟
 flashing|閃動的
 flash memory|快閃記憶體
 flatbed|平板
@@ -4774,6 +4771,7 @@ globbing|萬用匹配
 glossary|字彙
 glow|光暈
 glue|黏合
+gluon|膠子
 gluten|麩質
 glyph|字圖
 gnome|地精
@@ -5028,6 +5026,7 @@ harmful|有害
 harmlet|哈姆雷特
 harmonious|協調的
 harmonization|調和
+harmonograph|諧波儀
 harm|損害
 harness|駕馭
 harpoon|魚叉
@@ -5062,7 +5061,7 @@ have never been shown before|之前從未顯示過
 have no effect until|直到才會有效果
 have non of the|不具任何一個
 -have not -en|未
-have not yet|尚未
+have not yet|還沒有
 -have not|沒
 have no|沒有任何
 have occurred|發生了
@@ -5078,6 +5077,7 @@ have timed out|已逾時
 have to be taken into consideration|必須列入考量
 have to|必須
 have written|已寫入
+have yet|尚未
 -have|有
 hawaiian|夏威夷的
 header button|標頭按鈕
@@ -5581,6 +5581,7 @@ inherit|繼承
 inhibited|禁用
 inhibiting|禁止
 inhibit|抑制
+inhouse|內部
 in %i day|於 %i 天後
 in %i hour|於 %i 小時後
 ini|INI
@@ -5636,7 +5637,9 @@ in parenthesis|在括號中
 in particular|尤其
 inpatient|住院病患
 in pixels|以像素計量
-in place|適當
+in place of|代替
+in place|到位
+inplace|就地
 inplementation|實作
 in points|以像點計量
 in-process|同行程
@@ -5663,7 +5666,7 @@ insensitive|不敏感的
 insert into|插入
 insert|插入
 in service|服務中
-inset|內縮
+inset|嵌框
 inside|內部
 in %s minute|於 %s 分鐘後
 insofar|當
@@ -6538,7 +6541,7 @@ little|小型
 live cd|自活光碟
 live image|自活映像檔
 live media|自活媒體
-live usb|自活閃碟
+live usb|自活隨身碟
 live|即時
 ln %d , col %d , ch %d|列 %d，行 %d，字 %d
 ln %d , col %d|列 %d，行 %d
@@ -6682,16 +6685,16 @@ loose binding|寬鬆繫結
 loosen|鬆開
 loose|失去
 loser|輸家
-lose|遺失
+lose|丟失
 lossless compression|無損壓縮
 lossless|無損失
 loss-of-multiframe|多重影格漏失
 loss-of-tributary|支路漏失
-loss or failure|遺失或無效
+loss or failure|丟失或無效
 lossy compression|有損壓縮
 lossy|失真的
 loss|失真
-lost password|遺失密碼
+lost password|丟失密碼
 lost|失去
 lot of|許多
 lots of|非常多的
@@ -7134,8 +7137,8 @@ metalanguage|中繼語言
 metalink|中繼鏈結
 metal|金屬
 metanetwork|中繼網路
-meta-signaling|中繼信號方式
-meta-signalling|中繼信號方式
+meta-signaling|中繼信令
+meta-signalling|中繼信令
 metasymbols|中繼符號
 meta|中繼
 meta"|後設資料
@@ -7471,6 +7474,7 @@ multi|多重
 multloc|多重位置
 munda languages|蒙達諸語言
 munged|偽裝的
+muon|渺子
 musical notation|樂譜記號
 musical symbols|音樂符號
 musical|音樂劇
@@ -7611,6 +7615,8 @@ network|網路
 net|網路
 neutral zone|中立區
 neutral|中性
+neutrino|中微子
+neutron|中子
 never defined|從未被定義
 nevertheless|無論如何
 never|永遠不會
@@ -7867,6 +7873,7 @@ no"|否
 no|沒有
 no.|號碼
 nubian languages|努比亞諸語言
+nucleon|核子
 nucleus|核心
 nudge|輕推
 nuevo sol|新索爾
@@ -7876,7 +7883,7 @@ null character|空字元
 null key|空鍵
 null pointer|空指標
 null string|空字串
-null-terminated|零值終結
+null-terminated|空值終結
 null terminator|空終端子
 null type|空型式
 null|空值
@@ -8281,6 +8288,7 @@ overstrike|疊印
 over the spot|近點
 overtime|加班
 over time|逐漸
+overtonic|泛音
 overview|概觀
 overwhelm|淹沒
 over-write|覆寫
@@ -8597,6 +8605,7 @@ photo album|相簿
 photographic|逼真的
 photograph|相片
 photometric interpretation|光度計判讀
+photon|光子
 photosynthesis|光合作用
 photo|相片
 phrase|片語
@@ -8775,6 +8784,7 @@ pornographic|色情
 portability|可攜性
 portable drive|可攜式磁碟
 portable|可移植的
+portal|入口
 portbrazil|巴西葡萄牙語
 ported|移植
 portfolio|個人資料
@@ -9101,6 +9111,7 @@ protocol-identifier|協定識別符號
 protocoll|協定
 protocol-version|協定版本
 protocol|協定
+proton|質子
 prototype|原型
 protractor|分度計
 protrude|突出
@@ -9152,6 +9163,7 @@ pula|普拉
 pull-down menu|下拉式功能表
 pull from|取自
 pull onto|拉到
+pull over|靠邊停
 pull request|拉取請求
 pull to|拉下以
 pulsate|脈衝
@@ -9501,6 +9513,7 @@ regular expression|正規表示式
 regular|常規
 regulating|調整
 regulation|規則
+reigniting|重新點燃
 reindex|重新索引
 reinitialize|重新初始化
 reinsert|重新插入
@@ -9892,6 +9905,7 @@ rotation offset|旋轉補償
 rotation speed|轉速
 rotation|旋轉
 rouble|盧布
+rough edge|瑕疵
 roughly|大致上
 rough|粗糙
 roundabout|替代道路
@@ -10124,6 +10138,7 @@ scroll in|捲入
 scroll up|向上捲動
 scroll|捲動
 scrubbing|播放選位
+scuttle|鑿沉
 sdio host|SDIO 主端
 %s : %d of %d|%1$s：%3$d 中的 %2$d
 seagreen|海藻綠
@@ -10385,8 +10400,8 @@ shear|修剪
 shebang|井歎號
 sheet|紙張
 shelf|窗架
+shell builtin|命令殼內建命令
 shell built-in|命令殼內建指令
-shell builtin|命令殼內建指令
 shell script|命令稿
 shell|命令殼
 shelter|避難所
@@ -10477,6 +10492,7 @@ sienna|深黃褐
 sierra leone|獅子山
 sights|觀光
 signage|告示
+signaling|信令
 signal level|信號位準
 signal noise ratio|信噪比
 signal|信號
@@ -10513,6 +10529,7 @@ silver|銀
 similar to|類似於
 similar|類似的
 simple-bound|簡單繫結
+simple interval|單音程
 simple link|簡單鏈結
 simple network management protocol|簡易網路管理協定
 simple object access protocol|簡易物件存取通訊協定
@@ -10859,6 +10876,7 @@ spoke|輻條
 sponsorship|贊助
 sponsor|贊助者
 spoof|哄騙
+spooky|詭異
 spooler|暫存器
 spooling|暫存作業
 spool space|暫存空間
@@ -10988,6 +11006,7 @@ steal|竊取
 steelblue|鋼青
 steel-gray|鐵灰色
 steel|鋼鐵
+steering|轉向
 stellate|星形
 stellation|放射狀
 stem|字根
@@ -11191,6 +11210,7 @@ substitute|替代
 substitution|替代
 substring|子字串
 subsubname|子名稱的子名稱
+subsubsection|次小節
 subsume|包容
 subsystem|子系統
 subtable|子表格
@@ -11497,6 +11517,7 @@ task|工作項目
 tasteless|無味
 taste|品味
 tatar|韃靼語
+tauon|濤子
 taxi|計程車
 tax rate|稅率
 tax|稅
@@ -11655,7 +11676,7 @@ thereof|由此
 thereto|此外還有
 there was|出現了
 there|那裡
-the risk of losing data|遺失資料的風險
+the risk of losing data|丟失資料的風險
 thermal printer|熱感式印表機
 thermal|熱
 thermistor|熱電阻
@@ -11707,7 +11728,7 @@ thorax|胸腔
 those|那些
 thoughtfully|經過周詳考慮
 thoughtful|考慮周到的
-thought|念頭
+thought|想法
 though|雖然
 thousands of|數以千計的
 thousands separator|千位分隔符號
@@ -12280,7 +12301,7 @@ unfold|展開
 unfollow|取消跟隨
 unformated|未格式化的
 unformatted text|未格式化的文字
-unformatt|未格式化
+unformatted|未格式化
 unfortunately|不幸
 unfortunately,|很不幸，
 unfortunate|不幸的
@@ -12470,7 +12491,7 @@ usable|可用
 usage|使用率
 usage:|用法：
 usa|美國
-usb disk|閃碟
+usb disk|隨身碟
 usb host|USB 主端
 use as|做為
 use both|同時使用
@@ -12598,7 +12619,7 @@ version of windows|Windows 版本
 version|版本
 versus|對上
 vertebrae|脊椎
-vertex|下角
+vertex|頂點
 vertical bar|垂直列
 vertical blinds|垂直百葉窗
 vertical line|垂直線
@@ -13115,4 +13136,3 @@ zoom to fit|最適縮放
 zoom|縮放
 zulu|祖魯
 zuni|祖尼語
-scuttle|鑿沉

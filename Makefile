@@ -1,4 +1,4 @@
-VERSION = 2.4
+VERSION = 2.5
 DESTDIR =
 PREFIX = /usr
 PACKAGE = msgchi
@@ -39,11 +39,11 @@ rpm: $(PACKAGE).spec
 	cp *.po *.1 $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
 	sed -i '/rpm:/,$$d' $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/Makefile
 	tar czf $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz -C $(HOME)/rpmbuild/SOURCES $(PACKAGE)-$(VERSION)
-	rpmbuild -ta $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz
+#	rpmbuild -ta $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz
 
 test:
-#	LANG=C ./lensort-dic eng2cmn.dic > eng2cmn.sort ; mv -f eng2cmn.sort eng2cmn.dic ; ./msgchi.py -T -l eng2cmn test-eng.pot
+	LANG=C ./lensort-dic eng2cmn.dic > eng2cmn.sort ; mv -f eng2cmn.sort eng2cmn.dic ; ./msgchi.py -T -l eng2cmn test-eng.pot
 #	LANG=C ./lensort-dic zhc2cmn.dic > zhc2cmn.sort ; mv -f zhc2cmn.sort zhc2cmn.dic ; ./msgchi.py -T -l zhc2cmn test-cmn.pot
-	LANG=C ./lensort-dic zht2cmn.dic > zht2cmn.sort ; mv -f zht2cmn.sort zht2cmn.dic ; ./msgchi.py -T -l zht2cmn test-cmn.pot
+#	LANG=C ./lensort-dic zht2cmn.dic > zht2cmn.sort ; mv -f zht2cmn.sort zht2cmn.dic ; ./msgchi.py -T -l zht2cmn test-cmn.pot
 #	LANG=C ./lensort-dic cmn2yue.dic > cmn2yue.sort ; mv -f cmn2yue.sort cmn2yue.dic ; ./msgchi.py -T -l cmn2yue test-cmn.pot
 #	LANG=C ./lensort-dic cmn2nan.dic > cmn2nan.sort ; mv -f cmn2nan.sort cmn2nan.dic ; ./msgchi.py -T -l cmn2nan test-cmn.pot
