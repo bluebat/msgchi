@@ -39,7 +39,7 @@ rpm: $(PACKAGE).spec
 	cp *.po *.1 $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)
 	sed -i '/rpm:/,$$d' $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION)/Makefile
 	tar czf $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz -C $(HOME)/rpmbuild/SOURCES $(PACKAGE)-$(VERSION)
-#	rpmbuild -ta $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz
+	rpmbuild -ta $(HOME)/rpmbuild/SOURCES/$(PACKAGE)-$(VERSION).tar.gz
 
 test:
 	LANG=C ./lensort-dic eng2cmn.dic > eng2cmn.sort ; mv -f eng2cmn.sort eng2cmn.dic ; ./msgchi.py -T -l eng2cmn test-eng.pot

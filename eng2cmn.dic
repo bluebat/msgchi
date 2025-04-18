@@ -574,7 +574,7 @@ appointment|約會
 appreciate it|對此感謝
 appreciate|感謝
 approaching|逼近
-approach|作法
+approach|做法
 appropriate|適宜
 approval|認可
 approver|批准者
@@ -809,14 +809,14 @@ at your own risk|風險請自負
 at|於
 audible|聽覺的
 audio cd|音樂光碟
-audio file|音效檔
-audiographic|音效圖形
+audio file|音訊檔
+audiographic|音訊圖形
 audio recording|錄音
 audios|短曲
-audio type|音效型式
+audio type|音訊型式
 audiovisual|視聽
 audio volume|聲音大小
-audio|音效
+audio|音訊
 audit log|稽核記錄
 audit trail|稽核存底
 audit|稽核
@@ -2107,6 +2107,7 @@ cm|公分
 coarse|粗略
 coating|塗層
 co-branded|聯名
+co-construction|共構
 cocos|科科斯
 code base|代碼基底
 code-behind|代碼後置
@@ -2319,9 +2320,9 @@ computerization|電腦化
 computer|電腦
 compute|計算
 computing environment|運算環境
-concatenate|串連
-concatenation operator|串連運算子
+concatenate|串接
 concatenation|串接
+concatenative|串接
 concatenator|串接器
 concave|凹面
 conceptual|概念
@@ -2897,7 +2898,7 @@ decode|解碼
 decompile|反編譯
 decomposition|分解
 decompress|解壓縮
-deconcatenation|解序連
+deconcatenation|解串接
 decorate|裝飾
 decoration|裝飾
 decorative|美觀型
@@ -3138,6 +3139,7 @@ did you|您是否
 die|消滅
 differ about|上有所不同
 difference|差別
+differential|差動
 different kinds of|不同種類的
 different|不同的
 differ in such a way that|不同之處在於
@@ -3303,6 +3305,7 @@ djibouti|吉布地
 dll|動態鏈結函式庫
 dockable|可停駐
 docket|摘錄
+docking station|擴充基座
 dock|停駐
 documentary|記錄
 documentation comment|文件註解
@@ -3720,6 +3723,8 @@ engraved|雕刻
 enhanced metafile|加強型中繼檔案
 enhancement|提升
 enhance|增進
+enigmas|謎團
+enigma|謎
 -en in|於
 enjoy|享受
 enjoy!|祝您使用愉快！
@@ -4075,7 +4080,7 @@ fair use|合理使用
 faith|信仰
 fake|假造
 falkland|福克蘭
-fallback|侯補
+fallback|後備
 fall back|降抵
 fall down|掉下
 falling back to|降抵為
@@ -4219,7 +4224,7 @@ filterbar|篩選列
 filtered stream|已篩選的串流
 filtering|篩選
 filter out|篩選出
-filter type|濾波器型式
+filter type|篩選器型式
 filter|篩選器
 final angle|最終角度
 finalize|完成
@@ -5140,6 +5145,7 @@ hereunder|依此
 here you can see|您可在這裡看到
 here|這裡
 heritage|遺產
+herring|鯡魚
 heterogeneous|異質性
 heuristic|試探
 hexadecimal digit|十六進位數字
@@ -5362,7 +5368,7 @@ if memory serves|如果沒記錯
 if necessary|如果必要的話
 if not, write to|如果沒有則請寫信到
 if not,|如果沒有，
-if possible|儘量
+if possible|盡量
 if-then|若則
 if|如果
 igbo|伊布語
@@ -5375,6 +5381,7 @@ illuminate|照亮
 illumination|照明
 illustrate|展示
 illustration|圖例
+illustrative|展示性
 i'll|我將
 iloko|伊洛卡諾語
 im account|即時傳訊賬號
@@ -5725,6 +5732,7 @@ integrated development environment|整合式開發環境
 integrated services digital network|整體服務數位網路
 integrate|整合
 integration|整合
+integrative|綜合性
 integrator|積分器
 integrity|正直
 intellectual property|智能財產
@@ -6904,7 +6912,7 @@ many|許多
 maori|毛利語
 map feature|映射功能
 mapfile|映射檔案
-mapper|對映表
+mapper|映射表
 mapudungun|阿勞坎語
 map|映射
 marathi|馬拉提語
@@ -7256,6 +7264,7 @@ miter limit|尖角限量
 miter|斜接
 mite|蟎
 mitigate|緩解
+mitochondrion|粒線體
 mitre|斜面
 mixer device|混音裝置
 mixer|混音器
@@ -8396,6 +8405,7 @@ papiamentu|帕皮阿門托語
 papua new guinea|巴布亞紐幾內亞
 parabel|拋物線
 paradigm|範例
+paradox|悖論
 paragraph end|段落的結束位置
 paragraph formatting|段落格式
 paragraph|段落
@@ -8821,7 +8831,7 @@ post-build|組建後
 postcard|明信片
 post code|郵遞區號
 posterize|色調分離
-postfilter|後濾波器
+postfilter|後置篩選器
 postfix|後綴
 post-gap|後置間隙
 postgap|後置間隙
@@ -9444,6 +9454,7 @@ redefine|重新定義
 redefinition|重複定義
 redeploy|重新部署
 red eye reduction|消除紅眼
+red herring|煙霧彈
 redial|重新撥號
 redirected|已重新導向
 redirection number|轉接號碼
@@ -11313,7 +11324,8 @@ suspected|疑似
 suspect|猜測
 suspend|懸置
 suspicious stuff|惡意材料
-sustainability|延續性
+sustainability|永續性
+sustainable|可持續的
 susu|蘇蘇語
 sutu|蘇土語
 svalbard and jan mayen|冷岸群島及央棉
@@ -11443,6 +11455,7 @@ tag|標籤
 tahitian|大溪地語
 tai languages|台語諸語言
 tai le|德宏傣文
+tailored|量身定製的
 tail-recursive|尾部遞迴
 tail|尾端
 tainted|污點
@@ -12684,6 +12697,7 @@ visible grid|可視網格
 visible|可見的
 visited link|造訪過的鏈結
 visit|造訪
+visual artifact|影像瑕疵
 visual design|可視設計
 visual editor|可視編輯器
 visualization|視覺化
@@ -13005,6 +13019,7 @@ world wide web|全球資訊網
 world wide|全世界
 worldwide|全球性
 world|世界
+wormhole|蛀孔
 worry about|擔心
 worship|禮拜
 worthy|值得

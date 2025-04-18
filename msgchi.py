@@ -3,7 +3,7 @@
 
 name = 'msgchi'
 version = '@VERSION@'
-copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2024'
+copyright = 'GPL (C) Wei-Lun Chao <bluebat@member.fsf.org>, 2025'
 
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -109,13 +109,13 @@ class Arguments:
         elif self.opts.type == 'po' or not self.opts.type:
             self.opts.accelerator = self.opts.accelerator if self.opts.accelerator else '_&'
         elif self.opts.type == 'prg':
-            self.opts.expression = '(^.*=>? ?[\'\"])(.*)([\'\"][^\'\"A-Za-z]*$)'
+            self.opts.expression = r'(^.*=>? ?[\'\"])(.*)([\'\"][^\'\"A-Za-z]*$)'
         elif self.opts.type == 'ini':
-            self.opts.expression = '(^[\[_A-Za-z\]].*= *)(.*)($)'
+            self.opts.expression = r'(^[\[_A-Za-z\]].*= *)(.*)($)'
         elif self.opts.type == 'txt':
-            self.opts.expression = '(^)(.*)($)'
+            self.opts.expression = r'(^)(.*)($)'
 #        elif self.opts.type == 'ts' and self.opts.lang[:3] != 'eng':
-#            self.opts.expression = '(^\s*<translation>)(.*)(</translation>$)'
+#            self.opts.expression = r'(^\s*<translation>)(.*)(</translation>$)'
         else:
             sys.exit(_('invalid message file type %s') % self.opts.type)
         if self.pars:
@@ -211,7 +211,7 @@ class Translator:
                     result += ' '+keyHead if lastSign>0 else keyHead
                     lastSign = 0
                     mapped = False
-                elif ord(keyHead) > 128 or keyHead in '()[]{}<>\/=.:|@+ "' or content[i-1] == '\\':
+                elif ord(keyHead) > 128 or keyHead in '()[]{}<>\\/=.:|@+ "' or content[i-1] == '\\':
                     result += keyHead
                     lastSign = -1
                 else:
@@ -521,10 +521,10 @@ class PO:
         self.messages[0].comments = [x.replace('YEAR',time.strftime('%Y')).replace('PACKAGE',packageName) for x in self.messages[0].comments]
         if knowns.locale in knowns.localedic:
             for i in range(len(self.messages[0].comments)):
-                self.messages[0].comments[i] = re.sub('SOME DESCRIPTIVE TITLE.', knowns.localedic[knowns.locale][1]+' translation for '+packageName+'.', self.messages[0].comments[i])
-                self.messages[0].comments[i] = re.sub('(?i)chinese \((traditional|simplified|hongkong)\)', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
-                self.messages[0].comments[i] = re.sub('(?i)(traditional|simplified|hongkong) chinese', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
-                self.messages[0].comments[i] = re.sub('[a-z]{2,3}_(CN|TW)', knowns.locale, self.messages[0].comments[i])
+                self.messages[0].comments[i] = re.sub(r'SOME DESCRIPTIVE TITLE.', knowns.localedic[knowns.locale][1]+' translation for '+packageName+'.', self.messages[0].comments[i])
+                self.messages[0].comments[i] = re.sub(r'(?i)chinese \((traditional|simplified|hongkong)\)', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
+                self.messages[0].comments[i] = re.sub(r'(?i)(traditional|simplified|hongkong) chinese', knowns.localedic[knowns.locale][1], self.messages[0].comments[i])
+                self.messages[0].comments[i] = re.sub(r'[a-z]{2,3}_(CN|TW)', knowns.locale, self.messages[0].comments[i])
         if not [x for x in self.messages[0].comments if '# This file is distributed under the same license' in x]:
             self.messages[0].comments.insert(2,'# This file is distributed under the same license as the '+packageName+' package.\n')
         if self.messages[0].fuzzy:
